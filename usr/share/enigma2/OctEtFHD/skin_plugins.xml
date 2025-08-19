@@ -861,7 +861,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="240,313" size="1000,50" transparent="1" verticalAlignment="center" zPosition="3"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="240,385" size="1000,250" transparent="1" horizontalAlignment="left" verticalAlignment="center"/>
-	<widget name="infoLabel" font="EL_Standard;28" backgroundColor="OE_Background" horizontalAlignment="left" position="240,640" size="1000,45" transparent="1" verticalAlignment="center"/>
+	<widget name="infoLabel" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="240,640" size="1000,45" transparent="1" verticalAlignment="center"/>
 	<!-- /*Buttons-->
 	<eLabel backgroundColor="white" position="240,700" size="1000,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="240,720" size="40,40"/>
@@ -3676,7 +3676,7 @@
 	<ePixmap position="955,635" size="270,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FOCUSOnline/pic/menu.png" alphaTest="blend" zPosition="1"/>
 	<widget name="name" backgroundColor="OE_Background" font="RegularBold;25" foregroundColor="OE_Foreground" position="240,470" size="960,50" transparent="1" verticalAlignment="top"/>
 	<widget name="slider" scrollbarBorderWidth="1" position="240,535" size="960,22" transparent="1"/>
-	<widget name="size" backgroundColor="OE_Background" font="EL_Standard;28" foregroundColor="OE_Foreground" position="240,575" size="960,50" transparent="1" verticalAlignment="top"/>
+	<widget name="size" backgroundColor="OE_Background" font="RegularBold;28" foregroundColor="OE_Foreground" position="240,575" size="960,50" transparent="1" verticalAlignment="top"/>
 	<!-- Clock -->
 	<panel name="Clock"/>
   </screen>
@@ -4794,8 +4794,8 @@
 	<eLabel backgroundColor="white" position="200,center" size="1250,1000" zPosition="-20"/>
 	<eLabel backgroundColor="dark" foregroundColor="OE_Background" position="52,57" size="596,56" zPosition="-11" verticalAlignment="center"/>
 	<!-- Page Title / Widget -->
-	<eLabel text="Picon Manager Folder" position="95,61" size="550,50" font="EL_Standard;32" backgroundColor="dark" transparent="1"/>
-	<widget name="media" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="220,135" size="1250,45" transparent="1"/>
+	<eLabel text="Picon Manager Folder" position="95,61" size="550,50" font="RegularBold;32" backgroundColor="dark" transparent="1"/>
+	<widget name="media" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="220,135" size="1250,45" transparent="1"/>
 	<eLabel backgroundColor="white" position="220,185" size="1250,2" zPosition="-9"/>
 	<widget name="folderlist" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="220,200" size="1250,750" transparent="1"/>
 	<!-- /*Buttons-->
@@ -4815,7 +4815,7 @@
 	<eLabel backgroundColor="white" position="200,center" size="1250,1000" zPosition="-20"/>
 	<eLabel backgroundColor="dark" foregroundColor="OE_Background" position="52,57" size="596,56" zPosition="-11" verticalAlignment="center"/>
 	<!-- Page Title / Widget -->
-	<eLabel text="Picon Manager" position="95,61" size="550,50" font="EL_Standard;32" backgroundColor="dark" transparent="1"/>
+	<eLabel text="Picon Manager" position="95,61" size="550,50" font="RegularBold;32" backgroundColor="dark" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="220,135" size="1250,800" transparent="1"/>
 	<!-- /*Buttons-->
 	<eLabel backgroundColor="white" position="220,973" size="1250,2" zPosition="-9"/>

@@ -41,8 +41,7 @@
 	<screen name="MainMenu">
 		<panel name="Clock"/>
 		<panel name="TemplateMenuSort"/>
-		<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo150x90.png" position="50,40" size="150,90"/>
-		<eLabel text="Show menu numbers" position="5,380" size="265,45" font="RegularBold;19" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
+		<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo150x90.png" position="50,40" size="207,90"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_help.png" position="105,430" size="64,43"/>
 		<eLabel backgroundColor="OE_NewBg2" position="5,24" size="270,1032" zPosition="-10"/>
 		<eLabel backgroundColor="blue_light" position="275,31" size="2,1018" zPosition="-10"/>
@@ -813,7 +812,7 @@
 		<widget name="arrowup2" conditional="arrowup2" pixmap="arrowup.png" position="-100,-100" size="37,70" alphaTest="blend" zPosition="11"/>
 		<widget name="stepslider" conditional="stepslider" scrollbarBorderWidth="2" scrollbarBorderColor="blue_light" position="665,340" size="450,35" foregroundColor="blue_light" zPosition="15" transparent="1"/>
 		<widget name="description" conditional="description" position="20,130" size="400,400" font="RegularBold;24" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
-		<widget name="step" conditional="step" position="445,345" size="450,40" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="blue_light" zPosition="15" transparent="1"/>
+		<widget name="step" conditional="step" position="1145,344" size="450,40" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="blue_light" zPosition="15" transparent="1"/>
 		<widget name="HelpWindow" conditional="HelpWindow" pixmap="skin_default/vkey_icon.png" position="445,825" size="1,1" transparent="1" zPosition="10" alphaTest="on"/>
 		<widget source="VKeyIcon" render="Pixmap" conditional="VKeyIcon" pixmap="buttons/key_text.png" position="350,825" zPosition="1" size="64,43" transparent="1" alphaTest="blend">
 			<convert type="ConditionalShowHide"/>

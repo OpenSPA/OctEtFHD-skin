@@ -386,15 +386,15 @@
 	<widget name="previewlist" itemHeight="50" font="RegularBold;30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="580,center" size="1260,750" transparent="1"/>
 	<widget name="previewcover" position="170,70" size="290,420" zPosition="4" alphaTest="on" backgroundColor="EL_Background"/>
 	<widget name="runtime" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="80,555" size="230,45" transparent="1"/>
-	<widget name="genre" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="80,600" size="230,45" transparent="1"/>
-	<widget name="country" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="80,645" size="230,45" transparent="1"/>
-	<widget name="release" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="80,690" size="230,45" transparent="1"/>
-	<widget name="rating" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="80,735" size="230,45" transparent="1"/>
-	<widget name="runtimetxt" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,555" size="230,45" transparent="1"/>
-	<widget name="genretxt" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,600" size="230,45" transparent="1"/>
-	<widget name="countrytxt" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,645" size="230,45" transparent="1"/>
-	<widget name="releasetxt" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,690" size="230,45" transparent="1"/>
-	<widget name="ratingtxt" font="EL_Standard;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,735" size="230,45" transparent="1"/>
+	<widget name="genre" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="80,600" size="230,45" transparent="1"/>
+	<widget name="country" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="80,645" size="230,45" transparent="1"/>
+	<widget name="release" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="80,690" size="230,45" transparent="1"/>
+	<widget name="rating" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="80,735" size="230,45" transparent="1"/>
+	<widget name="runtimetxt" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,555" size="230,45" transparent="1"/>
+	<widget name="genretxt" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,600" size="230,45" transparent="1"/>
+	<widget name="countrytxt" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,645" size="230,45" transparent="1"/>
+	<widget name="releasetxt" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,690" size="230,45" transparent="1"/>
+	<widget name="ratingtxt" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="320,735" size="230,45" transparent="1"/>
 	<widget name="starsbg" position="210,525" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EnhancedMovieCenter/img/starsbar_empty_10.png" zPosition="3" alphaTest="blend"/>
 	<widget name="stars" position="210,525" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EnhancedMovieCenter/img/starsbar_filled_10.png" zPosition="4" transparent="1"/>
 	<!-- Button -->
@@ -418,7 +418,7 @@
 	<widget name="poster" position="85,70" size="155,200" alphaTest="blend" transparent="1"/>
 	<widget name="starsbg" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_empty.png" position="85,275" zPosition="0" size="210,21" transparent="1" alphaTest="on"/>
 	<widget name="stars" position="85,275" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_filled.png" transparent="1"/>
-	<widget name="ratinglabel" font="EL_Standard;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="245,70" size="300,200" transparent="1" verticalAlignment="top"/>
+	<widget name="ratinglabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="245,70" size="300,200" transparent="1" verticalAlignment="top"/>
 	<widget name="detailslabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,302" size="460,200" transparent="1" verticalAlignment="top"/>
 	<widget name="menu" itemHeight="50" font="RegularBold;30" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="580,160" size="1260,350" transparent="1"/>
 	<widget name="castlabel" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="580,540" size="1260,350" transparent="1"/>
