@@ -41,7 +41,7 @@
 	<screen name="MainMenu">
 		<panel name="Clock"/>
 		<panel name="TemplateMenuSort"/>
-		<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo150x90.png" position="50,40" size="207,90"/>
+		<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo150x90.png" position="30,40" size="207,90"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_help.png" position="105,430" size="64,43"/>
 		<eLabel backgroundColor="OE_NewBg2" position="5,24" size="270,1032" zPosition="-10"/>
 		<eLabel backgroundColor="blue_light" position="275,31" size="2,1018" zPosition="-10"/>
