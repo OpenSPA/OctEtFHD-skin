@@ -553,7 +553,6 @@
 		</widget>
 		<widget source="session.FrontendStatus" render="Progress" foregroundColor="un56c856" position="80,785" size="145,15" zPosition="2" scrollbarBorderWidth="2" borderColor="blue_light">
 			<convert type="FrontendInfo">SNR</convert>
-			<convert type="ConditionalShowHide"/>
 		</widget>
 		<eLabel backgroundColor="blue_light" position="80,785" size="145,15" zPosition="0"/>
 		<eLabel backgroundColor="red" position="82,787" size="141,11" zPosition="1"/>
@@ -565,7 +564,6 @@
 		</widget>
 		<widget source="session.FrontendStatus" render="Progress" foregroundColor="blue_light" position="80,825" size="145,15" zPosition="2" scrollbarBorderWidth="2" borderColor="blue_light">
 			<convert type="FrontendInfo">AGC</convert>
-			<convert type="ConditionalShowHide"/>
 		</widget>
 		<eLabel backgroundColor="blue_light" position="80,825" size="145,15" zPosition="0"/>
 		<eLabel backgroundColor="red" position="82,827" size="141,11" zPosition="1"/>
