@@ -210,6 +210,7 @@
 	<parameter name="VirtualKeyBoardAlignment" value="0, 0"/>
 	<parameter name="VirtualKeyBoardPadding" value="4, 4"/>
 	<parameter name="VirtualKeyBoardShiftColors" value="white, white, cyan, magenta"/>
+	<parameter name="ConfigListSeperator" value="550" />
 	</parameters>
 
 	<!-- WIZARD INIT -->
