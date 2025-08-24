@@ -418,7 +418,7 @@
 		<eLabel backgroundColor="OE_NewBg2" position="0,center" size="430,1080" zPosition="-11" verticalAlignment="center"/>
 		<eLabel backgroundColor="#0000fafa" position="445,152" size="1430,2" zPosition="-9" foregroundColor="un5678a4"/>
 		<eLabel backgroundColor="blue_light" position="85,152" size="260,2" zPosition="-9" foregroundColor="un5678a4"/>
-		<widget name="wizard" conditional="wizard" pixmap="picon_default.png" position="105,25" size="220,132" alphaTest="blend" zPosition="10"/>
+		<widget name="wizard" conditional="wizard" pixmap="picon_default.png" position="130,50" size="220,132" alphaTest="blend" zPosition="10"/>
 		<widget source="Title" render="Label" backgroundColor="OE_Background" font="RegularBold;34" position="445,10" size="1430,145" transparent="1" verticalAlignment="center" zPosition="3" horizontalAlignment="left"/>
 		<widget name="portpic" conditional="portpic" position="300,475" zPosition="10" size="150,150" transparent="1" alphaTest="blend"/>
 		<widget source="lab1" conditional="lab1" render="Label" position="20,160" size="400,50" font="RegularBold;40" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
@@ -626,37 +626,37 @@ self.instance.move(ePoint((screenSize[0] - width) // 2, (screenSize[1] - height)
 		 |  The screen positions the pixmap relative to the
 		 |  hotspot, not the pixmap's top left corner
 		 +-->
-		<widget name="indicatorU0" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU1" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU2" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU3" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU4" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU5" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU6" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU7" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU8" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU9" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU10" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU11" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU12" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU13" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU14" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorU15" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL0" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL1" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL2" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL3" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL4" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL5" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL6" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL7" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL8" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL9" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL10" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL11" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL12" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL13" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL14" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
-		<widget name="indicatorL15" pixmap="rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU0" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU1" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU2" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU3" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU4" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU5" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU6" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU7" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU8" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU9" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU10" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU11" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU12" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU13" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU14" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorU15" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL0" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL1" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL2" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL3" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL4" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL5" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL6" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL7" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL8" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL9" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL10" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL11" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL12" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL13" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL14" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
+		<widget name="indicatorL15" pixmap="buttons/rc_circle.png" position="0,0" size="23,23" alphaTest="blend" offset="11,11" zPosition="11"/>
 	</screen>
 </skin>
