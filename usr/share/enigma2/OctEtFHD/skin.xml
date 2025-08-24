@@ -451,8 +451,8 @@
 		<widget source="session.CurrentService" render="Label" position="1310,855" size="400,25" font="RegularBold;22" backgroundColor="OE_Background" foregroundColor="blue_light" transparent="1">
 			<convert type="PliExtraInfo">CryptoSpecial</convert>
 		</widget>
-		<widget source="session.CurrentService" render="PicEmu2" path="OctEtFHD/emu" position="1715,855" size="98,31" transparent="1" alphaTest="blend" zPosition="3"/>
-		<widget source="session.CurrentService" render="PicCript" path="OctEtFHD/cript" position="1808,855" size="63,32" alphaTest="blend" zPosition="3"/>
+		<!--widget source="session.CurrentService" render="PicEmu2" path="OctEtFHD/emu" position="1715,855" size="98,31" transparent="1" alphaTest="blend" zPosition="3"/-->
+		<!--widget source="session.CurrentService" render="PicCript" path="OctEtFHD/cript" position="1808,855" size="63,32" alphaTest="blend" zPosition="3"/-->
 		<widget source="session.CurrentService" render="Label" font="RegularBold;24" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="325,885" size="930,28" transparent="1" zPosition="1">
 			<convert type="PliExtraInfo">TransponderInfo</convert>
 		</widget>
@@ -589,10 +589,10 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<!-- buttons -->
-		<ePixmap pixmap="buttons/key_green.png" position="335,1028" size="40,40" objectTypes="key_green,Button,Label" alphaTest="blend"/>
-		<widget name="key_green" position="385,1034" size="460,26" objectTypes="key_green,Label,Button" font="RegularBold;23" backgroundColor="OE_Background" horizontalAlignment="left" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="buttons/key_yellow.png" position="845,1028" size="40,40" objectTypes="key_yellow,Button,Label" alphaTest="blend"/>
-		<widget name="key_yellow" position="895,1034" size="460,26" objectTypes="key_yellow,Label,Button" font="RegularBold;23" backgroundColor="OE_Background" horizontalAlignment="left" transparent="1" zPosition="1"/>
+		<!--ePixmap pixmap="buttons/key_green.png" position="335,1028" size="40,40" objectTypes="key_green,Button,Label" alphaTest="blend"/-->
+		<!--widget name="key_green" position="385,1034" size="460,26" objectTypes="key_green,Label,Button" font="RegularBold;23" backgroundColor="OE_Background" horizontalAlignment="left" transparent="1" zPosition="1"/-->
+		<!--ePixmap pixmap="buttons/key_yellow.png" position="845,1028" size="40,40" objectTypes="key_yellow,Button,Label" alphaTest="blend"/-->
+		<!--widget name="key_yellow" position="895,1034" size="460,26" objectTypes="key_yellow,Label,Button" font="RegularBold;23" backgroundColor="OE_Background" horizontalAlignment="left" transparent="1" zPosition="1"/-->
 		<ePixmap pixmap="buttons/key_blue.png" position="1355,1028" size="40,40" objectTypes="key_blue,Button,Label" alphaTest="blend"/>
 		<widget name="key_blue" position="1405,1034" size="460,26" objectTypes="key_blue,Label,Button" font="RegularBold;23" backgroundColor="OE_Background" horizontalAlignment="left" transparent="1" zPosition="1"/>
 		<!-- Clock -->
@@ -623,9 +623,9 @@
 		<widget source="session.CurrentService" render="Label" font="RegularBold;28" foregroundColor="yellow" backgroundColor="OE_NewBg" noWrap="1" position="25,330" size="440,45" horizontalAlignment="center" verticalAlignment="center" zPosition="4" transparent="1">
 			<convert type="ServiceName">Provider</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="25,380" size="440,45" font="RegularBold;28" backgroundColor="OE_NewBg" horizontalAlignment="center" verticalAlignment="center" transparent="1" foregroundColor="blue_light">
+		<!--widget source="session.CurrentService" render="Label" position="25,380" size="440,45" font="RegularBold;28" backgroundColor="OE_NewBg" horizontalAlignment="center" verticalAlignment="center" transparent="1" foregroundColor="blue_light">
 			<convert type="Audio">AudioCodec</convert>
-		</widget>
+		</widget-->
 		<widget source="session.CurrentService" render="Label" backgroundColor="OE_NewBg" position="25,430" size="440,25" horizontalAlignment="center" verticalAlignment="center" zPosition="6" font="RegularBold;22" transparent="1" >
 			<convert type="PliExtraInfo">CryptoBar</convert>
 		</widget>
@@ -688,12 +688,12 @@
 		</widget>
 		<ePixmap alphaTest="blend" pixmap="my_icons/crypt_off.png" position="1184,967" size="63,32" zPosition="1"/>
 		<widget alphaTest="blend" pixmap="my_icons/crypt_on.png" position="1184,967" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfoEX">IsCrypted</convert>
+			<convert type="ServiceInfo">IsCrypted</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<ePixmap alphaTest="blend" pixmap="my_icons/txt_off.png" position="1257,967" size="63,32" zPosition="1"/>
 		<widget alphaTest="blend" pixmap="my_icons/txt_on.png" position="1257,967" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfoEX">HasTelext</convert>
+			<convert type="ServiceInfo">HasTelext</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget alphaTest="blend" pixmap="my_icons/sub_on.png" position="1330,967" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
@@ -703,17 +703,17 @@
 		<ePixmap alphaTest="blend" pixmap="my_icons/sub_off.png" position="1330,967" size="63,32" zPosition="1"/>
 		<ePixmap alphaTest="blend" pixmap="my_icons/hbbtv_off.png" position="1403,967" size="63,32" zPosition="1"/>
 		<widget alphaTest="blend" pixmap="my_icons/hbbtv_on.png" position="1403,967" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="10">
-			<convert type="ServiceInfoEX">HasHBBTV</convert>
+			<convert type="ServiceInfo">HasHBBTV</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<ePixmap alphaTest="blend" pixmap="my_icons/dolby_off.png" position="1476,967" size="63,32" zPosition="1"/>
 		<widget alphaTest="blend" pixmap="my_icons/dolby_on.png" position="1476,967" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfoEX">IsMultichannel</convert>
+			<convert type="ServiceInfo">IsMultichannel</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<ePixmap alphaTest="blend" pixmap="my_icons/format_off.png" position="1549,967" size="63,32" zPosition="1"/>
 		<widget alphaTest="blend" pixmap="my_icons/format_on.png" position="1549,967" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfoEX">IsWidescreen</convert>
+			<convert type="ServiceInfo">IsWidescreen</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget alphaTest="blend" pixmap="my_icons/sd_on.png" position="1622,967" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="1">
@@ -743,14 +743,14 @@
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<!-- CryptoInfo -->
-		<widget source="session.CurrentService" render="PicCript" path="OctEtFHD/cript" position="470,965" size="98,31" alphaTest="blend" zPosition="3"/>
+		<!--widget source="session.CurrentService" render="PicCript" path="OctEtFHD/cript" position="470,965" size="98,31" alphaTest="blend" zPosition="3"/-->
 		<panel name="Clock"/>
-		<widget source="session.CurrentService" render="PicEmu2" path="OctEtFHD/emu" position="540,965" size="98,31" transparent="1" alphaTest="blend" zPosition="3"/>
-		<widget source="session.CurrentService" render="Label" font="RegularBold;21" position="660,965" size="450,35" zPosition="50" backgroundColor="OE_ListBackground" transparent="1" noWrap="1">
+		<!--widget source="session.CurrentService" render="PicEmu2" path="OctEtFHD/emu" position="540,965" size="98,31" transparent="1" alphaTest="blend" zPosition="3"/-->
+		<!--widget source="session.CurrentService" render="Label" font="RegularBold;21" position="660,965" size="450,35" zPosition="50" backgroundColor="OE_ListBackground" transparent="1" noWrap="1">
 			<convert type="CaidInfo2"/>
-		</widget>
+		</widget-->
 		 <!-- MSNWeather -->
-		<ePixmap pixmap="WeatherIcon/wind.png" position="52,630" size="60,60" alphaTest="blend"/>
+		<!--ePixmap pixmap="WeatherIcon/wind.png" position="52,630" size="60,60" alphaTest="blend"/>
 		<widget alphaTest="blend" render="MSNWeatherPixmap" position="55,700" size="128,128" source="session.MSNWeather" transparent="1" zPosition="8">
 			<convert type="MSNWeather">weathericon,current,/usr/share/enigma2/OctEtFHD/WeatherIcon/,png</convert>
 		</widget>
@@ -770,7 +770,7 @@
 		<widget noWrap="1" backgroundColor="OE_NewBg" font="RegularBold;28" render="Label" position="315,905" size="80,50" source="session.MSNWeather" zPosition="3" transparent="1" foregroundColor="blue_light">
 			<convert type="MSNWeather">humidity</convert>
 		</widget>
-		<eLabel text="%" position="375,905" size="30,50" zPosition="5" font="RegularBold;28" transparent="1"/>
+		<eLabel text="%" position="375,905" size="30,50" zPosition="5" font="RegularBold;28" transparent="1"/-->
 	</screen>
 	<!-- MAIN MENU INFORMATION (NEW) -->
 	<!-- INFO COMMON -->
