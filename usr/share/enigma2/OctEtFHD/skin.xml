@@ -2073,7 +2073,7 @@
 		<eLabel backgroundColor="OE_Background" position="26,965" size="1250,2" zPosition="-8"/>
 		<widget name="list" conditional="list" itemHeight="50" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" position="26,140" size="1250,250" transparent="1"/>
 		<widget name="icon" pixmaps="icons/input_question.png,icons/input_info.png,icons/input_warning.png,icons/input_error.png,icons/input_message.png" position="610,396" size="80,80" alphaTest="blend"/>
-		<widget name="text" font="RegularBold;27" backgroundColor="OE_Background" position="80,480" size="1175,585" verticalAlignment="top" horizontalAlignment="center"/>
+		<widget name="text" font="RegularBold;27" backgroundColor="OE_Background" position="80,480" size="1175,545" verticalAlignment="top" horizontalAlignment="center"/>
 	</screen>
 	<!-- MESSAGEBOX SIMPLE-->
 	<screen name="MessageBoxSimple" backgroundColor="OE_Background" position="260,center" size="1395,445">
