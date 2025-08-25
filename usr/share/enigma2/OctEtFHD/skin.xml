@@ -173,7 +173,9 @@
 	<parameter name="ChoicelistName" value="85, 7, 1300, 50"/>
 	<parameter name="ChoicelistNameSingle" value="5, 0, 1400, 50"/>
 	<parameter name="ChoicelistIcon" value="10, 2, 64, 50"/>
-	<parameter name="SelectionListLock" value="5, 15, 25, 24"/>
+	<parameter name="SelectionListDescr" value="55, 2, 1000, 45" />
+	<parameter name="SelectionListLock" value="10, 12, 45, 45" />
+	<parameter name="SelectionListLockOff" value="10, 12, 45, 45" />
 	<parameter name="DreamexplorerIcon" value="15, 4, 30, 30"/>
 	<parameter name="DreamexplorerName" value="62, 0, 1200, 38"/>
 	<parameter name="ExpandableListIcon" value="0, 12, 30, 38"/>
