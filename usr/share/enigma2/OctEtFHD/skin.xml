@@ -1273,21 +1273,21 @@
 			<convert type="RunningEvents">Event14,onlyStart</convert>
 		</widget>
 		<!-- clock -->
-		<widget backgroundColor="OE_NewBg" font="RegularBold;28" position="1740,935" size="140,30" zPosition="3" render="Label" source="global.CurrentTime" transparent="1">
+		<widget backgroundColor="OE_NewBg" font="RegularBold;28" position="1740,1015" size="140,30" zPosition="3" render="Label" source="global.CurrentTime" foregroundColor="#0000fafa" transparent="1">
 			<convert type="ClockToText">Mixed</convert>
 		</widget>
 		<!-- Button -->
-		<ePixmap alphaTest="blend" pixmap="buttons/key_text.png" position="1710,970" size="64,43"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="1775,970" size="64,43"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="1840,970" size="64,43"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="565,970" size="40,40"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="845,970" size="40,40"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="1125,970" size="40,40"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_blue.png" position="1405,970" size="40,40"/>
-		<widget source="key_red" render="Label" font="RegularBold;26" backgroundColor="OE_Background" position="608,955" size="235,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_green" render="Label" font="RegularBold;26" backgroundColor="OE_Background" position="888,955" size="235,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_yellow" render="Label" font="RegularBold;26" backgroundColor="OE_Background" position="1168,955" size="235,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_blue" render="Label" font="RegularBold;26" backgroundColor="OE_Background" position="1448,955" size="260,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_text.png" position="570,1002" size="64,43"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="635,1002" size="64,43"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="700,1002" size="64,43"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="560,955" size="40,40"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="900,955" size="40,40"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="1260,955" size="40,40"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_blue.png" position="1620,955" size="40,40"/>
+		<widget source="key_red" render="Label" font="RegularBold;26" backgroundColor="OE_Background" position="603,940" size="295,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_green" render="Label" font="RegularBold;26" backgroundColor="OE_Background" position="943,940" size="345,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_yellow" render="Label" font="RegularBold;26" backgroundColor="OE_Background" position="1303,940" size="345,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_blue" render="Label" font="RegularBold;26" backgroundColor="OE_Background" position="1663,940" size="247,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 	</screen>
 	<!-- CHANNELSELECTION MENU -->
 	<screen name="ChannelContextMenu" backgroundColor="transparent" flags="wfNoBorder" position="0,center" size="1920,1080" transparent="0">
