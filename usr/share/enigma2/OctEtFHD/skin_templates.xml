@@ -185,11 +185,22 @@
 	</screen>
 		<!-- MENU SORT -->
 	<screen name="TemplateMenuSort">
-		<ePixmap alphaTest="blend" objectTypes="key_blue,Button,Label" backgroundColor="OE_NewBg2" pixmap="buttons/key_blue.png" position="2,910" size="40,40"/>
+		<widget source="key_red" render="Pixmap" pixmap="buttons/key_red.png" objectTypes="key_red,StaticText" backgroundColor="OE_NewBg2" position="4,715" size="40,40" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_red" conditional="key_red" render="Label" font="RegularBold;24" backgroundColor="OE_NewBg2" position="48,700" size="229,70" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_green" render="Pixmap" pixmap="buttons/key_green.png" objectTypes="key_green,StaticText" backgroundColor="OE_NewBg2" position="4,780" size="40,40" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_green" conditional="key_green" render="Label" font="RegularBold;24" backgroundColor="OE_NewBg2" position="48,765" size="229,70" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_yellow" render="Pixmap" pixmap="buttons/key_yellow.png" objectTypes="key_yellow,StaticText" backgroundColor="OE_NewBg2" position="4,845" size="40,40" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_yellow" conditional="key_yellow" render="Label" font="RegularBold;24" backgroundColor="OE_NewBg2" position="48,830" size="229,70" verticalAlignment="center" transparent="1" zPosition="1"/>
 		<widget source="key_blue" render="Pixmap" pixmap="buttons/key_blue.png" objectTypes="key_blue,StaticText" backgroundColor="OE_NewBg2" position="4,910" size="40,40" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_blue" conditional="key_blue" render="Label" font="RegularBold;24" backgroundColor="OE_NewBg2" position="50,895" size="229,70" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_blue" conditional="key_blue" render="Label" font="RegularBold;24" backgroundColor="OE_NewBg2" position="48,895" size="229,70" verticalAlignment="center" transparent="1" zPosition="1"/>
 	</screen>
 		<!-- MENUS EPG -->
 		<!-- FRAME EPG -->
