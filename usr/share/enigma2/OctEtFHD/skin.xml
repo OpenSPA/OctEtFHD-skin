@@ -1277,9 +1277,8 @@
 			<convert type="ClockToText">Mixed</convert>
 		</widget>
 		<!-- Button -->
-		<ePixmap alphaTest="blend" pixmap="buttons/key_text.png" position="570,1002" size="64,43"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="635,1002" size="64,43"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="700,1002" size="64,43"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="570,1002" size="64,43"/>
+		<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="635,1002" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="560,955" size="40,40"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="900,955" size="40,40"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="1260,955" size="40,40"/>
