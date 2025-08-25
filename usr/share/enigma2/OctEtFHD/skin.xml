@@ -1641,8 +1641,8 @@
 		<panel name="StanDardScreen"/>
 		<widget name="filelist" itemHeight="50" font="RegularBold;26" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,750" transparent="1"/>
 	</screen>
-	<!-- GRAPHICAL MULTI EPG LIST -->
-	<screen name="GraphMultiEPGList" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
+	<!-- GRAPHICAL EPG -->
+	<screen name="GraphicalEPG" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="TemplateGraphicalEPG"/>
 		<!--widget source="Event" render="xtraPoster" position="1150,80" size="185,278" zPosition="2"/!-->
 		<widget source="session.VideoPicture" render="Pig" position="1365,75" size="530,290" zPosition="1" backgroundColor="#df0b1300"/>
