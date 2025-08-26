@@ -612,7 +612,7 @@ self.instance.move(ePoint((screenSize[0] - width) // 2, (screenSize[1] - height)
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget name="description" conditional="description" position="1290,110" size="620,165" font="RegularBold;27" horizontalAlignment="center" verticalAlignment="center" backgroundColor="OE_NewBg2" foregroundColor="blue_light" transparent="1" zPosition="2"/>
-		<widget name="text" conditional="text" position="1290,100" size="620,380" font="RegularBold;27" horizontalAlignment="center" verticalAlignment="center" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
+		<widget name="text" conditional="text" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 	</screen>
 		<!-- XTRAEVENT POSTER -->
 	<screen name="poster_firstinfobar">
