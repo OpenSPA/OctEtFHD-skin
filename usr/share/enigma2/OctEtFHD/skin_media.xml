@@ -412,18 +412,18 @@
 	<eLabel backgroundColor="OE_Background" position="30,center" size="1830,940" zPosition="-15"/>
 	<eLabel backgroundColor="blue_light" position="85,510" size="460,2" zPosition="-9"/>
 	<eLabel backgroundColor="OE_NewBg2" position="65,center" size="500,1080" zPosition="-11" verticalAlignment="center"/>
-	<eLabel backgroundColor="blue_light" position="580,142" size="650,2" zPosition="-9" foregroundColor="un5678a4"/>
+	<eLabel backgroundColor="blue_light" position="580,200" size="650,2" zPosition="-9" foregroundColor="un5678a4"/>
 	<!-- Widget -->
-	<widget source="Title" render="Label" position="580,85" size="670,50" font="RegularBold;34" backgroundColor="OE_Background" transparent="1"/>
-	<widget name="poster" position="85,70" size="155,200" alphaTest="blend" transparent="1"/>
-	<widget name="starsbg" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_empty.png" position="85,275" zPosition="0" size="210,21" transparent="1" alphaTest="on"/>
-	<widget name="stars" position="85,275" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_filled.png" transparent="1"/>
-	<widget name="ratinglabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="245,70" size="300,200" transparent="1" verticalAlignment="top"/>
-	<widget name="detailslabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,302" size="460,200" transparent="1" verticalAlignment="top"/>
-	<widget name="menu" itemHeight="50" font="RegularBold;30" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="580,160" size="1260,350" transparent="1"/>
+	<widget source="Title" render="Label" position="580,85" size="670,110" font="RegularBold;34" backgroundColor="OE_Background" transparent="1"/>
+	<widget name="poster" position="60,0" size="500,480" alphaTest="blend" transparent="1"/>
+	<widget name="starsbg" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_empty.png" position="200,485" zPosition="0" size="210,21" transparent="1" alphaTest="on"/>
+	<widget name="stars" position="200,485" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_filled.png" transparent="1"/>
+	<widget name="ratinglabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,1000" size="300,100" transparent="1" verticalAlignment="top"/>
+	<widget name="detailslabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,650" size="460,300" transparent="1" verticalAlignment="top"/>
+	<widget name="menu" itemHeight="50" font="RegularBold;30" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="580,260" size="1260,350" transparent="1"/>
 	<widget name="castlabel" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="580,540" size="1260,350" transparent="1"/>
-	<widget name="statusbar" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,540" size="460,350" transparent="1"/>
-	<widget name="extralabel" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="580,160" size="1260,730" transparent="1"/>
+	<widget name="statusbar" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,540" size="460,100" transparent="1"/>
+	<widget name="extralabel" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="580,260" size="1260,730" transparent="1"/>
 	<!-- Button -->
 	<ePixmap name="new ePixmap" pixmap="buttons/key_menu.png" position="480,950" size="64,43" alphaTest="blend"/>
 	<!-- Button -->
