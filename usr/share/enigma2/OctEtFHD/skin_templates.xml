@@ -233,8 +233,9 @@
 			<convert type="EventName">FullDescription</convert>
 		</widget>
 		<!-- Buttons -->
-		<ePixmap pixmap="buttons/key_menu.png" position="185,950" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_info.png" position="260,950" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_menu.png" position="145,950" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_info.png" position="220,950" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_help.png" position="295,950" size="64,43" zPosition="2" alphaTest="blend"/>
 		<ePixmap objectTypes="key_red,Button,Label" alphaTest="blend" pixmap="buttons/key_red.png" position="500,950" size="40,40"/>
 		<ePixmap objectTypes="key_green,Button,Label" alphaTest="blend" pixmap="buttons/key_green.png" position="830,950" size="40,40"/>
 		<ePixmap objectTypes="key_yellow,Button,Label" alphaTest="blend" pixmap="buttons/key_yellow.png" position="1220,950" size="40,40"/>
