@@ -329,7 +329,7 @@
 		<!-- Buttons -->
 		<ePixmap pixmap="buttons/key_menu.png" position="62,785" size="64,43" zPosition="2" alphaTest="blend"/>
 		<ePixmap pixmap="buttons/key_text.png" position="62,830" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_channel.png" position="62,875" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_leftright.png" position="62,875" size="64,43" zPosition="2" alphaTest="blend"/>
 		<ePixmap pixmap="buttons/key_info.png" position="62,920" size="64,43" zPosition="2" alphaTest="blend"/>
 		<ePixmap pixmap="buttons/key_help.png" position="62,965" size="64,43" zPosition="2" alphaTest="blend"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="180,950" size="40,40"/>
