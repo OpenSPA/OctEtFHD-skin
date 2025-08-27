@@ -407,27 +407,27 @@
 	<eLabel backgroundColor="white" position="1525,106" size="180,2" transparent="0" zPosition="-10"/>
 	<panel name="Clock"/>
   </screen>
-
+	<!-- IMDB -->
   <screen name="IMDB" title="Internet Movie Database Details Plugin" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 	<eLabel backgroundColor="OE_Background" position="30,center" size="1830,940" zPosition="-15"/>
 	<eLabel backgroundColor="blue_light" position="85,510" size="460,2" zPosition="-9"/>
 	<eLabel backgroundColor="OE_NewBg2" position="65,center" size="500,1080" zPosition="-11" verticalAlignment="center"/>
-	<eLabel backgroundColor="blue_light" position="580,200" size="650,2" zPosition="-9" foregroundColor="un5678a4"/>
+	<eLabel backgroundColor="blue_light" position="580,200" size="1260,2" zPosition="-9" foregroundColor="un5678a4"/>
 	<!-- Widget -->
 	<widget source="Title" render="Label" position="580,85" size="670,110" font="RegularBold;34" backgroundColor="OE_Background" transparent="1"/>
-	<widget name="poster" position="60,0" size="500,480" alphaTest="blend" transparent="1"/>
+	<widget name="poster" position="60,5" size="500,480" alphaTest="blend" transparent="1"/>
 	<widget name="starsbg" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_empty.png" position="200,485" zPosition="0" size="210,21" transparent="1" alphaTest="on"/>
 	<widget name="stars" position="200,485" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_filled.png" transparent="1"/>
-	<widget name="ratinglabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,1000" size="300,100" transparent="1" verticalAlignment="top"/>
-	<widget name="detailslabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,650" size="460,300" transparent="1" verticalAlignment="top"/>
-	<widget name="menu" itemHeight="50" font="RegularBold;30" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="580,260" size="1260,350" transparent="1"/>
-	<widget name="castlabel" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="580,540" size="1260,350" transparent="1"/>
 	<widget name="statusbar" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,540" size="460,100" transparent="1"/>
-	<widget name="extralabel" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="580,260" size="1260,730" transparent="1"/>
+	<widget name="ratinglabel" font="RegularBold;28" backgroundColor="OE_NewBg2" horizontalAlignment="left" position="85,640" size="430,100" transparent="1" verticalAlignment="top"/>
+	<widget name="detailslabel" font="RegularBold;28" backgroundColor="OE_Background" position="580,210" size="1260,350" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" transparent="1"/>
+	<widget name="menu" itemHeight="50" font="RegularBold;30" backgroundColor="OE_Background" position="580,250" size="1260,350" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" transparent="1"/>
+	<widget name="castlabel" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="580,605" size="1260,350" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" transparent="1"/>
+	<widget name="extralabel" font="RegularBold;25" foregroundColor="OE_Foreground" position="580,200" size="1260,730" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" transparent="1"/>
 	<!-- Button -->
 	<ePixmap name="new ePixmap" pixmap="buttons/key_menu.png" position="480,950" size="64,43" alphaTest="blend"/>
 	<!-- Button -->
-	<eLabel backgroundColor="white" position="580,930" size="1260,2" zPosition="-9"/>
+	<eLabel backgroundColor="blue_light" position="580,940" size="1260,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="580,950" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="895,950" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="1210,950" size="40,40"/>
