@@ -4154,8 +4154,8 @@
 			</convert>
 		</widget>
 	</screen>
-	<!-- SOFTCAMSETUP-->
-	<screen name="SoftcamSetup" position="fill" flags="wfNoBorder">
+	<!-- CAMDSETUP-->
+	<screen name="CamdSetup" position="fill" flags="wfNoBorder">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_help.png" position="18,1035" size="64,43"/>
@@ -4376,19 +4376,15 @@
 		</applet>
 	</screen>
 	<!-- SWAP MANAGER-->
-	<screen name="VISIONSwap" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">
+	<screen name="Swap" backgroundColor="transparent" title="Swap Manager" position="0,0" size="1920,1080">
 		<panel name="TemplateInformation"/>
 		<panel name="ButtonsVisionCore"/>
 		<widget name="autostart_off" position="410,190" zPosition="1" pixmap="extensions/lock_off.png" size="35,35" alphaTest="blend"/>
 		<widget name="autostart_on" position="410,190" zPosition="2" pixmap="extensions/lock_on.png" size="35,35" alphaTest="blend"/>
-		<widget name="lab6" position="460,180" size="1490,50" font="RegularBold;26" verticalAlignment="center" transparent="1" backgroundColor="OE_Background"/>
-		<widget name="lab7" position="410,280" size="350,50" backgroundColor="OE_Background" font="RegularBold;26" verticalAlignment="center" transparent="1"/>
-		<widget name="labplace" position="610,280" size="350,50" font="RegularBold;26" verticalAlignment="center" backgroundColor="#4D5375"/>
-		<widget name="lab9" position="410,380" size="350,50" backgroundColor="OE_Background" font="RegularBold;26" verticalAlignment="center" transparent="1"/>
-		<widget name="labsize" position="610,380" size="350,50" font="RegularBold;26" verticalAlignment="center" backgroundColor="#4D5375"/>
-		<widget name="lab10" position="410,480" size="350,50" backgroundColor="OE_Background" font="RegularBold;26" verticalAlignment="center" transparent="1"/>
-		<widget name="inactive" position="610,480" size="350,50" font="RegularBold;26" verticalAlignment="center" horizontalAlignment="center" backgroundColor="red"/>
-		<widget name="active" position="610,480" size="350,50" zPosition="1" font="RegularBold;26" verticalAlignment="center" horizontalAlignment="center" backgroundColor="green"/>
+		<widget name="labplace" position="620,615" size="450,50" font="RegularBold;21" verticalAlignment="center" backgroundColor="#4D5375"/>
+		<widget name="labsize" position="620,695" size="450,50" font="RegularBold;26" verticalAlignment="center" backgroundColor="#4D5375"/>
+		<widget name="inactive" position="620,775" size="450,50" font="RegularBold;26" verticalAlignment="center" horizontalAlignment="center" backgroundColor="red"/>
+		<widget name="active" position="620,775" size="450,50" zPosition="1" font="RegularBold;26" verticalAlignment="center" horizontalAlignment="center" backgroundColor="green"/>
 	</screen>
 	<!-- SOFTCAM VISION-->
 	<screen name="VISIONSoftcamManager" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">

@@ -415,11 +415,11 @@
 		<panel name="TitleInformation"/>
 		<panel name="ButtonsInformation"/>
 		<ePixmap alphaTest="blend" pixmap="picon_default.png" position="115,150" size="220,132" transparent="1" zPosition="10"/>
-		<widget source="lab1" conditional="lab1" render="Label" position="0,330" size="400,70" font="RegularBold;40" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
-		<widget source="lab2" conditional="lab2" render="Label" position="0,405" size="400,70" font="RegularBold;22" backgroundColor="OE_NewBg2" foregroundColor="blue_light" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
-		<widget source="lab3" conditional="lab3" render="Label" position="0,480" size="400,70" font="RegularBold;23" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
-		<widget source="lab4" conditional="lab4" render="Label" position="0,555" size="400,70" font="RegularBold;23" backgroundColor="OE_NewBg2" foregroundColor="blue_light" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
-		<widget source="lab5" conditional="lab5" render="Label" position="0,630" size="400,70" font="RegularBold;23" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
+		<widget name="lab1" conditional="lab1" position="460,190" size="900,70" font="RegularBold;26" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
+		<widget name="lab2" conditional="lab2" position="410,625" size="400,70" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="blue_light" transparent="1" zPosition="3"/>
+		<widget name="lab3" conditional="lab3" position="410,702" size="400,70" font="RegularBold;26" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
+		<widget name="lab4" conditional="lab4" position="410,783" size="400,70" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="blue_light" transparent="1" zPosition="3"/>
+		<widget name="lab5" conditional="lab5" position="410,863" size="400,70" font="RegularBold;26" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
 		<ePixmap pixmap="my_icons/QR_spa.png" alphaTest="blend" position="135,430" size="140,120"/>
 		<eLabel text="https://openspa.info/" position="0,530" size="400,70" font="RegularBold;23" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
 		<!-- Button -->
