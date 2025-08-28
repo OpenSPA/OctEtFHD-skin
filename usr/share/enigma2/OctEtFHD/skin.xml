@@ -1688,9 +1688,13 @@
 	<!-- EVENT VIEW -->
 	<screen name="EventView" title="Eventview" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="MultiEPGEventView"/>
+		<widget name="red" position="20,795" size="0,0"/>
+		<widget name="green" position="180,795" size="0,0"/>
+		<widget name="yellow" position="340,795" size="0,0"/>
+		<widget name="blue" position="500,795" size="0,0"/>		
 		<ePixmap pixmap="buttons/key_help.png" position="260,950" size="64,43" zPosition="2" alphaTest="blend"/>
 		<widget name="FullDescription" position="85,122" size="0,0" font="Regular;22" horizontalAlignment="left" zPosition="3" backgroundColor="OE_Background" transparent="1"/>
-		<widget name="epg_eventname" position="35,122" size="0,0" font="Regular;22" horizontalAlignment="left" zPosition="3" backgroundColor="OE_Background" transparent="1"/>
+		<!--widget name="epg_eventname" position="35,122" size="0,0" font="Regular;22" horizontalAlignment="left" zPosition="3" backgroundColor="OE_Background" transparent="1"/-->
 		<widget source="Event" render="Progress" backgroundColor="blue_light" pixmap="colors/green_light.png" position="40,140" size="290,6" transparent="0" zPosition="3">
 			<convert type="EventTime">Progress</convert>
 		</widget>
@@ -1713,9 +1717,9 @@
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">NoSeconds</convert>
 		</widget>
-		<widget alphaTest="blend" position="75,335" render="Picon" size="220,132" source="Title" transparent="1" zPosition="5">
+		<!-- widget alphaTest="blend" position="75,335" render="Picon" size="220,132" source="Title" transparent="1" zPosition="5">
 			<convert type="RefString">CurrentRef</convert>
-		</widget>
+		</widget-->
 		<ePixmap alphaTest="blend" pixmap="my_icons/dolby_off.png" position="186,490" size="63,32" zPosition="1"/>
 		<widget alphaTest="blend" pixmap="my_icons/dolby_on.png" position="186,490" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
 			<convert type="ServiceInfo">IsMultichannel</convert>
@@ -1773,7 +1777,7 @@
 		<widget alphaTest="blend" name="next_button_sel" pixmap="colors/epg_label.png" position="71,255" size="229,49" transparent="1" zPosition="2"/>
 		<widget alphaTest="blend" name="more_button" pixmap="colors/epg_label.png" position="71,340" size="0,0" transparent="1" zPosition="2"/>
 		<widget alphaTest="blend" name="more_button_sel" pixmap="colors/epg_label.png" position="71,340" size="229,49" transparent="1" zPosition="2"/>
-		<widget name="list" font="RegularBold;28" itemHeight="50" setEventItemFont="RegularBold;26" setEventTimeFont="RegularBold;26" setColWidths="290,180" setColGap="20" setTimeWidth="155" setIconDistance="10" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="350,155" size="1540,550" transparent="1"/>
+		<widget name="list" position="350,155" size="1540,548" font="RegularBold;28" itemHeight="50" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" transparent="1"/>
 		<widget alphaTest="blend" position="70,415" render="Picon" size="220,130" source="Service" transparent="1" zPosition="5">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
@@ -1784,12 +1788,12 @@
 	<!-- EPG SINGLE -->
 	<screen name="EPGSelection" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="EPG Selection">
 		<panel name="TemplateEPGSelection"/>
-		<widget name="list" itemHeight="50" setEventItemFont="RegularBold;27" setColWidths="110,220" setColGap="50" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" position="500,160" size="1390,745" backgroundColor="OE_Background" transparent="1"/>
+		<widget name="list" itemHeight="50" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" position="500,160" size="1390,745" backgroundColor="OE_Background" transparent="1"/>
 	</screen>
 	<!-- EPG SEARCH -->
 	<screen name="EPGSearch" title="EPG Search" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="TemplateEPGSelection"/>
-		<widget name="list" itemHeight="50" setEventItemFont="RegularBold; 26" setEventTimeFont="RegularBold; 24" setColWidths="130,220" setColGap="30" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" position="500,160" size="1390,745" backgroundColor="OE_Background" transparent="1"/>
+		<widget name="list" itemHeight="50" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" position="500,160" size="1390,745" backgroundColor="OE_Background" transparent="1"/>
 	</screen>
 	<!-- EPG SEARCH HISTORY-->
 	<screen name="EPGSearchHistory" title="EPGSearch - History" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
