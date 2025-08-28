@@ -368,34 +368,6 @@
 		<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo150x90.png" position="835,150" size="207,90" transparent="1" zPosition="10"/>
 		<widget name="text" position="500,420" size="920,250" zPosition="2" transparent="1" font="RegularBold;25" horizontalAlignment="center" verticalAlignment="top"/>
 	</screen>
-	<!-- MENU -->
-	<screen name="Menu" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
-	<screen name="menu_mainmenu" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
-	<screen name="menu_system" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
-	<screen name="menu_shutdown" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
-	<screen name="menu_setup" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
-	<screen name="menu_scan" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
-	<screen name="menu_information" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
-	<screen name="menu_timermenu" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
-	<screen name="menu_harddisk" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Main menu" transparent="0">
-		<panel name="MainMenu"/>
-	</screen>
 	<!-- SETUP -->
 	<screen name="Setup" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="Setup">
 		<panel name="StanDardScreen"/>
