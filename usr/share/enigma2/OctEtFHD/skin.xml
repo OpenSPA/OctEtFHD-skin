@@ -5088,12 +5088,12 @@
 				}
 			</convert>
 		</widget>
-		<widget source="info" render="Label" position="1275,687" size="550,181" font="Regular; 24" halign="center" backgroundColor="OE_NewBg2" transparent="1"/>
+		<widget name="info" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1"/>
 	</screen>
 	<screen name="IpkuninstallList" position="0,0" size="1920,1080" title="Ipk Uninstaller - List installed packages" backgroundColor="transparent">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<widget name="list" itemHeight="50" position="26,140" size="1250,800" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" transparent="1"/>
-		<widget source="info" render="Label" position="1275,687" size="550,181" font="Regular; 24" halign="center" backgroundColor="OE_NewBg2" transparent="1" foregroundColor="darkgrey" />
+		<widget name="info" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1"/>
 	</screen>
 </skin>
