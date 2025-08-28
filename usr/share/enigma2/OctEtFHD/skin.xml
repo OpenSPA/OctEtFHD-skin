@@ -1826,6 +1826,11 @@
 		</widget>
 		<widget name="help" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 	</screen>
+	<!-- RECORDTIMERQUESTION TIMER EDITION -->
+	<screen name="RecordTimerQuestion" position="center,center" size="430,140" zPosition="5" flags="wfNoBorder">
+		<widget name="text" position="0,0" size="430,140" backgroundColor="#002c445e"/>
+		<widget name="list" position="0,0" size="430,140" backgroundColor="#002c445e"/>
+	</screen>
 	<screen name="FileBrowser" title="DVD File Browser" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<widget name="filelist" itemHeight="50" font="RegularBold;26" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,750" transparent="1"/>
