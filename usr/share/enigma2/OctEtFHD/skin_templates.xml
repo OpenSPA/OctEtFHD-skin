@@ -418,7 +418,6 @@
 		<panel name="TitleInformation"/>
 		<panel name="ButtonsInformation"/>
 		<ePixmap alphaTest="blend" pixmap="picon_default.png" position="115,150" size="220,132" transparent="1" zPosition="10"/>
-		<widget name="lab1" conditional="lab1" position="420,140" size="900,70" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
 		<widget name="lab2" conditional="lab2" position="410,625" size="400,70" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="blue_light" transparent="1" zPosition="3"/>
 		<widget name="lab3" conditional="lab3" position="410,702" size="400,70" font="RegularBold;26" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
 		<widget name="lab4" conditional="lab4" position="410,783" size="400,70" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="blue_light" transparent="1" zPosition="3"/>

@@ -4365,6 +4365,7 @@
 	<screen name="ScriptRunner" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">
 		<panel name="TemplateInformation"/>
 		<panel name="ButtonsVisionCore"/>
+		<widget name="lab1" conditional="lab1" position="420,140" size="900,70" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
 		<widget name="list" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="420,200" zPosition="10" size="1497,745" transparent="1"/>
 		<applet type="onLayoutFinish">
 		self[&quot;list&quot;].instance.setItemHeight(50)
@@ -4383,6 +4384,7 @@
 	<screen name="Swap" backgroundColor="transparent" title="Swap Manager" position="0,0" size="1920,1080">
 		<panel name="TemplateInformation"/>
 		<panel name="ButtonsVisionCore"/>
+		<widget name="lab1" conditional="lab1" position="460,190" size="900,70" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
 		<widget name="autostart_off" position="410,190" zPosition="1" pixmap="extensions/lock_off.png" size="35,35" alphaTest="blend"/>
 		<widget name="autostart_on" position="410,190" zPosition="2" pixmap="extensions/lock_on.png" size="35,35" alphaTest="blend"/>
 		<widget name="labplace" position="620,615" size="450,50" font="RegularBold;21" verticalAlignment="center" backgroundColor="#4D5375"/>
