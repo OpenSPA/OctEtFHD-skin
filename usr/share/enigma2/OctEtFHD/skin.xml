@@ -2120,7 +2120,7 @@
 		<!-- MOVIEPLAYER NO CHECK-->
 	<screen name="MoviePlayer" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="InfoBar">
 		<panel name="PVRState"/>
-		<eLabel backgroundColor="OE_Background" name="InfoBar" position="center,910" size="1780,125" zPosition="-11"/>
+		<eLabel backgroundColor="OE_Background" name="InfoBar" position="center,910" size="1780,145" zPosition="-11"/>
 		<eLabel backgroundColor="OE_NewBg" foregroundColor="OE_NewBg" position="1565,870" size="250,210" zPosition="-10"/>
 		<eLabel backgroundColor="green_light" position="1580,981" size="220,2" zPosition="-9"/>
 		<widget backgroundColor="OE_Background" font="RegularBold;34" horizontalAlignment="center" noWrap="1" position="225,918" render="Label" size="1060,56" source="session.CurrentService" transparent="1">
@@ -2184,6 +2184,9 @@
 		<widget backgroundColor="OE_NewBg3" font="RegularBold;30" horizontalAlignment="left" position="1705,990" render="Label" size="90,40" source="session.CurrentService" transparent="1" verticalAlignment="center">
 			<convert type="ServiceInfo">VideoHeight</convert>
 		</widget>
+		<widget name="PTSSeekBack" position="790,898" size="220,15" pixmap="slider_back.png" alphatest="on" zPosition="2"/>
+		<widget name="PTSSeekPointer" position="790,900" size="1475,20" pixmap="position_pointer2.png" alphatest="on" zPosition="4"/>
+		<widget name="eventname" position="275,990" size="1060,56" font="RegularBold;30" horizontalAlignment="center" verticalAlignment="center" backgroundColor="black" transparent="1" zPosition="2"/>
 		<!-- Clock -->
 		<panel name="Clock"/>
 	</screen>
@@ -3425,13 +3428,13 @@
 		<!-- TIMESHIFT -->
 	<screen name="TimeshiftState" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="TimeshiftState">
 		<panel name="TimeshiftLive"/>
-		<eLabel backgroundColor="OE_Background" name="InfoBar" position="center,910" size="1780,125" zPosition="-11"/>
+		<eLabel backgroundColor="OE_Background" name="InfoBar" position="center,910" size="1780,145" zPosition="-11"/>
 		<eLabel backgroundColor="OE_NewBg" foregroundColor="OE_NewBg" position="1565,870" size="250,210" zPosition="-10"/>
 		<eLabel backgroundColor="green_light" position="1580,981" size="220,2" zPosition="-9"/>
 		<widget backgroundColor="OE_Background" font="RegularBold;30" foregroundColor="OE_Foreground" position="80,896" render="Label" size="265,80" source="session.CurrentService" transparent="1" verticalAlignment="center">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
-		<widget backgroundColor="OE_Background" font="RegularBold;34" noWrap="1" position="650,918" render="Label" size="640,56" source="session.CurrentService" transparent="1">
+		<widget backgroundColor="OE_Background" font="RegularBold;34" noWrap="1" position="700,928" render="Label" size="640,56" source="session.CurrentService" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
 		<widget backgroundColor="OE_Background" font="RegularBold;30" foregroundColor="OE_Foreground" position="1295,896" render="Label" size="265,80" source="session.CurrentService" transparent="1" verticalAlignment="center">
@@ -3457,6 +3460,9 @@
 			<convert type="ValueRange">721,1980</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
+		<widget name="PTSSeekBack" position="790,898" size="220,15" pixmap="slider_back.png" alphatest="on" zPosition="2"/>
+		<widget name="PTSSeekPointer" position="790,900" size="1475,20" pixmap="position_pointer2.png" alphatest="on" zPosition="4"/>
+		<widget name="eventname" position="275,990" size="1060,56" font="RegularBold;30" horizontalAlignment="center" verticalAlignment="center" backgroundColor="black" transparent="1" zPosition="2"/>
 	</screen>
 		<!-- TIMESHIFT LIVE -->
 	<screen name="TimeshiftLive" backgroundColor="transparent" flags="wfNoBorder" position="80,105" size="310,74" zPosition="8">
@@ -5014,7 +5020,7 @@
 	<!-- ********** ####### SCREENSAVER ####### ********** -->
 	<screen name="Screensaver" position="fill" flags="wfNoBorder">
 		<eLabel position="fill" backgroundColor="#54111112" zPosition="0"/>
-		<widget name="picture" pixmap="screensaverpicture.png" position="0,0" size="220,132" alphaTest="blend" zPosition="1"/>
+		<widget name="picture" pixmap="icons/screensaverpicture.png" position="0,0" size="140,61" alphaTest="blend" zPosition="1"/>
 	</screen>
 	<!-- ********** ####### FACTORY RESET ####### ********** -->
 	<screen name="FactoryReset" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
