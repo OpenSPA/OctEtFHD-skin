@@ -1663,6 +1663,67 @@
 		<panel name="TemplatePip"/>
 		<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,800" transparent="1"/>
 	</screen>
+	<!-- GRAPHICAL INFOBAR EPG -->
+	<screen name="GraphicalInfoBarEPG" position="0,e-230" size="1920,220" backgroundColor="black" transparent="0" flags="wfNoBorder">
+		<eLabel backgroundColor="OE_NewBg2" position="0,0" size="1920,50" zPosition="1"/>
+		<widget source="Title" render="Label" position="20,10" size="850,43" font="Boldit;32" transparent="1" backgroundColor="#00373a43" zPosition="2"/>
+		<widget source="global.CurrentTime" render="Label" position="1800,0" size="100,25" font="Regular;23" backgroundColor="#00373a43" transparent="1" zPosition="1">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget source="global.CurrentTime" render="Label" position="1655,23" size="350,25" font="Regular;23" backgroundColor="#00373a43" transparent="1" zPosition="1">
+			<convert type="ClockToText">Date</convert>
+		</widget>
+		<widget name="lab1" position="0,50" size="1920,115" font="Regular;24" halign="center" valign="center" zPosition="20" backgroundColor="black" transparent="0"/>
+		<widget name="timeline_text" position="0,55" size="1920,30" backgroundColor="black" foregroundColor="#0000fafa" transparent="0" zPosition="3"/>
+		<widget name="bouquetlist" position="0,85" size="1920,85" backgroundColor="black" scrollbarMode="showNever" zPosition="2" transparent="0"/>
+		<widget name="list" position="0,85" size="1920,85" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" EntryFontWrap="no"/>
+		<widget name="timeline_now" position="0,83" zPosition="3" size="19,85" pixmap="extensions/timeline-now.png" alphatest="on"/>
+		<widget name="timeline0" alphaTest="blend" pixmap="extensions/timeline.png" position="0,430" size="1,500" zPosition="0"/>
+		<widget name="timeline1" alphaTest="blend" pixmap="extensions/timeline.png" position="0,430" size="1,500" zPosition="0"/>
+		<widget name="timeline2" alphaTest="blend" pixmap="extensions/timeline.png" position="0,430" size="1,500" zPosition="0"/>
+		<widget name="timeline3" alphaTest="blend" pixmap="extensions/timeline.png" position="0,430" size="1,500" zPosition="0"/>
+		<widget name="timeline4" alphaTest="blend" pixmap="extensions/timeline.png" position="0,430" size="1,500" zPosition="0"/>
+		<widget name="timeline5" alphaTest="blend" pixmap="extensions/timeline.png" position="0,430" size="1,500" zPosition="0"/>
+		<widget name="lab1" position="160,400" size="0,0" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="OE_Background" transparent="0"/>
+		<widget name="number" position="160,380" size="0,0" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="OE_Background" transparent="0"/>
+		<widget name="change_bouquet" position="160,400" size="0,0" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="OE_Background" transparent="0"/>
+		<widget name="jump" position="160,380" size="0,0" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="OE_Background" transparent="0"/>
+		<widget name="page" position="160,400" size="0,0" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="OE_Background" transparent="0"/>
+		<widget name="primetime" position="160,380" size="0,0" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="OE_Background" transparent="0"/>
+		<ePixmap pixmap="buttons/key_menu.png" position="0,175" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_text.png" position="70,175" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_leftright.png" position="140,175" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_info.png" position="210,175" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_help.png" position="280,175" size="64,43" zPosition="2" alphaTest="blend"/>
+		<widget source="key_red" position="375,175" size="40,40" render="Pixmap" pixmap="buttons/key_red.png" objectTypes="key_red,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_red" position="420,160" size="300,70" render="Label" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_red,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_green" position="725,175" size="40,40" render="Pixmap" pixmap="buttons/key_green.png" objectTypes="key_green,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_green" render="Label" position="770,160" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_green,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_yellow" render="Pixmap" pixmap="buttons/key_yellow.png" objectTypes="key_yellow,StaticText" backgroundColor="OE_Background" position="1075,175" size="40,40" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_yellow" render="Label" position="1120,160" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_yellow,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_blue" render="Pixmap" pixmap="buttons/key_blue.png" objectTypes="key_blue,StaticText" backgroundColor="OE_Background" position="1425,175" size="40,40" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_blue" render="Label" position="1470,160" size="510,70" backgroundColor="OE_Background" font="RegularBold;24" horizontalAlignment="left" objectTypes="key_blue,StaticText" verticalAlignment="center" transparent="1" zPosition="1"/>
+	</screen>
+	<!-- GRAPHICAL INFOBAR EPG key INFO -> InfoBarEventView -->
+	<screen name="InfoBarEventView" position="0,e-265" size="1920,35" backgroundColor="blue" transparent="0" flags="wfNoBorder">
+		<eLabel backgroundColor="blue" position="0,0" size="1920,50" zPosition="1"/>
+		<widget name="datetime" position="0,5" size="250,26" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget name="duration" position="260,5" size="150,26" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget name="channel" position="430,5" size="410,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget name="FullDescription" position="850,5" size="1050,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget name="epg_description" position="850,5" size="1050,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget source="Event" position="850,5" size="1050,35" font="RegularBold;26" render="Label" backgroundColor="blue" transparent="1" zPosition="3">
+			<convert type="EventName">Name</convert>
+		</widget>
+	</screen>
 	<screen name="HarddiskSelection" title="Select HDD" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
