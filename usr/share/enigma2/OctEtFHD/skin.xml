@@ -2876,14 +2876,14 @@
 		<widget source="description" render="Label" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
 	</screen>
-	<!-- PLUGIN ACTION-->
+	<!-- PACKAGE ACTION-->
 	<screen name="PackageAction" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" transparent="0">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_help.png" position="18,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_exit.png" position="85,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_menu.png" position="1565,780" size="64,43"/>
-		<widget source="plugins" render="Listbox" position="24,142" size="1255,770" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light">
+		<widget source="plugins" render="Listbox" position="24,142" size="1255,815" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light">
 			<convert type="TemplatedMultiContent">
 				{
 				"template":
@@ -2896,7 +2896,7 @@
 					MultiContentEntryPixmapAlphaBlend(pos = (1260,1), size = (72,72), png=7, flags=BT_SCALE),
 					],
 				"fonts": [parseFont("RegularHD;25"), parseFont("RegularHD;20"), parseFont("RegularHD;16")],
-				"itemHeight": 75
+				"itemHeight": 74
 				}
 			</convert>
 		</widget>
