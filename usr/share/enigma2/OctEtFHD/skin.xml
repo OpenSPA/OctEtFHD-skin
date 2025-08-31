@@ -1733,12 +1733,12 @@
 	<!-- GRAPHICAL INFOBAR EPG key INFO -> InfoBarEventView -->
 	<screen name="InfoBarEventView" position="0,e-265" size="1920,35" backgroundColor="blue" transparent="0" flags="wfNoBorder">
 		<eLabel backgroundColor="blue" position="0,0" size="1920,50" zPosition="1"/>
-		<widget name="datetime" position="0,5" size="250,26" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget name="duration" position="260,5" size="150,26" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget name="channel" position="430,5" size="410,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget name="FullDescription" position="850,5" size="1050,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget name="epg_description" position="850,5" size="1050,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget source="Event" position="850,5" size="1050,35" font="RegularBold;26" render="Label" backgroundColor="blue" transparent="1" zPosition="3">
+		<widget name="datetime" position="20,5" size="250,26" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget name="duration" position="280,5" size="150,26" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget name="channel" position="450,5" size="410,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget name="FullDescription" position="870,5" size="1050,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget name="epg_description" position="870,5" size="1050,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
+		<widget source="Event" position="870,5" size="1030,35" font="RegularBold;26" render="Label" backgroundColor="blue" transparent="1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
 	</screen>
