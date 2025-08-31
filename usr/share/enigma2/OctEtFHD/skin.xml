@@ -2072,8 +2072,8 @@
 		<panel name="TemplatePip"/>
 		<widget name="list" itemHeight="50" backgroundColor="OE_Background" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" position="26,140" size="1250,800" transparent="1" zPosition="5"/>
 	</screen>
-	<!-- OPKGMENU -->
-	<screen name="OPKGMenu" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<!-- IPKG MENU -->
+	<screen name="IPKGMenu" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<widget name="filelist" itemHeight="50" font="RegularBold;26" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,800" transparent="1"/>
@@ -2876,6 +2876,34 @@
 		<widget source="description" render="Label" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
 	</screen>
+	<!-- PLUGIN ACTION-->
+	<screen name="PackageAction" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" transparent="0">
+		<panel name="StanDardScreen"/>
+		<panel name="TemplatePip"/>
+		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_help.png" position="18,1035" size="64,43"/>
+		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_exit.png" position="85,1035" size="64,43"/>
+		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_menu.png" position="1565,780" size="64,43"/>
+		<widget source="plugins" render="Listbox" position="24,142" size="1255,770" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light">
+			<convert type="TemplatedMultiContent">
+				{
+				"template":
+					[
+					MultiContentEntryPixmapAlphaBlend(pos = (7,0), size = (90,75), png=6, flags=BT_SCALE),
+					MultiContentEntryText(pos = (105,0), size = (1215,75), font=0, flags=RT_VALIGN_CENTER, text=2),
+					MultiContentEntryText(pos = (105,3), size = (795,37), font=1, flags=RT_VALIGN_CENTER, text=3),
+					MultiContentEntryText(pos = (915,3), size = (330,37), font=1, flags=RT_VALIGN_CENTER, text=5),
+					MultiContentEntryText(pos = (105,42), size = (1140,30), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0),
+					MultiContentEntryPixmapAlphaBlend(pos = (1260,1), size = (72,72), png=7, flags=BT_SCALE),
+					],
+				"fonts": [parseFont("RegularHD;25"), parseFont("RegularHD;20"), parseFont("RegularHD;16")],
+				"itemHeight": 75
+				}
+			</convert>
+		</widget>
+		<widget name="quickselect" position="1400,850" size="410,100" font="Regular;24" foregroundColor="#00fff000" horizontalAlignment="center" transparent="1" verticalAlignment="center" zPosition="+1"/>
+		<widget source="description" render="Label" conditional="description" position="1290,520" size="0,0" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
+		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
+	</screen>
 	<screen name="PluginDownloadBrowser" title="Downloadable plugins" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
@@ -2926,7 +2954,13 @@
 		<!-- Clock -->
 		<panel name="Clock"/>
 	</screen>
-	<screen name="RestoreScreen" title="Restore is running" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<!-- IMAGE BACKUP -->
+	<screen name="ImageBackup" title="Restore is running" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+		<panel name="StanDardScreen"/>
+		<panel name="TemplatePip"/>
+		<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,800" transparent="1"/>
+	</screen>
+	<screen name="RestoreScreen" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,800" transparent="1"/>
 	</screen>
@@ -5182,5 +5216,11 @@
 		<widget name="check" position="1259,150" size="17,24" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/spzCAMD/images/checkok.png" transparent="1" zPosition="2" />
 		<widget name="info" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1"/>
 		<widget name="list" position="26,550" size="620,250" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_Background" transparent="1"/>
+	</screen>
+	<!-- PROCESSING -->
+	<screen name="Processing" position="center,center" size="700,105" flags="wfNoBorder" backgroundColor="OE_NewBg2">
+		<eLabel text="Processing" font="RegularBold;30" backgroundColor="OE_NewBg2" position="17,0" size="400,40" transparent="1" zPosition="3"/>
+		<widget name="progress" position="0,40" size="e,25" backgroundColor="green_light"/>
+		<widget name="description" position="0,75" size="e,25" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" zPosition="1"/>
 	</screen>
 </skin>
