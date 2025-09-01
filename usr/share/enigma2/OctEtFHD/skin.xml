@@ -1683,6 +1683,7 @@
 	</screen>
 	<!-- GRAPHICAL INFOBAR EPG -->
 	<screen name="GraphicalInfoBarEPG" position="0,e-230" size="1920,220" backgroundColor="black" transparent="0" flags="wfNoBorder">
+		<eLabel backgroundColor="blue_light" position="0,0" size="1920,2" zPosition="2"/>
 		<eLabel backgroundColor="OE_NewBg2" position="0,0" size="1920,50" zPosition="1"/>
 		<widget source="Title" render="Label" position="20,10" size="850,43" font="Boldit;32" transparent="1" backgroundColor="#00373a43" zPosition="2"/>
 		<widget source="global.CurrentTime" render="Label" position="1800,0" size="100,25" font="Regular;23" backgroundColor="#00373a43" transparent="1" zPosition="1">
@@ -1731,15 +1732,19 @@
 		<widget source="key_blue" render="Label" position="1470,160" size="510,70" backgroundColor="OE_Background" font="RegularBold;24" horizontalAlignment="left" objectTypes="key_blue,StaticText" verticalAlignment="center" transparent="1" zPosition="1"/>
 	</screen>
 	<!-- GRAPHICAL INFOBAR EPG key INFO -> InfoBarEventView -->
-	<screen name="InfoBarEventView" position="0,e-265" size="1920,35" backgroundColor="blue" transparent="0" flags="wfNoBorder">
-		<eLabel backgroundColor="blue" position="0,0" size="1920,50" zPosition="1"/>
-		<widget name="datetime" position="20,5" size="250,26" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget name="duration" position="280,5" size="150,26" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget name="channel" position="450,5" size="410,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget name="FullDescription" position="870,5" size="1050,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget name="epg_description" position="870,5" size="1050,35" font="Regular;26" backgroundColor="blue" transparent="1" zPosition="2"/>
-		<widget source="Event" position="870,5" size="1030,35" font="RegularBold;26" render="Label" backgroundColor="blue" transparent="1" zPosition="3">
+	<screen name="InfoBarEventView" position="0,e-430" size="1920,200" backgroundColor="OE_Background" transparent="0" flags="wfNoBorder">
+		<eLabel backgroundColor="blue_light" position="0,0" size="1920,2" zPosition="0"/>
+		<eLabel backgroundColor="blue_light" position="0,0" size="2,200" zPosition="0"/>
+		<eLabel backgroundColor="blue_light" position="1918,0" size="2,200" zPosition="0"/>
+		<widget name="datetime" position="20,5" size="250,26" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
+		<widget name="duration" position="280,5" size="150,26" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
+		<widget name="channel" position="450,5" size="410,35" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
+		<widget name="epg_description" position="870,5" size="0,0" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
+		<widget source="Event" position="870,5" size="1050,45" font="RegularBold;26" render="Label" backgroundColor="OE_Background" transparent="1" zPosition="3">
 			<convert type="EventName">Name</convert>
+		</widget>
+		<widget position="20,45" size="1895,150" source="Event" backgroundColor="OE_Background" font="RegularBold;26" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=15000,wrap,always=0" render="RunningText" zPosition="3" transparent="1">
+			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 	</screen>
 	<screen name="HarddiskSelection" title="Select HDD" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
@@ -2845,7 +2850,7 @@
 				}
 			</convert>
 		</widget>
-		<widget name="quickselect" position="1400,850" size="410,100" font="Regular;24" foregroundColor="#00fff000" horizontalAlignment="center" transparent="1" verticalAlignment="center" zPosition="+1"/>
+		<widget name="quickselect" position="1400,880" size="410,100" font="RegularBold;26" foregroundColor="#0000fafa" horizontalAlignment="center" backgroundColor="OE_NewBg2" transparent="1" verticalAlignment="center" zPosition="+1"/>
 		<widget source="description" render="Label" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
 	</screen>
@@ -2872,7 +2877,7 @@
 				}
 			</convert>
 		</widget>
-		<widget name="quickselect" position="1400,850" size="410,100" font="Regular;24" foregroundColor="#00fff000" horizontalAlignment="center" transparent="1" verticalAlignment="center" zPosition="+1"/>
+		<widget name="quickselect" position="1400,880" size="410,100" font="RegularBold;26" foregroundColor="#0000fafa" horizontalAlignment="center" backgroundColor="OE_NewBg2" transparent="1" verticalAlignment="center" zPosition="+1"/>
 		<widget source="description" render="Label" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
 	</screen>
@@ -2892,8 +2897,8 @@
 					MultiContentEntryText(pos = (105,0), size = (1140,75), font=0, flags=RT_VALIGN_CENTER, text=2),
 					MultiContentEntryText(pos = (105,3), size = (590,37), font=1, flags=RT_VALIGN_CENTER, text=3),
 					MultiContentEntryText(pos = (700,3), size = (470,37), font=1, flags=RT_VALIGN_CENTER, text=5),
-					MultiContentEntryText(pos = (105,42), size = (1065,30), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0),
-					MultiContentEntryPixmapAlphaBlend(pos = (1175,0), size = (72,72), png=7, flags=BT_SCALE),
+					MultiContentEntryText(pos = (105,42), size = (1059,30), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0),
+					MultiContentEntryPixmapAlphaBlend(pos = (1165,0), size = (72,72), png=7, flags=BT_SCALE),
 					],
 				"fonts": [parseFont("RegularBold;30"), parseFont("RegularBold;25"), parseFont("RegularBold;21")],
 				"itemHeight": 74
