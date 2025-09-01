@@ -2895,7 +2895,7 @@
 					MultiContentEntryText(pos = (105,42), size = (1140,30), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0),
 					MultiContentEntryPixmapAlphaBlend(pos = (1260,1), size = (72,72), png=7, flags=BT_SCALE),
 					],
-				"fonts": [parseFont("RegularHD;25"), parseFont("RegularHD;20"), parseFont("RegularHD;16")],
+				"fonts": [parseFont("RegularBold;30"), parseFont("RegularBold;25"), parseFont("RegularBold;21")],
 				"itemHeight": 74
 				}
 			</convert>
@@ -5218,9 +5218,9 @@
 		<widget name="list" position="26,550" size="620,250" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_Background" transparent="1"/>
 	</screen>
 	<!-- PROCESSING -->
-	<screen name="Processing" position="center,center" size="700,105" flags="wfNoBorder" backgroundColor="OE_NewBg2">
-		<eLabel text="Processing" font="RegularBold;30" backgroundColor="OE_NewBg2" position="17,0" size="400,40" transparent="1" zPosition="3"/>
+	<screen name="Processing" position="center,center" size="630,105" flags="wfNoBorder" backgroundColor="OE_NewBg2">
+		<eLabel text="Processing" font="RegularBold;30" backgroundColor="OE_NewBg2" position="0,0" size="400,40" transparent="1" zPosition="3"/>
 		<widget name="progress" position="0,40" size="e,25" backgroundColor="green_light"/>
-		<widget name="description" position="0,75" size="e,25" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" zPosition="1"/>
+		<widget name="description" position="0,75" size="e,25" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="left" zPosition="1"/>
 	</screen>
 </skin>
