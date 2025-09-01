@@ -2831,17 +2831,17 @@
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_help.png" position="18,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_exit.png" position="85,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_menu.png" position="1565,780" size="64,43"/>
-		<widget source="pluginList" render="Listbox" position="26,142" size="1250,800" conditional="pluginList" listOrientation="vertical" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light">
+		<widget source="pluginList" render="Listbox" position="26,142" size="1250,780" conditional="pluginList" listOrientation="vertical" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light">
 			<convert type="TemplatedMultiContent">
 				{
 				"template":
 					[
-					MultiContentEntryPixmapAlphaBlend(pos=(10, 5), size=(100, 40), png=3, flags=BT_SCALE),
-					MultiContentEntryText(pos=(125, 3), size=(865, 24), font=0, flags=RT_HALIGN_LEFT | RT_VALIGN_TOP, text=1),
-					MultiContentEntryText(pos=(145, 32), size=(845, 19), font=1, flags=RT_HALIGN_LEFT | RT_VALIGN_BOTTOM, text=2, color=0x44a2ff,color_sel=0x0000fafa)
+					MultiContentEntryPixmapAlphaBlend(pos=(10, 15), size=(100, 40), png=3, flags=BT_SCALE),
+					MultiContentEntryText(pos=(125, 3), size=(865, 35), font=0, flags=RT_HALIGN_LEFT | RT_VALIGN_TOP, text=1),
+					MultiContentEntryText(pos=(125, 36), size=(865, 25), font=1, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=2, color=0x44a2ff,color_sel=0x0000fafa)
 					],
-				"fonts": [parseFont("Regular;26"), parseFont("Regular;21")],
-				"itemHeight": 50
+				"fonts": [parseFont("RegularBold;27"), parseFont("RegularBold;22")],
+				"itemHeight": 65
 				}
 			</convert>
 		</widget>
@@ -2889,11 +2889,11 @@
 				"template":
 					[
 					MultiContentEntryPixmapAlphaBlend(pos = (7,0), size = (90,75), png=6, flags=BT_SCALE),
-					MultiContentEntryText(pos = (105,0), size = (1215,75), font=0, flags=RT_VALIGN_CENTER, text=2),
-					MultiContentEntryText(pos = (105,3), size = (795,37), font=1, flags=RT_VALIGN_CENTER, text=3),
-					MultiContentEntryText(pos = (915,3), size = (330,37), font=1, flags=RT_VALIGN_CENTER, text=5),
-					MultiContentEntryText(pos = (105,42), size = (1140,30), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0),
-					MultiContentEntryPixmapAlphaBlend(pos = (1260,1), size = (72,72), png=7, flags=BT_SCALE),
+					MultiContentEntryText(pos = (105,0), size = (1140,75), font=0, flags=RT_VALIGN_CENTER, text=2),
+					MultiContentEntryText(pos = (105,3), size = (590,37), font=1, flags=RT_VALIGN_CENTER, text=3),
+					MultiContentEntryText(pos = (700,3), size = (470,37), font=1, flags=RT_VALIGN_CENTER, text=5),
+					MultiContentEntryText(pos = (105,42), size = (1065,30), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0),
+					MultiContentEntryPixmapAlphaBlend(pos = (1175,0), size = (72,72), png=7, flags=BT_SCALE),
 					],
 				"fonts": [parseFont("RegularBold;30"), parseFont("RegularBold;25"), parseFont("RegularBold;21")],
 				"itemHeight": 74
@@ -2903,6 +2903,12 @@
 		<widget name="quickselect" position="1400,850" size="410,100" font="Regular;24" foregroundColor="#00fff000" horizontalAlignment="center" transparent="1" verticalAlignment="center" zPosition="+1"/>
 		<widget source="description" render="Label" conditional="description" position="1290,520" size="0,0" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
+	</screen>
+	<!-- PACKAGE ACTION LOG-->
+	<screen name="PackageActionLog" title="Downloadable plugins" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+		<panel name="StanDardScreen"/>
+		<panel name="TemplatePip"/>
+		<widget name="log" position="26,140" size="1250,825" font="Regular;28" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" transparent="1" zPosition="5"/>
 	</screen>
 	<screen name="PluginDownloadBrowser" title="Downloadable plugins" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
