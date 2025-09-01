@@ -97,8 +97,8 @@
 	<font filename="/usr/share/fonts/andale.ttf" name="Fixed" scale="100"/>
 	<font filename="/usr/share/fonts/nmsbd.ttf" name="Arial" scale="100"/>
 	<font filename="/usr/share/enigma2/OctEtFHD/fonts/DejaVuSansCondensed-Bold.ttf" name="Regular" scale="95"/>
-	<!--font filename="/usr/share/fonts/OpenSans-Regular.ttf" name="RegularLight" scale="95"/-->
-	<!--font filename="/usr/share/fonts/OpenSans-Regular.ttf" name="EL_Standard" scale="100"/-->
+	<!--font filename="/usr/share/fonts/OpenSans-Regular.ttf" name="RegularLight" scale="95"/ -->
+	<!--font filename="/usr/share/fonts/OpenSans-Regular.ttf" name="EL_Standard" scale="100"/ -->
 	<font filename="/usr/share/enigma2/OctEtFHD/fonts/DejaVuSansCondensed-Bold.ttf" name="RegularBold" scale="100"/>
 	<alias name="ChoiceList" font="RegularBold" size="25" height="45"/>
 	<alias name="Body" font="RegularBold" size="30" height="50"/>
@@ -106,7 +106,7 @@
 	<alias name="FileList" font="RegularBold" size="30" height="50"/>
 	<alias name="FileListMulti" font="RegularBold" size="30" height="50"/>
 	<alias name="PluginBrowser0" font="RegularBold" size="26" height="80"/>
-	<!--alias name="PluginBrowser1" font="RegularLight" size="24"/-->
+	<!--alias name="PluginBrowser1" font="RegularLight" size="24"/ -->
 	<alias name="ServiceInfo" font="RegularBold" size="25" height="45"/>
 	<alias name="SelectionList" font="RegularBold" size="25" height="50"/>
 	<alias name="PiconManagerList" font="Regular" size="28" height="45"/>
@@ -420,7 +420,7 @@
 	</screen>
 	<!-- INFOBAR -->
 	<screen name="InfoBar" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="InfoBar">
-		<!--panel name="poster_firstinfobar"/-->
+		<!--panel name="poster_firstinfobar"/ -->
 		<eLabel backgroundColor="OE_ListBackground" name="InfoBar" position="15,852" size="1865,215" zPosition="-11"/>
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="15,850" size="1865,2" zPosition="-11"/>
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="15,850" size="2,215" zPosition="-11"/>
@@ -432,7 +432,7 @@
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="28,773" size="289,2" zPosition="-11"/>
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="315,775" size="2,305" zPosition="-11"/>
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="28,1078" size="289,2" zPosition="-9"/>
-		<!--widget source="session.CurrentService" render="ChannelNumber" backgroundColor="OE_Background" foregroundColor="OE_Foreground" font="RegularBold;30" position="325,870" horizontalAlignment="center" size="110,40" transparent="1" zPosition="1"/-->
+		<!--widget source="session.CurrentService" render="ChannelNumber" backgroundColor="OE_Background" foregroundColor="OE_Foreground" font="RegularBold;30" position="325,870" horizontalAlignment="center" size="110,40" transparent="1" zPosition="1"/ -->
 		<widget source="session.CurrentService" render="Label" position="325,850" size="565,35" font="RegularBold;27" noWrap="1" backgroundColor="background" transparent="1" horizontalAlignment="left" verticalAlignment="center">
 			<convert type="ServiceName">Name</convert>
 		</widget>
@@ -443,8 +443,8 @@
 		<widget source="session.CurrentService" render="Label" position="1310,855" size="400,25" font="RegularBold;22" backgroundColor="OE_Background" foregroundColor="blue_light" transparent="1">
 			<convert type="PliExtraInfo">CryptoSpecial</convert>
 		</widget>
-		<!--widget source="session.CurrentService" render="PicEmu2" path="OctEtFHD/emu" position="1715,855" size="98,31" transparent="1" alphaTest="blend" zPosition="3"/-->
-		<!--widget source="session.CurrentService" render="PicCript" path="OctEtFHD/cript" position="1808,855" size="63,32" alphaTest="blend" zPosition="3"/-->
+		<!--widget source="session.CurrentService" render="PicEmu2" path="OctEtFHD/emu" position="1789,855" size="98,31" transparent="1" alphaTest="blend" zPosition="3"/ -->
+		<!--widget source="session.CurrentService" render="PicCript" path="OctEtFHD/cript" position="1808,855" size="63,32" alphaTest="blend" zPosition="3"/ -->
 		<widget source="session.CurrentService" render="Label" font="RegularBold;24" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="325,885" size="930,28" transparent="1" zPosition="1">
 			<convert type="PliExtraInfo">TransponderInfo</convert>
 		</widget>
@@ -596,7 +596,7 @@
 	</screen>
 	<!-- SECOND INFOBAR -->
 	<screen name="SecondInfoBar" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="InfoBar">
-		<!--panel name="poster_secondinfobar"/-->
+		<!--panel name="poster_secondinfobar"/ -->
 		<panel name="SecondInfobarButtons"/>
 		<widget name="epg_description" position="350,220" size="0,0" backgroundColor="OE_Background" font="RegularBold;26" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" transparent="0"/>
 		<widget name="FullDescription" position="85,122" size="0,0" font="Regular;22" horizontalAlignment="left" zPosition="3" backgroundColor="OE_Background" transparent="0"/>
@@ -742,9 +742,9 @@
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<!-- CryptoInfo -->
-		<!--widget source="session.CurrentService" render="PicCript" path="OctEtFHD/cript" position="470,965" size="98,31" alphaTest="blend" zPosition="3"/-->
+		<!--widget source="session.CurrentService" render="PicCript" path="OctEtFHD/cript" position="470,965" size="98,31" alphaTest="blend" zPosition="3"/ -->
 		<panel name="Clock"/>
-		<!--widget source="session.CurrentService" render="PicEmu2" path="OctEtFHD/emu" position="540,965" size="98,31" transparent="1" alphaTest="blend" zPosition="3"/-->
+		<!--widget source="session.CurrentService" render="PicEmu2" path="OctEtFHD/emu" position="540,965" size="98,31" transparent="1" alphaTest="blend" zPosition="3"/ -->
 		<!--widget source="session.CurrentService" render="Label" font="RegularBold;21" position="660,965" size="450,35" zPosition="50" backgroundColor="OE_ListBackground" transparent="1" noWrap="1">
 			<convert type="CaidInfo2"/>
 		</widget-->
@@ -769,7 +769,7 @@
 		<widget noWrap="1" backgroundColor="OE_NewBg" font="RegularBold;28" render="Label" position="315,905" size="80,50" source="session.MSNWeather" zPosition="3" transparent="1" foregroundColor="blue_light">
 			<convert type="MSNWeather">humidity</convert>
 		</widget>
-		<eLabel text="%" position="375,905" size="30,50" zPosition="5" font="RegularBold;28" transparent="1"/-->
+		<eLabel text="%" position="375,905" size="30,50" zPosition="5" font="RegularBold;28" transparent="1"/ -->
 	</screen>
 	<!-- MAIN MENU INFORMATION (NEW) -->
 	<!-- INFO COMMON -->
@@ -1058,7 +1058,7 @@
 	</screen>
 	<!-- CHANNELSELECTION -->
 	<screen name="ChannelSelection" position="0,0" size="1920,1080" backgroundColor="transparent" title="Channel Selection" flags="wfNoBorder">
-		<!--panel name="poster_channelselection"/-->
+		<!--panel name="poster_channelselection"/ -->
 		<eLabel backgroundColor="OE_Background" position="10,45" size="1895,1000" zPosition="-15"/>
 		<eLabel backgroundColor="blue_light" position="570,145" size="1330,2" zPosition="-9" foregroundColor="un5678a4"/>
 		<eLabel backgroundColor="blue_light" position="570,930" size="1330,2" zPosition="-9"/>
@@ -1692,7 +1692,7 @@
 		<widget source="global.CurrentTime" render="Label" position="1655,23" size="350,25" font="Regular;23" backgroundColor="#00373a43" transparent="1" zPosition="1">
 			<convert type="ClockToText">Date</convert>
 		</widget>
-		<widget name="lab1" position="0,50" size="1920,115" font="Regular;24" halign="center" valign="center" zPosition="20" backgroundColor="black" transparent="0"/>
+		<widget name="lab1" position="0,50" size="1920,115" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="black" transparent="0"/>
 		<widget name="timeline_text" position="0,55" size="1920,30" backgroundColor="black" foregroundColor="#0000fafa" transparent="0" zPosition="3"/>
 		<widget name="bouquetlist" position="0,85" size="1920,85" backgroundColor="black" scrollbarMode="showNever" zPosition="2" transparent="0"/>
 		<widget name="list" position="0,85" size="1920,85" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" EntryFontWrap="no"/>
@@ -1747,6 +1747,167 @@
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 	</screen>
+	<!-- EPG VERTICAL -->
+	<screen name="EPGvertical" position="0,0" size="1920,1080" backgroundColor="OE_NewBg2" flags="wfNoBorder" title="Vertical Program Guide">
+		<widget name="lab1" position="0,50" size="1920,115" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="black" transparent="0"/>
+		<eLabel text="Vertical EPG" position="15,5" size="300,40" font="Regular;30" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" horizontalAlignment="left" verticalAlignment="center"/>
+		<widget source="Title" render="Label" position="350,5" size="620,40" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" noWrap="1" horizontalAlignment="center" verticalAlignment="center" font="Regular;28"/>
+		<widget name="bouquetlist" position="350,5" size="620,40" backgroundColorSelected="#1A27408B" borderColor="#00bbbbbb" zPosition="5" itemHeight="40" font="Regular;25" transparent="0"/>
+		<widget enableWrapAround="0" itemHeight="20" font="Regular;0" name="list" position="0,0" size="0,100" zPosition="-10"/>
+		<widget source="global.CurrentTime" render="Label" position="1580,5" size="300,40" font="Regular;28" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" horizontalAlignment="right" verticalAlignment="center">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<eLabel position="15,50" size="1870,1" backgroundColor="#0000fafa"/>
+		<widget source="piconCh1" render="Picon" position="165,50" size="50,30" zPosition="1" alphatest="blend">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget source="piconCh2" render="Picon" position="540,50" size="50,30" zPosition="1" alphatest="blend">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget source="piconCh3" render="Picon" position="915,50" size="50,30" zPosition="1" alphatest="blend">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget source="piconCh4" render="Picon" position="1290,50" size="50,30" zPosition="1" alphatest="blend">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget source="piconCh5" render="Picon" position="1665,50" size="50,30" zPosition="1" alphatest="blend">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget name="currCh1" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="15,90" size="375,30"/>
+		<widget name="currCh2" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="390,90" size="375,30"/>
+		<widget name="currCh3" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="765,90" size="375,30"/>
+		<widget name="currCh4" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="1140,90" size="375,30"/>
+		<widget name="currCh5" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="1515,90" size="375,30"/>
+		<widget name="Active1" backgroundColor="#1A27408B" position="15,118" size="375,10" zPosition="2" transparent="0"/>
+		<widget name="Active2" backgroundColor="#1A27408B" position="390,118" size="375,10" zPosition="1"/>
+		<widget name="Active3" backgroundColor="#1A27408B" position="765,118" size="375,10" zPosition="1"/>
+		<widget name="Active4" backgroundColor="#1A27408B" position="1140,118" size="375,10" zPosition="1"/>
+		<widget name="Active5" backgroundColor="#1A27408B" position="1515,118" size="375,10" zPosition="1"/>
+		<widget name="list1" position="15,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+			TimeForegroundColor="#00FF9900"
+			TimeBackgroundColor="#00222222"
+			PrimeTimeForegroundColor="#00FFFFCC"
+			PrimeTimeBackgroundColor="#00666666"
+			EntryForegroundColor="#00CCFFFF"
+			EntryBackgroundColor="#00000000"
+			EntryForegroundColorSelected="#00FFFFFF"
+			EntryBackgroundColorSelected="#1A27408B"
+			EntryForegroundColorNow="#00CCFFCC"
+			EntryBackgroundColorNow="#00333333"
+			EntryForegroundColorNowSelected="#00FFFFFF"
+			EntryBackgroundColorNowSelected="#1A27408B"
+			EntryForegroundColorPast="#00808080"
+			EntryBackgroundColorPast="#00000000"
+			EntryForegroundColorPastSelected="#00FFFFFF"
+			EntryBackgroundColorPastSelected="#1A27408B"
+			EntryBorderColor="#00999999"
+			TimeFontVertical="Regular;26"
+			EventFontVertical="Regular;24"/>
+		<widget name="list2" position="390,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+			TimeForegroundColor="#00FF9900"
+			TimeBackgroundColor="#00222222"
+			PrimeTimeForegroundColor="#00FFFFCC"
+			PrimeTimeBackgroundColor="#00666666"
+			EntryForegroundColor="#00CCFFFF"
+			EntryBackgroundColor="#00000000"
+			EntryForegroundColorSelected="#00FFFFFF"
+			EntryBackgroundColorSelected="#1A27408B"
+			EntryForegroundColorNow="#00CCFFCC"
+			EntryBackgroundColorNow="#00333333"
+			EntryForegroundColorNowSelected="#00FFFFFF"
+			EntryBackgroundColorNowSelected="#1A27408B"
+			EntryForegroundColorPast="#00808080"
+			EntryBackgroundColorPast="#00000000"
+			EntryForegroundColorPastSelected="#00FFFFFF"
+			EntryBackgroundColorPastSelected="#1A27408B"
+			EntryBorderColor="#00999999"
+			TimeFontVertical="Regular;26"
+			EventFontVertical="Regular;24"/>
+		<widget name="list3" position="765,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+			TimeForegroundColor="#00FF9900"
+			TimeBackgroundColor="#00222222"
+			PrimeTimeForegroundColor="#00FFFFCC"
+			PrimeTimeBackgroundColor="#00666666"
+			EntryForegroundColor="#00CCFFFF"
+			EntryBackgroundColor="#00000000"
+			EntryForegroundColorSelected="#00FFFFFF"
+			EntryBackgroundColorSelected="#1A27408B"
+			EntryForegroundColorNow="#00CCFFCC"
+			EntryBackgroundColorNow="#00333333"
+			EntryForegroundColorNowSelected="#00FFFFFF"
+			EntryBackgroundColorNowSelected="#1A27408B"
+			EntryForegroundColorPast="#00808080"
+			EntryBackgroundColorPast="#00000000"
+			EntryForegroundColorPastSelected="#00FFFFFF"
+			EntryBackgroundColorPastSelected="#1A27408B"
+			EntryBorderColor="#00999999"
+			TimeFontVertical="Regular;26"
+			EventFontVertical="Regular;24"/>
+		<widget name="list4" position="1140,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+			TimeForegroundColor="#00FF9900"
+			TimeBackgroundColor="#00222222"
+			PrimeTimeForegroundColor="#00FFFFCC"
+			PrimeTimeBackgroundColor="#00666666"
+			EntryForegroundColor="#00CCFFFF"
+			EntryBackgroundColor="#00000000"
+			EntryForegroundColorSelected="#00FFFFFF"
+			EntryBackgroundColorSelected="#1A27408B"
+			EntryForegroundColorNow="#00CCFFCC"
+			EntryBackgroundColorNow="#00333333"
+			EntryForegroundColorNowSelected="#00FFFFFF"
+			EntryBackgroundColorNowSelected="#1A27408B"
+			EntryForegroundColorPast="#00808080"
+			EntryBackgroundColorPast="#00000000"
+			EntryForegroundColorPastSelected="#00FFFFFF"
+			EntryBackgroundColorPastSelected="#1A27408B"
+			EntryBorderColor="#00999999"
+			TimeFontVertical="Regular;26"
+			EventFontVertical="Regular;24"/>
+		<widget name="list5" position="1515,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+			TimeForegroundColor="#00FF9900"
+			TimeBackgroundColor="#00222222"
+			PrimeTimeForegroundColor="#00FFFFCC"
+			PrimeTimeBackgroundColor="#00666666"
+			EntryForegroundColor="#00CCFFFF"
+			EntryBackgroundColor="#00000000"
+			EntryForegroundColorSelected="#00FFFFFF"
+			EntryBackgroundColorSelected="#1A27408B"
+			EntryForegroundColorNow="#00CCFFCC"
+			EntryBackgroundColorNow="#00333333"
+			EntryForegroundColorNowSelected="#00FFFFFF"
+			EntryBackgroundColorNowSelected="#1A27408B"
+			EntryForegroundColorPast="#00808080"
+			EntryBackgroundColorPast="#00000000"
+			EntryForegroundColorPastSelected="#00FFFFFF"
+			EntryBackgroundColorPastSelected="#1A27408B"
+			EntryBorderColor="#00999999"
+			TimeFontVertical="Regular;26"
+			EventFontVertical="Regular;24"/>
+		<widget source="Event" render="Label" font="Regular;26" position="15,750" size="1875,240" backgroundColor="OE_NewBg2" verticalAlignment="top" >
+			<convert type="EventName">ExtendedDescription</convert>
+		</widget>
+		<ePixmap pixmap="buttons/key_menu.png" position="15,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_text.png" position="85,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_leftright.png" position="155,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_info.png" position="225,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_help.png" position="295,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<widget source="key_red" position="390,1010" size="40,40" render="Pixmap" pixmap="buttons/key_red.png" objectTypes="key_red,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_red" position="435,995" size="300,70" render="Label" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_red,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_green" position="740,1010" size="40,40" render="Pixmap" pixmap="buttons/key_green.png" objectTypes="key_green,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_green" render="Label" position="785,995" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_green,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_yellow" position="1090,1010" size="40,40" render="Pixmap" pixmap="buttons/key_yellow.png" objectTypes="key_yellow,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_yellow" render="Label" position="1135,995" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_yellow,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_blue" position="1440,1010" size="40,40" render="Pixmap" pixmap="buttons/key_blue.png" objectTypes="key_blue,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="key_blue" render="Label" position="1485,995" size="510,70" backgroundColor="OE_Background" font="RegularBold;24" horizontalAlignment="left" objectTypes="key_blue,StaticText" verticalAlignment="center" transparent="1" zPosition="1"/>
+	</screen>
 	<screen name="HarddiskSelection" title="Select HDD" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
@@ -1761,7 +1922,7 @@
 		<widget name="blue" position="500,795" size="0,0"/>
 		<ePixmap pixmap="buttons/key_help.png" position="260,950" size="64,43" zPosition="2" alphaTest="blend"/>
 		<widget name="FullDescription" position="85,122" size="0,0" font="Regular;22" horizontalAlignment="left" zPosition="3" backgroundColor="OE_Background" transparent="1"/>
-		<!--widget name="epg_eventname" position="35,122" size="0,0" font="Regular;22" horizontalAlignment="left" zPosition="3" backgroundColor="OE_Background" transparent="1"/-->
+		<!--widget name="epg_eventname" position="35,122" size="0,0" font="Regular;22" horizontalAlignment="left" zPosition="3" backgroundColor="OE_Background" transparent="1"/ -->
 		<widget source="Event" render="Progress" backgroundColor="blue_light" pixmap="colors/green_light.png" position="40,140" size="290,6" transparent="0" zPosition="3">
 			<convert type="EventTime">Progress</convert>
 		</widget>
@@ -2276,7 +2437,7 @@
 	</screen>
 	<!-- MOVIESELECTION -->
 	<screen name="MovieSelection" title="Select a movie" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
-		<!--panel name="poster_movieselection"/-->
+		<!--panel name="poster_movieselection"/ -->
 		<panel name="FrameClock"/>
 		<panel name="TemplateFrame"/>
 		<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="465,60" size="1345,90" horizontalAlignment="center" verticalAlignment="center" transparent="1"/>
@@ -5224,7 +5385,7 @@
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<widget name="config" itemHeight="50" position="26,140" size="1250,500" font="RegularBold;26" valueFont="RegularBold;22" backgroundColor="OE_Background" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" transparent="1"/>
-		<widget name="check" position="1259,150" size="17,24" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/spzCAMD/images/checkok.png" transparent="1" zPosition="2" />
+		<widget name="check" position="1259,150" size="17,24" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/spzCAMD/images/checkok.png" transparent="1" zPosition="2"/>
 		<widget name="info" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1"/>
 		<widget name="list" position="26,550" size="620,250" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_Background" transparent="1"/>
 	</screen>
