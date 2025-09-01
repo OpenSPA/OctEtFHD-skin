@@ -174,8 +174,8 @@
 	<parameter name="ChoicelistNameSingle" value="5, 0, 1400, 50"/>
 	<parameter name="ChoicelistIcon" value="10, 2, 64, 50"/>
 	<parameter name="SelectionListDescr" value="55, 2, 1000, 45"/>
-	<parameter name="SelectionListLock" value="10, 12, 45, 45"/>
-	<parameter name="SelectionListLockOff" value="10, 12, 45, 45"/>
+	<parameter name="SelectionListLock" value="10, 5, 45, 45"/>
+	<parameter name="SelectionListLockOff" value="10, 5, 45, 45"/>
 	<parameter name="DreamexplorerIcon" value="15, 4, 30, 30"/>
 	<parameter name="DreamexplorerName" value="62, 0, 1200, 38"/>
 	<parameter name="ExpandableListIcon" value="0, 12, 30, 38"/>
@@ -3004,7 +3004,7 @@
 					[
 					MultiContentEntryPixmapAlphaBlend(pos=(10, 15), size=(100, 40), png=3, flags=BT_SCALE),
 					MultiContentEntryText(pos=(125, 3), size=(865, 35), font=0, flags=RT_HALIGN_LEFT | RT_VALIGN_TOP, text=1),
-					MultiContentEntryText(pos=(125, 36), size=(865, 25), font=1, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=2, color=0x44a2ff,color_sel=0x0000fafa)
+					MultiContentEntryText(pos=(125, 36), size=(1120, 25), font=1, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=2, color=0x44a2ff,color_sel=0x0000fafa)
 					],
 				"fonts": [parseFont("RegularBold;27"), parseFont("RegularBold;22")],
 				"itemHeight": 65
