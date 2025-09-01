@@ -86,7 +86,7 @@
 		<ePixmap objectTypes="key_blue,Button,Label" alphaTest="blend" pixmap="buttons/key_blue.png" position="975,979" size="40,40"/>
 		<widget objectTypes="key_red,Label,Button" name="key_red" font="RegularBold;24" backgroundColor="OE_Background" position="65,965" size="255,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 		<widget objectTypes="key_green,Label,Button" name="key_green" font="RegularBold;24" backgroundColor="OE_Background" position="370,965" size="270,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget objectTypes="key_yellow,Label,Button" name="key_yellow" font="RegularBold;24" backgroundColor="OE_Background" position="705,965" size="260,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget objectTypes="key_yellow,Label,Button" name="key_yellow" font="RegularBold;24" backgroundColor="OE_Background" position="700,965" size="260,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 		<widget objectTypes="key_blue,Label,Button" name="key_blue" font="RegularBold;24" backgroundColor="OE_Background" position="1020,965" size="260,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 		<widget source="key_red" render="Pixmap" pixmap="buttons/key_red.png" objectTypes="key_red,StaticText" backgroundColor="OE_Background" position="20,979" size="40,40" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
@@ -96,7 +96,7 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget source="key_green" render="Label" objectTypes="key_green,StaticText" font="RegularBold;24" backgroundColor="OE_Background" position="370,965" size="270,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_yellow" render="Label" objectTypes="key_yellow,StaticText" font="RegularBold;24" backgroundColor="OE_Background" position="705,965" size="260,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_yellow" render="Label" objectTypes="key_yellow,StaticText" font="RegularBold;24" backgroundColor="OE_Background" position="700,965" size="260,70" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 		<widget source="key_yellow" render="Pixmap" pixmap="buttons/key_yellow.png" objectTypes="key_yellow,StaticText" backgroundColor="OE_Background" position="655,979" size="40,40" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
