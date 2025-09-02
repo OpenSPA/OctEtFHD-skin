@@ -1750,40 +1750,40 @@
 	<!-- EPG VERTICAL -->
 	<screen name="EPGvertical" position="0,0" size="1920,1080" backgroundColor="OE_NewBg2" flags="wfNoBorder" title="Vertical Program Guide">
 		<widget name="lab1" position="0,50" size="1920,115" font="Regular;24" horizontalAlignment="center" verticalAlignment="center" zPosition="20" backgroundColor="black" transparent="0"/>
-		<eLabel text="Vertical EPG" position="15,5" size="300,40" font="Regular;30" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" horizontalAlignment="left" verticalAlignment="center"/>
-		<widget source="Title" render="Label" position="350,5" size="620,40" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" noWrap="1" horizontalAlignment="center" verticalAlignment="center" font="Regular;28"/>
-		<widget name="bouquetlist" position="350,5" size="620,40" backgroundColorSelected="#1A27408B" borderColor="#00bbbbbb" zPosition="5" itemHeight="40" font="Regular;25" transparent="0"/>
+		<eLabel text="Vertical EPG" position="20,5" size="300,40" font="Regular;30" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" horizontalAlignment="left" verticalAlignment="center"/>
+		<widget source="Title" render="Label" position="355,5" size="620,40" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" noWrap="1" horizontalAlignment="center" verticalAlignment="center" font="Regular;28"/>
+		<widget name="bouquetlist" position="355,5" size="625,40" backgroundColorSelected="#1A27408B" borderColor="#00bbbbbb" zPosition="5" itemHeight="40" font="Regular;25" transparent="0"/>
 		<widget enableWrapAround="0" itemHeight="20" font="Regular;0" name="list" position="0,0" size="0,100" zPosition="-10"/>
-		<widget source="global.CurrentTime" render="Label" position="1580,5" size="300,40" font="Regular;28" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" horizontalAlignment="right" verticalAlignment="center">
+		<widget source="global.CurrentTime" render="Label" position="1585,5" size="300,40" font="Regular;28" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" horizontalAlignment="right" verticalAlignment="center">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel position="15,50" size="1870,1" backgroundColor="#0000fafa"/>
-		<widget source="piconCh1" render="Picon" position="165,50" size="50,30" zPosition="1" alphatest="blend">
+		<eLabel position="20,50" size="1870,1" backgroundColor="#0000fafa"/>
+		<widget source="piconCh1" render="Picon" position="170,50" size="50,30" zPosition="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<widget source="piconCh2" render="Picon" position="540,50" size="50,30" zPosition="1" alphatest="blend">
+		<widget source="piconCh2" render="Picon" position="545,50" size="50,30" zPosition="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<widget source="piconCh3" render="Picon" position="915,50" size="50,30" zPosition="1" alphatest="blend">
+		<widget source="piconCh3" render="Picon" position="920,50" size="50,30" zPosition="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<widget source="piconCh4" render="Picon" position="1290,50" size="50,30" zPosition="1" alphatest="blend">
+		<widget source="piconCh4" render="Picon" position="1295,50" size="50,30" zPosition="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<widget source="piconCh5" render="Picon" position="1665,50" size="50,30" zPosition="1" alphatest="blend">
+		<widget source="piconCh5" render="Picon" position="1670,50" size="50,30" zPosition="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<widget name="currCh1" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="15,90" size="375,30"/>
-		<widget name="currCh2" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="390,90" size="375,30"/>
-		<widget name="currCh3" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="765,90" size="375,30"/>
-		<widget name="currCh4" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="1140,90" size="375,30"/>
-		<widget name="currCh5" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="1515,90" size="375,30"/>
-		<widget name="Active1" backgroundColor="#1A27408B" position="15,118" size="375,10" zPosition="2" transparent="0"/>
-		<widget name="Active2" backgroundColor="#1A27408B" position="390,118" size="375,10" zPosition="1"/>
-		<widget name="Active3" backgroundColor="#1A27408B" position="765,118" size="375,10" zPosition="1"/>
-		<widget name="Active4" backgroundColor="#1A27408B" position="1140,118" size="375,10" zPosition="1"/>
-		<widget name="Active5" backgroundColor="#1A27408B" position="1515,118" size="375,10" zPosition="1"/>
-		<widget name="list1" position="15,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+		<widget name="currCh1" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="20,90" size="375,30"/>
+		<widget name="currCh2" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="395,90" size="375,30"/>
+		<widget name="currCh3" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="770,90" size="375,30"/>
+		<widget name="currCh4" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="1145,90" size="375,30"/>
+		<widget name="currCh5" font="Regular;22" horizontalAlignment="center" foregroundColor="#0000fafa" position="1520,90" size="375,30"/>
+		<widget name="Active1" backgroundColor="#1A27408B" position="20,118" size="375,10" zPosition="2" transparent="0"/>
+		<widget name="Active2" backgroundColor="#1A27408B" position="395,118" size="375,10" zPosition="1"/>
+		<widget name="Active3" backgroundColor="#1A27408B" position="770,118" size="375,10" zPosition="1"/>
+		<widget name="Active4" backgroundColor="#1A27408B" position="1145,118" size="375,10" zPosition="1"/>
+		<widget name="Active5" backgroundColor="#1A27408B" position="1520,118" size="375,10" zPosition="1"/>
+		<widget name="list1" position="20,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
 			TimeForegroundColor="#00FF9900"
 			TimeBackgroundColor="#00222222"
 			PrimeTimeForegroundColor="#00FFFFCC"
@@ -1803,7 +1803,7 @@
 			EntryBorderColor="#00999999"
 			TimeFontVertical="Regular;26"
 			EventFontVertical="Regular;24"/>
-		<widget name="list2" position="390,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+		<widget name="list2" position="395,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
 			TimeForegroundColor="#00FF9900"
 			TimeBackgroundColor="#00222222"
 			PrimeTimeForegroundColor="#00FFFFCC"
@@ -1823,7 +1823,7 @@
 			EntryBorderColor="#00999999"
 			TimeFontVertical="Regular;26"
 			EventFontVertical="Regular;24"/>
-		<widget name="list3" position="765,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+		<widget name="list3" position="770,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
 			TimeForegroundColor="#00FF9900"
 			TimeBackgroundColor="#00222222"
 			PrimeTimeForegroundColor="#00FFFFCC"
@@ -1843,7 +1843,7 @@
 			EntryBorderColor="#00999999"
 			TimeFontVertical="Regular;26"
 			EventFontVertical="Regular;24"/>
-		<widget name="list4" position="1140,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+		<widget name="list4" position="1145,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
 			TimeForegroundColor="#00FF9900"
 			TimeBackgroundColor="#00222222"
 			PrimeTimeForegroundColor="#00FFFFCC"
@@ -1863,7 +1863,7 @@
 			EntryBorderColor="#00999999"
 			TimeFontVertical="Regular;26"
 			EventFontVertical="Regular;24"/>
-		<widget name="list5" position="1515,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
+		<widget name="list5" position="1520,130" size="375,600" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light"
 			TimeForegroundColor="#00FF9900"
 			TimeBackgroundColor="#00222222"
 			PrimeTimeForegroundColor="#00FFFFCC"
@@ -1883,30 +1883,30 @@
 			EntryBorderColor="#00999999"
 			TimeFontVertical="Regular;26"
 			EventFontVertical="Regular;24"/>
-		<widget source="Event" render="Label" font="Regular;26" position="15,750" size="1875,240" backgroundColor="OE_NewBg2" verticalAlignment="top" >
+		<widget source="Event" render="Label" font="Regular;26" position="20,750" size="1870,240" backgroundColor="OE_NewBg2" verticalAlignment="top" >
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<ePixmap pixmap="buttons/key_menu.png" position="15,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_text.png" position="85,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_leftright.png" position="155,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_info.png" position="225,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_help.png" position="295,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<widget source="key_red" position="390,1010" size="40,40" render="Pixmap" pixmap="buttons/key_red.png" objectTypes="key_red,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+		<ePixmap pixmap="buttons/key_menu.png" position="20,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_text.png" position="90,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_leftright.png" position="160,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_info.png" position="230,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_help.png" position="300,1010" size="64,43" zPosition="2" alphaTest="blend"/>
+		<widget source="key_red" position="395,1010" size="40,40" render="Pixmap" pixmap="buttons/key_red.png" objectTypes="key_red,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_red" position="435,995" size="300,70" render="Label" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_red,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_green" position="740,1010" size="40,40" render="Pixmap" pixmap="buttons/key_green.png" objectTypes="key_green,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+		<widget source="key_red" position="440,995" size="300,70" render="Label" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_red,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_green" position="745,1010" size="40,40" render="Pixmap" pixmap="buttons/key_green.png" objectTypes="key_green,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_green" render="Label" position="785,995" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_green,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_yellow" position="1090,1010" size="40,40" render="Pixmap" pixmap="buttons/key_yellow.png" objectTypes="key_yellow,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+		<widget source="key_green" render="Label" position="790,995" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_green,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_yellow" position="1095,1010" size="40,40" render="Pixmap" pixmap="buttons/key_yellow.png" objectTypes="key_yellow,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_yellow" render="Label" position="1135,995" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_yellow,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_blue" position="1440,1010" size="40,40" render="Pixmap" pixmap="buttons/key_blue.png" objectTypes="key_blue,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+		<widget source="key_yellow" render="Label" position="1140,995" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_yellow,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_blue" position="1445,1010" size="40,40" render="Pixmap" pixmap="buttons/key_blue.png" objectTypes="key_blue,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_blue" render="Label" position="1485,995" size="510,70" backgroundColor="OE_Background" font="RegularBold;24" horizontalAlignment="left" objectTypes="key_blue,StaticText" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_blue" render="Label" position="1490,995" size="510,70" backgroundColor="OE_Background" font="RegularBold;24" horizontalAlignment="left" objectTypes="key_blue,StaticText" verticalAlignment="center" transparent="1" zPosition="1"/>
 	</screen>
 	<screen name="HarddiskSelection" title="Select HDD" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
