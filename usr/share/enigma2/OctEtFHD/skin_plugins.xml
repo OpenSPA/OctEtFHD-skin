@@ -100,7 +100,7 @@
 	<widget source="statusbar" render="Label" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,145" size="1250,45" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,200" size="1250,2" zPosition="-9"/>
 	<widget name="menu" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,215" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -118,7 +118,7 @@
 	<!-- Widget -->
 	<eLabel text="AntiScroll Setup" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -149,7 +149,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -181,7 +181,7 @@
 	<widget name="label" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,150" size="1250,45" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,200" size="1250,2" zPosition="-9"/>
 	<widget name="filelist" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,220" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -241,7 +241,7 @@
 	<eLabel backgroundColor="white" position="648,160" size="2,810" zPosition="-9"/>
 	<widget name="c_title" backgroundColor="OE_Background" foregroundColor="green_light" position="700,160" size="770,50" font="RegularBold;25" transparent="1" horizontalAlignment="center"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="700,220" size="770,750" transparent="1"/>
-	<!-- /*Buttons-->
+	<!-- /*Buttons -->
 	<widget name="label_layout" position="305,750" size="240,20" font="Regular;15" verticalAlignment="center" horizontalAlignment="center" transparent="1"/>
 	<widget name="label_tl" position="325,775" size="100,20" font="Console;15" verticalAlignment="center" horizontalAlignment="center" zPosition="5" transparent="1" foregroundColor="red"/>
 	<widget name="label_tc" position="375,775" size="100,20" font="Console;15" verticalAlignment="center" horizontalAlignment="center" zPosition="5" transparent="1" foregroundColor="red"/>
@@ -274,7 +274,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,875" size="1250,2" zPosition="-9"/>
 	<widget name="PluginInfo" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,890" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -298,7 +298,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,875" size="1250,2" zPosition="-9"/>
 	<widget name="PluginInfo" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,890" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -341,10 +341,10 @@
 	<widget name="placeh" position="268,655" size="250,45" font="RegularBold;25" horizontalAlignment="left" zPosition="2" transparent="1"/>
 	<widget name="defcheck" position="602,660" size="35,35" alphaTest="blend" zPosition="1" pixmaps="icons/lock_off.png,icons/lock_on.png"/>
 	<widget name="def" position="650,655" size="250,45" font="RegularBold;25" horizontalAlignment="left" zPosition="2" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap position="78,960" size="64,43" pixmap="buttons/key_menu.png" transparent="1" alphaTest="blend"/>
 	<ePixmap position="78,905" size="64,43" pixmap="buttons/key_info.png" transparent="1" alphaTest="blend"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -367,7 +367,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,650" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,825" size="1250,2" zPosition="-9"/>
 	<widget source="help" render="Label" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,840" size="1250,95" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -400,7 +400,7 @@
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="about" font="RegularBold;25" backgroundColor="OE_Background" position="170,150" size="1250,650" transparent="1"/>
 	<widget name="oealogo" position="170,805" size="200,135" zPosition="4" transparent="1" alphaTest="blend"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="key_red" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="270,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -428,7 +428,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -463,7 +463,7 @@
 				"fonts":[gFont("RegularBold",30) ],"itemHeight":50}
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -503,7 +503,7 @@
 	<!-- Widget -->
 	<eLabel text="BirthdayReminder Setup" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -526,7 +526,7 @@
 	<widget name="target" position="170,155" size="1250,50" font="RegularBold;32" backgroundColor="OE_Background" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,210" size="1250,2" zPosition="-9"/>
 	<widget name="filelist" font="RegularBold;25" itemHeight="50" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,225" size="1250,700" transparent="1" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -563,7 +563,7 @@
 	<widget name="acur" position="1105,650" size="120,40" font="Regular;30" backgroundColor="OE_Background" foregroundColor="OE_Foreground" transparent="1"/>
 	<eLabel backgroundColor="green_light" position="670,423" size="85,2" zPosition="-9" foregroundColor="green_light"/>
 	<eLabel backgroundColor="un5678a4" position="670,603" size="85,2" zPosition="-9" foregroundColor="un5678a4"/>
-	<!-- /*Buttons-->
+	<!-- /*Buttons -->
 	<eLabel backgroundColor="white" position="center,715" size="640,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="640,730" size="40,40"/>
 	<widget name="cancel" backgroundColor="OE_Background" font="Regular;28" position="690,730" size="240,40" transparent="1" zPosition="1" horizontalAlignment="left"/>
@@ -579,9 +579,9 @@
 	<eLabel backgroundColor="white" position="170,200" size="1250,2" zPosition="-9"/>
 	<widget name="frame" position="170,145" size="1250,50" font="RegularBold;32" backgroundColor="OE_Background" transparent="1"/>
 	<widget name="menu" itemHeight="90" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,215" size="1250,720" transparent="1"/>
-	<!-- Button-->
+	<!-- Button -->
 	<ePixmap name="new ePixmap" pixmap="buttons/key_menu.png" position="78,960" size="64,43" alphaTest="blend"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -612,7 +612,7 @@
 	<widget name="pic6" position="170,645" size="55,70" alphaTest="blend" zPosition="2"/>
 	<widget name="pic7" position="170,715" size="55,70" alphaTest="blend" zPosition="2"/>
 	<widget name="pic8" position="170,785" size="55,70" alphaTest="blend" zPosition="2"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap name="new ePixmap" pixmap="buttons/key_menu.png" position="78,960" size="64,43" alphaTest="blend"/>
 	<ePixmap name="new ePixmap" pixmap="buttons/key_ok.png" position="1406,230" size="64,43" alphaTest="blend"/>
@@ -641,7 +641,7 @@
 	<widget name="discinfo" position="440,300" size="1030,140" font="RegularBold;28" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="1" backgroundColor="OE_Background"/>
 	<widget name="discinfo_small" position="440,445" size="1030,95" font="Regular;28" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="1"/>
 	<widget name="bigpic" position="170,560" size="240,110" alphaTest="blend" zPosition="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap name="new ePixmap" pixmap="buttons/key_exit.png" position="78,960" size="64,43" alphaTest="blend"/>
 	<ePixmap name="new ePixmap" pixmap="buttons/key_ok.png" position="1406,230" size="64,43" alphaTest="blend"/>
@@ -703,7 +703,7 @@
 	<eLabel backgroundColor="white" position="170,215" size="1250,2" zPosition="-9"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" backgroundColor="OE_Background" enableWrapAround="1" position="170,230" scrollbarMode="showOnDemand" size="1250,400" transparent="1"/>
 	<widget name="plugin" position="170,635" size="533,300" alphaTest="blend" zPosition="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -754,7 +754,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_blue.png" position="500,960" size="40,40"/>
@@ -773,7 +773,7 @@
 	<widget name="label" position="170,145" size="1250,45" font="RegularBold;25" backgroundColor="OE_Background" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,200" size="1250,2" zPosition="-9"/>
 	<widget name="filelist" itemHeight="90" font="RegularBold;25" backgroundColor="OE_Background" position="171,215" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -813,7 +813,7 @@
 	<widget name="leds-bottom-right" position="456,650" size="50,50" verticalAlignment="center" horizontalAlignment="center" zPosition="11" transparent="1" font="Regular;18"/>
 	<widget name="leds-left" position="565,501" size="50,50" verticalAlignment="center" horizontalAlignment="center" zPosition="11" transparent="1" font="Regular;18"/>
 	<widget name="channels" position="190,567" size="350,50" verticalAlignment="center" horizontalAlignment="center" zPosition="11" foregroundColor="blue_light" transparent="1" font="Regular;18"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="680,930" size="1160,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="680,950" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="1040,950" size="40,40"/>
@@ -862,7 +862,7 @@
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="240,313" size="1000,50" transparent="1" verticalAlignment="center" zPosition="3"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="240,385" size="1000,250" transparent="1" horizontalAlignment="left" verticalAlignment="center"/>
 	<widget name="infoLabel" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="240,640" size="1000,45" transparent="1" verticalAlignment="center"/>
-	<!-- /*Buttons-->
+	<!-- /*Buttons -->
 	<eLabel backgroundColor="white" position="240,700" size="1000,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="240,720" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_left.png" position="530,718" size="64,43"/>
@@ -924,7 +924,7 @@
 	<ePixmap name="logo" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Boblight-enigma2/pic/logo.png" zPosition="2" position="935,765" size="150,150" alphaTest="on"/>
 	<widget name="preview" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="1175,575" size="655,45" transparent="1" horizontalAlignment="right"/>
 	<widget source="Canvas" render="Canvas" position="1580,630" zPosition="10" size="250,300"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="66,831" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="76,580" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="76,640" size="40,40"/>
@@ -949,7 +949,7 @@
 	<widget name="devicelist" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,875" size="1250,2" zPosition="-9"/>
 	<widget name="ConnStatus" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,890" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -1008,7 +1008,7 @@
 	<widget name="pfree" position="980,40" size="150,40" font="Regular;28" zPosition="3" horizontalAlignment="center" backgroundColor="OE_Background" transparent="1"/>
 	<widget name="pused" position="980,1000" size="150,40" font="Regular;28" zPosition="3" horizontalAlignment="center" backgroundColor="OE_Background" transparent="1"/>
 	<widget name="slide" render="Progress" position="1040,center" size="30,900" zPosition="3" scrollbarBorderWidth="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="90,145" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="90,205" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_blue.png" position="90,265" size="40,40"/>
@@ -1043,7 +1043,7 @@
 	<widget name="klu" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/camoFS/k_l_u.png" position="175,434" size="40,40" zPosition="6" alphaTest="on"/>
 	<widget name="kro" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/camoFS/k_r_o.png" position="725,155" size="40,40" zPosition="6" alphaTest="on"/>
 	<widget name="kru" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/camoFS/k_r_u.png" position="725,435" size="40,40" zPosition="6" alphaTest="on"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -1077,7 +1077,7 @@
 	<widget name="textpage" position="210,530" size="1220,365" font="Regular;28" horizontalAlignment="left" transparent="1" zPosition="1"/>
 	<widget name="label" position="750,145" size="640,50" font="Regular;28" foregroundColor="OE_Foreground" backgroundColor="OE_Background" horizontalAlignment="left" transparent="1" zPosition="2"/>
 	<widget name="label4" position="210,170" size="300,60" font="Regular;28" foregroundColor="OE_Foreground" backgroundColor="OE_Background" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="2"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="590,960" size="40,40"/>
@@ -1136,7 +1136,7 @@
 	<eLabel text="Chefkoch Favoriten" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<ePixmap position="850,61" size="620,60" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Chefkoch/pic/chefkochHD.png" alphaTest="blend" zPosition="1"/>
 	<widget name="favmenu" itemHeight="50" font="RegularBold;25" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="label" font="Regular;28" backgroundColor="OE_Background" horizontalAlignment="left" verticalAlignment="center" position="220,960" size="370,40" transparent="1" zPosition="1"/>
@@ -1180,7 +1180,7 @@
 	<widget name="mainmenu" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" position="470,360" size="300,500" foregroundColor="OE_Foreground" backgroundColor="OE_Background" transparent="1" zPosition="2" horizontalAlignment="center"/>
 	<widget name="secondmenu" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" position="470,360" size="300,500" foregroundColor="OE_Foreground" backgroundColor="OE_Background" transparent="1" zPosition="2" horizontalAlignment="center"/>
 	<widget name="thirdmenu" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" position="470,360" size="300,500" foregroundColor="OE_Foreground" backgroundColor="OE_Background" transparent="1" zPosition="2" horizontalAlignment="center"/>
-	<!-- /*Buttons-->
+	<!-- /*Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="78,940" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="1030,150" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="170,150" size="40,40"/>
@@ -1203,7 +1203,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,205" size="760,700" transparent="1"/>
 	<ePixmap position="170,145" size="530,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Chefkoch/pic/chefkoch.png" alphaTest="blend" zPosition="1"/>
 	<widget name="plugin" position="955,205" size="512,288" alphaTest="blend" zPosition="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -1222,7 +1222,7 @@
 	<eLabel text="Clever Tanken Main" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="820,50" transparent="1"/>
 	<ePixmap position="170,150" size="800,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/clever-tanken/pic/logo_800.png" alphaTest="blend" zPosition="1"/>
 	<widget name="menu" itemHeight="50" font="RegularBold;25" scrollbarMode="showNever" backgroundColor="OE_Background" position="170,230" size="800,480" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="78,960" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="78,840" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_help.png" position="78,900" size="64,43"/>
@@ -1238,7 +1238,7 @@
 	<eLabel text="Help ..." font="RegularBold;30" backgroundColor="OE_Background" position="170,473" size="1000,50" transparent="1"/>
 	<ePixmap position="440,300" size="800,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/clever-tanken/pic/logo_800.png" alphaTest="blend" zPosition="1"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_exit.png" position="78,560" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,560" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,560" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_blue.png" position="830,560" size="40,40"/>
@@ -1255,7 +1255,7 @@
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="800,50" transparent="1"/>
 	<ePixmap position="170,155" size="800,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/clever-tanken/pic/logo_800.png" alphaTest="blend" zPosition="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showNever" enableWrapAround="1" backgroundColor="OE_Background" position="170,225" size="800,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="800,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -1291,7 +1291,7 @@
 	<widget source="info" render="Label" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,645" size="1250,125" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,790" size="1250,1" zPosition="-9"/>
 	<widget source="info2" render="Label" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,805" size="1250,125" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -1311,7 +1311,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="text" font="Console; 28" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -1528,12 +1528,12 @@
 	<widget name="CoolSimilar" position="80,600" size="520,340" font="RegularBold;28" foregroundColor="OE_Foreground" backgroundColor="OE_Background" transparent="1"/>
 	<widget name="CoolEvent" position="630,205" size="1200,300" itemHeight="50" zPosition="5" CoolFont="RegularBold;28" CoolDayPos="10" CoolDaySize="60" CoolTimePos="70" CoolTimeSize="200" CoolEventPos="300" CoolDurationPos="1040" CoolDurationSize="160" CoolDayColor="OE_Foreground" CoolTimeColor="OE_Foreground" CoolEventColor="OE_Foreground" CoolDurationColor="OE_Foreground" CoolTunerCol="#606060" CoolRecAlarmCol="#B59E01" CoolRecColor="#9F1313" CoolBackColorSel="OE_Selection" backgroundColor="OE_Background" transparent="1"/>
 	<widget name="CoolDescription" position="630,570" size="1200,350" font="RegularBold;28" backgroundColor="OE_Background" shadowColor="#000000" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_left.png" position="620,150" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_right.png" position="694,150" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_up.png" position="694,515" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_down.png" position="620,515" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="456,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="530,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="630,950" size="40,40"/>
@@ -1579,7 +1579,7 @@
 	<widget name="list" position="center,365" size="1760,550" CoolBorderColR="#000000" CoolBorderColL="#000000" scrollbarMode="showNever" transparent="1"/>
 	<widget name="timeline_now" position="0,360" zPosition="2" size="17,555" pixmap="extensions/timeline-now.png" alphaTest="blend"/>
 	<widget name="date" font="RegularBold;25" backgroundColor="OE_Background" position="1440,948" size="400,45" horizontalAlignment="right" transparent="1" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="80,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="160,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="250,950" size="40,40"/>
@@ -1606,7 +1606,7 @@
 	<widget name="timeline_text" selection="0" position="center,150" size="1820,46" backgroundColor="OE_NewBg2" transparent="0" font="RegularBold;28"/>
 	<widget name="list" position="center,210" size="1760,680" CoolBorderColR="#000000" CoolBorderColL="#000000" scrollbarMode="showNever" transparent="1"/>
 	<widget name="timeline_now" position="0,205" zPosition="2" size="17,685" pixmap="extensions/timeline-now.png" alphaTest="blend"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="80,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="160,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="250,950" size="40,40"/>
@@ -1652,7 +1652,7 @@
 	<widget name="list" position="center,365" size="1760,550" CoolBorderColR="#000000" CoolBorderColL="#000000" scrollbarMode="showNever" transparent="1"/>
 	<widget name="timeline_now" position="0,360" zPosition="2" size="17,555" pixmap="extensions/timeline-now.png" alphaTest="blend"/>
 	<widget name="date" font="RegularBold;25" backgroundColor="OE_Background" position="1440,948" size="400,45" horizontalAlignment="right" transparent="1" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="80,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="160,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="250,950" size="40,40"/>
@@ -1686,7 +1686,7 @@
 	    <convert type="EventName">ExtendedDescription</convert>
 	</widget>
 	<widget name="list" itemHeight="50" CoolFont="RegularBold;25" CoolServiceFont="RegularBold;28" CoolEventFont="RegularBold;28" CoolDayPos="0" CoolDayHPos="5" CoolDatePos="80" CoolDateHPos="5" CoolTimePos="170" CoolTimeHPos="5" CoolServicePos="260" CoolServiceHPos="2" CoolEventPos="520" CoolEventHPos="5" CoolDaySize="60" CoolDateSize="80" CoolTimeSize="90" CoolServiceSize="300" CoolEventSize="700" CoolDayColor="blue_light" CoolDateColor="white" CoolTimeColor="blue_light" CoolServiceColor="white" CoolEventColor="green_light" CoolBackColor="OE_Background" CoolBackColorSel="OE_Selection" CoolRecEventBackColor="#000000" CoolRecAlarmCol="#B59E01" CoolRecColor="#9F1313" backgroundColor="OE_Background" position="630,155" size="1200,750" zPosition="3" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="530,950" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="630,950" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="930,950" size="40,40"/>
@@ -1711,7 +1711,7 @@
 	<eLabel backgroundColor="white" position="170,825" size="1250,2" zPosition="-9"/>
 	<widget name="CoolText1" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,840" size="1250,45" transparent="1"/>
 	<widget name="CoolText2" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,890" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -1925,7 +1925,7 @@
 	<widget name="namesat" font="RegularBold;25" backgroundColor="OE_Background" position="470,705" size="1000,45" transparent="1" verticalAlignment="center"/>
 	<widget name="dataDow" font="RegularBold;25" backgroundColor="OE_Background" position="170,760" size="1250,50" transparent="1" verticalAlignment="center"/>
 	<eLabel backgroundColor="white" position="170,690" size="1250,2" zPosition="-9"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="Green" alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -1980,7 +1980,7 @@
 	<widget name="directory" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="170,150" size="1250,45" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,205" size="1250,2" zPosition="-9"/>
 	<widget name="filelist" font="RegularBold;25" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,220" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2001,7 +2001,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2022,7 +2022,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="devicelist" font="RegularBold;25" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2064,7 +2064,7 @@
 	<widget name="currentDir" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="170,150" size="1250,45" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,205" size="1250,2" zPosition="-9"/>
 	<widget name="filelist" font="RegularBold;25" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,220" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2087,7 +2087,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,875" size="1250,2" zPosition="-9"/>
 	<widget name="information" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,890" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2111,10 +2111,10 @@
 	<widget source="Title" render="Label" font="RegularBold;25" backgroundColor="OE_Background" position="170,145" size="1250,45" transparent="1" verticalAlignment="center"/>
 	<eLabel backgroundColor="white" position="170,200" size="1250,2" zPosition="-9"/>
 	<widget name="filelist" font="Regular;32" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,210" size="1250,700" transparent="1" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="1110,958" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="1326,958" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="395,960" size="40,40"/>
@@ -2154,7 +2154,7 @@
 	<widget name="File" font="Regular;28" backgroundColor="OE_Background" position="170,145" size="1250,100" transparent="1" verticalAlignment="center"/>
 	<eLabel backgroundColor="white" position="170,250" size="1250,2" zPosition="-9"/>
 	<widget name="CPto" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,260" size="1250,650" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="395,960" size="40,40"/>
@@ -2173,7 +2173,7 @@
 	<widget name="File" font="Regular;28" backgroundColor="OE_Background" position="170,145" size="1250,100" transparent="1" verticalAlignment="center"/>
 	<eLabel backgroundColor="white" position="170,250" size="1250,2" zPosition="-9"/>
 	<widget name="SLto" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,260" size="1250,650" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="455,960" size="40,40"/>
@@ -2198,7 +2198,7 @@
 	<widget name="buddy.desc" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="green_light" horizontalAlignment="left" position="1090,140" size="380,45" transparent="1"/>
 	<widget name="buddy" font="RegularBold;25" backgroundColor="OE_Background" horizontalAlignment="left" position="1090,195" size="380,600" transparent="1"/>
 	<widget name="input" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="26,870" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="blue_light" position="26,800" size="1250,2" zPosition="-9"/>
 	<widget name="red.pic" alphaTest="blend" pixmap="buttons/key_red.png" position="90,980" size="40,40"/>
 	<widget name="green.pic" alphaTest="blend" pixmap="buttons/key_green.png" position="395,980" size="40,40"/>
@@ -2234,7 +2234,7 @@
 			}
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2282,7 +2282,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2303,7 +2303,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="list" font="RegularBold;25" itemHeight="50" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="key_red" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="270,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -2323,7 +2323,7 @@
 	<eLabel backgroundColor="white" position="170,875" size="1250,1" zPosition="-9"/>
 	<widget source="space_bar" render="Progress" font="Regular;30" backgroundColor="green_light" position="170,890" size="1250,45" transparent="1" verticalAlignment="center"/>
 	<widget source="space_label" render="Label" font="Regular;30" backgroundColor="OE_Background" position="270,890" size="1100,45" transparent="1" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2344,7 +2344,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" position="170,145" size="1250,550" transparent="1" backgroundColor="OE_Background"/>
 	<eLabel backgroundColor="white" position="170,710" size="1250,2" zPosition="-9"/>
 	<widget source="info" render="Label" font="Regular;30" backgroundColor="OE_Background" position="170,720" size="1250,205" transparent="1" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2387,10 +2387,10 @@
 	<widget source="space_label_single" render="Label" font="Regular;30" backgroundColor="dark" foregroundColor="OE_Foreground" position="190,820" size="560,45" transparent="1" verticalAlignment="center"/>
 	<widget source="space_bar_dual" render="Progress" font="Regular;30" backgroundColor="dark" position="870,820" size="600,45" transparent="1" verticalAlignment="center" zPosition="2"/>
 	<widget source="space_label_dual" render="Label" font="Regular;30" backgroundColor="dark" foregroundColor="OE_Foreground" position="890,820" size="560,45" transparent="1" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="78,890" size="64,43"/>
 	<widget source="hint" render="Label" backgroundColor="OE_Background" font="Regular;28" horizontalAlignment="left" verticalAlignment="center" position="170,888" size="500,45" transparent="1" zPosition="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2428,7 +2428,7 @@
 	    <convert type="EventName">ExtendedDescription</convert>
 	</widget>
 	<widget source="info" render="Label" font="RegularBold;25" backgroundColor="OE_Background" position="170,650" size="1250,45" transparent="1" verticalAlignment="center" foregroundColor="yellow"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2449,7 +2449,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" position="170,145" size="1250,550" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,710" size="1250,2" zPosition="-9"/>
 	<widget name="thumbnail" font="Regular;30" backgroundColor="OE_Background" position="170,725" size="1250,205" transparent="1" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2471,7 +2471,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2526,7 +2526,7 @@
 	<widget font="Regular;28" position="170,700" render="Label" size="1250,240" source="Event" transparent="1" zPosition="3" verticalAlignment="center">
 	    <convert type="EventName">ExtendedDescription</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2548,7 +2548,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2611,7 +2611,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,145" size="1250,300" transparent="1"/>
 	<widget name="pushlink" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/eHue/push-link.png" position="600,455" size="320,320" zPosition="4" transparent="0" alphaTest="blend"/>
 	<widget name="msg" font="Regular;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,800" size="1250,110" zPosition="2" horizontalAlignment="center" verticalAlignment="center" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2637,7 +2637,7 @@
 	<widget source="Canvas" render="Canvas" position="600,581" size="180,100"/>
 	<ePixmap name="bulb" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/eHue/bulb.png" position="506,511" size="360,300" zPosition="4" transparent="1" alphaTest="on"/>
 	<widget render="Label" source="info1" font="Regular;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,820" size="1250,110" zPosition="2" horizontalAlignment="center" verticalAlignment="center" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2657,7 +2657,7 @@
 	<widget source="Canvas" render="Canvas" position="600,581" size="180,100"/>
 	<ePixmap name="bulb" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/eHue/bulb.png" position="506,511" size="360,300" zPosition="4" transparent="1" alphaTest="on"/>
 	<widget render="Label" source="info1" font="Regular;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,820" size="1250,110" zPosition="2" horizontalAlignment="center" verticalAlignment="center" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2692,7 +2692,7 @@
 		</convert>
 	</widget>
 	<widget name="msg" font="Regular;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,885" size="1250,50" zPosition="2" horizontalAlignment="center" verticalAlignment="center" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2737,7 +2737,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="accounts" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,center" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2759,7 +2759,7 @@
 	<widget name="date" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="yellow" position="170,195" size="1250,45" transparent="1"/>
 	<widget name="subject" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="blue_light" position="170,245" size="1250,45" transparent="1"/>
 	<widget name="body" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,320" size="1250,600" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2793,7 +2793,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2810,7 +2810,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2839,7 +2839,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2869,7 +2869,7 @@
 		}
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<widget name="PixmapRed" alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="PixmapGreen" alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2898,7 +2898,7 @@
 		}
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<widget name="PixmapButton" alphaTest="blend" pixmaps="buttons/green.png,OctEtFHD/buttons/grey.png" position="170,960" size="40,40" transparent="1"/>
 	<widget name="LabelButton" backgroundColor="OE_Background" font="Regular;28" horizontalAlignment="left" verticalAlignment="center" position="220,960" size="950,40" transparent="1" zPosition="1"/>
@@ -2916,7 +2916,7 @@
 	<widget name="list" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,875" size="1250,2" zPosition="-9"/>
 	<widget source="info" render="Label" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,890" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -2941,7 +2941,7 @@
 	</widget>
 	<widget name="poster" position="420,220" size="800,600" alphaTest="on" zPosition="2"/>
 	<widget name="connection_label" font="Regular;28" foregroundColors="#000000,#FFFF00,#00FF00,#AAAAAA,#FF0000" position="170,830" size="1250,110" verticalAlignment="center" horizontalAlignment="center" transparent="1" backgroundColor="OE_Background"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3041,7 +3041,7 @@
 	<!-- Widget -->
 	<widget render="Label" source="Title" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" backgroundColor="OE_Background" enableWrapAround="1" position="170,165" scrollbarMode="showOnDemand" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3072,7 +3072,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3089,7 +3089,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3106,7 +3106,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3123,7 +3123,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3308,7 +3308,7 @@
 	<widget source="Title" render="Label" font="RegularBold;24" backgroundColor="OE_Background" position="145,20" size="460,40" transparent="1" horizontalAlignment="center"/>
 	<widget name="mainmenu" itemHeight="50" font="RegularBold;25" scrollbarMode="showNever" backgroundColor="OE_Background" transparent="1" position="225,85" size="300,525" zPosition="2" horizontalAlignment="center" verticalAlignment="center"/>
 	<widget name="secondmenu" itemHeight="35" font="RegularBold;25" scrollbarMode="showNever" backgroundColor="OE_Background" transparent="1" position="225,85" size="300,525" zPosition="2" horizontalAlignment="center" verticalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="145,645" size="460,2" zPosition="-9"/>
 	<eLabel text="Einstellungen" font="Regular;22" backgroundColor="OE_Background" position="170,660" size="145,30" horizontalAlignment="left" transparent="1" zPosition="2"/>
 	<eLabel text="Favorit" font="Regular;22" backgroundColor="OE_Background" position="320,660" size="100,30" horizontalAlignment="right" transparent="1" zPosition="2"/>
@@ -3417,9 +3417,9 @@
 	<widget source="eta" render="Label" font="RegularBold;28" backgroundColor="OE_Background" position="170,835" size="820,45" transparent="1"/>
 	<widget source="speed" render="Label" font="RegularBold;28" backgroundColor="OE_Background" position="1010,835" size="820,45" horizontalAlignment="right" transparent="1"/>
 	<widget source="progress" render="Progress" borderColor="grey" scrollbarBorderWidth="1" backgroundColor="OE_Background" foregroundColor="green_light" position="170,890" size="1250,20" transparent="1"/>
-	<!-- others-->
+	<!-- others -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="78,960" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1660,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3453,7 +3453,7 @@
 	    </convert>
 	</widget>
 	<widget name="HelpWindow" position="400,712" size="1,1" zPosition="10"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3475,7 +3475,7 @@
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,center" size="1250,750" transparent="1"/>
 	<widget name="HelpWindow" position="400,712" size="1,1" zPosition="10"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3506,7 +3506,7 @@
 	    </convert>
 	</widget>
 	<widget name="HelpWindow" position="400,712" size="1,1" zPosition="10"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3530,9 +3530,9 @@
 	<widget name="slist" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,875" size="1250,2" zPosition="-9"/>
 	<widget name="filtertext" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,890" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="78,960" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3575,7 +3575,7 @@
 	<widget name="slist" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,875" size="1250,2" zPosition="-9"/>
 	<widget name="filtertext" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,890" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3596,7 +3596,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3657,7 +3657,7 @@
 	<ePixmap position="1200,885" size="270,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/FOCUSOnline/pic/menu.png" alphaTest="blend" zPosition="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,133" size="1250,350" transparent="1"/>
 	<widget name="plugin" position="170,518" size="700,400" alphaTest="blend" zPosition="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3697,7 +3697,7 @@
 	<widget name="textpage" font="Regular;28" scrollbarMode="showAlways" backgroundColor="OE_Background" position="170,720" size="1250,70" transparent="1" horizontalAlignment="left" zPosition="1"/>
 	<widget name="statuslabel" position="170,795" size="1250,42" font="Regular;28" backgroundColor="OE_Background" horizontalAlignment="left" transparent="1" zPosition="2"/>
 	<widget name="label" position="400,876" size="500,130" font="Regular;26" backgroundColor="OE_Background" horizontalAlignment="center" transparent="1" zPosition="2"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,860" size="1250,2" zPosition="-9"/>
 	<widget name="red" alphaTest="blend" pixmap="buttons/key_red.png" backgroundColor="OE_Background" font="Regular;28" horizontalAlignment="left" verticalAlignment="center" position="360,909" size="40,40" transparent="1" zPosition="1"/>
 	<widget name="green" alphaTest="blend" pixmap="buttons/key_green.png" backgroundColor="OE_Background" font="Regular;28" horizontalAlignment="left" verticalAlignment="center" position="310,909" size="40,40" transparent="1" zPosition="1"/>
@@ -3721,7 +3721,7 @@
 	<eLabel backgroundColor="blue_light" position="170,500" size="1250,1" zPosition="-9"/>
 	<eLabel backgroundColor="blue_light" position="170,680" size="1250,1" zPosition="-9"/>
 	<eLabel backgroundColor="blue_light" position="170,868" size="1250,2" zPosition="-9"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_ok.png" position="170,885" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="500,885" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="830,885" size="64,43"/>
@@ -3729,7 +3729,7 @@
 	<widget source="key_ok" render="Label" font="RegularBold;24" backgroundColor="OE_Background" position="244,887" size="245,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 	<widget source="key_menu" render="Label" font="RegularBold;24" backgroundColor="OE_Background" position="574,887" size="245,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 	<widget source="key_info" render="Label" font="RegularBold;24" backgroundColor="OE_Background" position="904,887" size="245,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="blue_light" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3751,10 +3751,10 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="Mlist" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_ok.png" position="1160,959" size="64,43"/>
 	<widget source="key_ok" render="Label" font="RegularBold;24" backgroundColor="OE_Background" position="1234,960" size="240,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="blue_light" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="500,960" size="40,40"/>
@@ -3774,7 +3774,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="Mlist" font="RegularBold;32" itemHeight="145" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,165" size="1250,725" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="blue_light" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3808,7 +3808,7 @@
 	<!-- Widget -->
 	<eLabel text="SlideShow Settings" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="Mlist" itemHeight="50" font="RegularBold;25" valueFont="Regular;28" backgroundColorSelected="OE_Selection" scrollbarMode="showOnDemand" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="blue_light" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3836,10 +3836,10 @@
 	<widget name="consideration" position="170,145" size="1250,45" font="RegularBold;25" backgroundColor="OE_Background" transparent="1" foregroundColor="green_light"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,220" size="1250,700" transparent="1"/>
 	<widget name="HelpWindow" position="400,550" size="1,1" zPosition="10"/>
-	<!-- others-->
+	<!-- others -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="78,905" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="78,960" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3875,9 +3875,9 @@
 			}
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_ok.png" position="78,960" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3908,9 +3908,9 @@
 			}
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_ok.png" position="78,960" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3931,7 +3931,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -3970,7 +3970,7 @@
 	<widget name="dect_inactive" pixmap="buttons/grey.png" size="40,40" position="200,742" alphaTest="blend"/>
 	<widget name="gast_active" pixmap="buttons/green.png" size="40,40" position="200,807" alphaTest="blend"/>
 	<widget name="gast_inactive" pixmap="buttons/grey.png" size="40,40" position="200,807" alphaTest="blend"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4048,7 +4048,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,872" size="1250,1" zPosition="-9"/>
 	<widget name="info" font="RegularBold;28" backgroundColor="OE_Background" position="170,885" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4098,7 +4098,7 @@
 	<!-- Widget -->
 	<eLabel text="Greek NetRadio" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="990,50" transparent="1"/>
 	<widget name="stationmenu" itemHeight="50" font="RegularBold;32" scrollbarMode="showNever" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,165" size="990,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="990,2" zPosition="-9"/>
 	<widget name="ButtonGeen" alphaTest="blend" pixmap="buttons/key_green.png" position="170,960" size="40,40"/>
 	<widget name="ButtonGeentext" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="940,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -4117,7 +4117,7 @@
 	<ePixmap position="170,227" zPosition="4" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GreekNetRadio/icons/arrows.png" transparent="1" alphaTest="blend"/>
 	<widget name="leagueNumberWidget" position="220,220" size="200,50" transparent="1" zPosition="4" horizontalAlignment="left" font="RegularBold;30" backgroundColor="OE_Background"/>
 	<ePixmap alphaTest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/GreekNetRadio/icons/radio.png" position="904,675" size="256,256" zPosition="-1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="990,2" zPosition="-9"/>
 	<widget name="ButtonGeen" alphaTest="blend" pixmap="buttons/key_green.png" position="170,960" size="40,40"/>
 	<widget name="ButtonGeentext" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="940,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -4132,7 +4132,7 @@
 	<!-- Widget -->
 	<eLabel text="Greek NetRadio" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="990,50" transparent="1"/>
 	<widget name="stationmenu" itemHeight="50" font="RegularBold;32" scrollbarMode="showNever" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,165" size="990,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="990,2" zPosition="-9"/>
 	<widget name="ButtonYellow" alphaTest="blend" pixmap="buttons/key_yellow.png" position="170,960" size="40,40"/>
 	<widget name="ButtonYellowtext" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="940,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -4147,7 +4147,7 @@
 	<!-- Widget -->
 	<eLabel text="Greek NetRadio" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="990,50" transparent="1"/>
 	<widget name="stationmenu" itemHeight="50" font="RegularBold;32" scrollbarMode="showNever" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,165" size="990,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="990,2" zPosition="-9"/>
 	<widget name="ButtonYellow" alphaTest="blend" pixmap="buttons/key_yellow.png" position="170,960" size="40,40"/>
 	<widget name="ButtonYellowtext" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="940,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -4162,7 +4162,7 @@
 	<!-- Widget -->
 	<eLabel text="Greek NetRadio" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="990,50" transparent="1"/>
 	<widget name="stationmenu" itemHeight="50" font="RegularBold;32" scrollbarMode="showNever" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,165" size="990,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="990,2" zPosition="-9"/>
 	<widget name="ButtonYellow" alphaTest="blend" pixmap="buttons/key_yellow.png" position="170,960" size="40,40"/>
 	<widget name="ButtonYellowtext" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="940,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -4189,7 +4189,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4218,9 +4218,9 @@
 	<widget name="txtext" font="RegularBold;25" backgroundColor="OE_Background" position="170,680" size="640,250" transparent="1" zPosition="1" horizontalAlignment="left"/>
 	<widget name="lrx" font="RegularBold;32" backgroundColor="OE_Background" foregroundColor="red" position="830,630" size="100,45" transparent="1" zPosition="1" horizontalAlignment="left"/>
 	<widget name="rxtext" font="RegularBold;25" backgroundColor="OE_Background" position="830,680" size="640,250" transparent="1" zPosition="1" horizontalAlignment="left"/>
-	<!-- others-->
+	<!-- others -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="78,960" size="64,43"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4241,7 +4241,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,150" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4262,7 +4262,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="rxtext" font="RegularBold;25" backgroundColor="OE_Background" position="170,150" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4289,7 +4289,7 @@
 	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HetWeer/Images/lo/beflaghd.png" position="170,227" size="71,49" alphaTest="on"/>
 	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HetWeer/Images/lo/euflaghd.png" position="170,290" size="71,49" alphaTest="on"/>
 	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/HetWeer/Images/lo/lokaalhd.png" position="170,353" size="71,49" alphaTest="on"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4308,7 +4308,7 @@
 	<widget name="plaatsn" font="RegularBold;32" backgroundColor="OE_Background" foregroundColor="green_light" position="170,155" size="500,45" verticalAlignment="center" horizontalAlignment="left" zPosition="3" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,200" size="140,2" zPosition="-9"/>
 	<widget name="list" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,center" size="1250,650" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4327,7 +4327,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="list" itemHeight="50" font="RegularBold;32" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="key_red" font="Regular;28" backgroundColor="OE_Background" horizontalAlignment="left" verticalAlignment="center" position="220,960" size="270,40" transparent="1" zPosition="1"/>
@@ -4343,7 +4343,7 @@
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="weerchat" font="RegularBold;28" backgroundColor="OE_Background" position="170,160" size="1250,700" transparent="1"/>
 	<widget name="PAG" font="Console;28" backgroundColor="OE_Background" foregroundColor="green_light" position="170,890" size="300,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="key_red" font="Regular;28" backgroundColor="OE_Background" horizontalAlignment="left" verticalAlignment="center" position="220,960" size="270,40" transparent="1" zPosition="1"/>
@@ -4361,7 +4361,7 @@
 	<widget name="list" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,600" transparent="1"/>
 	<eLabel backgroundColor="white" position="110,775" size="1250,2" zPosition="-9"/>
 	 <widget name="info" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,785" size="1250,125" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="600,960" size="40,40"/>
@@ -4393,7 +4393,7 @@
 	<widget name="spinner_2" zPosition="1" position="178,160" size="16,16" transparent="1" alphaTest="blend"/>
 	<widget name="spinner_3" zPosition="1" position="194,160" size="16,16" transparent="1" alphaTest="blend"/>
 	<widget name="spinner_4" zPosition="1" position="210,160" size="16,16" transparent="1" alphaTest="blend"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="350,945" size="1480,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="350,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="710,960" size="40,40"/>
@@ -4445,7 +4445,7 @@
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,155" size="1250,700" transparent="1"/>
 	<widget name="key_ok" font="RegularBold;28" backgroundColor="OE_Background" position="170,894" zPosition="2" size="600,45" verticalAlignment="center" horizontalAlignment="center" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4478,7 +4478,7 @@
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="curr_dir" font="RegularBold;25" backgroundColor="OE_Background" foregroundColor="green_light" position="170,150" zPosition="2" size="1250,45" verticalAlignment="center" horizontalAlignment="left" transparent="1"/>
 	<widget name="list" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,215" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4497,7 +4497,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="list" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="key_red" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="270,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -4517,7 +4517,7 @@
 	<widget name="LastDayStarted" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,730" size="1250,45" transparent="1"/>
 	<widget name="RemainingTime" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,780" size="1250,45" transparent="1"/>
 	<widget name="PluginInfo" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="left" position="170,880" size="1250,45" transparent="1" foregroundColor="yellow"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4601,7 +4601,7 @@
 	<eLabel text="MeteoViewer Setup" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" foregroundColor="OE_Foreground" position="170,140" size="1250,750" transparent="1"/>
 	<widget name="statusbar" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="right" position="820,958" size="650,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4628,7 +4628,7 @@
 	<ePixmap alphaTest="blend" position="504,center" size="10,18" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/left.png" transparent="1" zPosition="4"/>
 	<ePixmap alphaTest="blend" position="1127,center" size="10,18" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/right.png" transparent="1" zPosition="4"/>
 	<ePixmap alphaTest="blend" position="810,774" size="18,10" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/MeteoViewer/pictures/bottom.png" transparent="1" zPosition="4"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4651,7 +4651,7 @@
 	<eLabel text="Setup Weather MSN" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,750" transparent="1"/>
 	<widget name="HelpWindow" position="170,550" zPosition="1" size="1,1" backgroundColor="OE_Background" transparent="1" alphaTest="blend"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4736,7 +4736,7 @@
 	<widget source="date4" render="Label" position="1485,825" size="320,40" font="RegularBold;28" foregroundColor="darkgrey" backgroundColor="OE_Background" horizontalAlignment="right" transparent="1" verticalAlignment="center"/>
 	<widget source="day4" render="Label" position="1485,785" size="320,40" font="RegularBold;28" foregroundColor="blue_light" backgroundColor="OE_Background" horizontalAlignment="right" transparent="1" verticalAlignment="center"/>
 	<widget name="pic4" position="940,822" size="128,128" zPosition="2" alphaTest="blend"/>
-	<!-- Button */-->
+	<!-- Button */ -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="492,900" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_epg.png" position="566,900" size="64,43"/>
 	<!-- Clock -->
@@ -4772,7 +4772,7 @@
 	<widget name="piconslider" position="395,400" size="350,45" zPosition="2" transparent="0" foregroundColor="green_light" backgroundColor="OE_Blue"/>
 	<widget name="list" itemHeight="45" position="790,160" size="1040,750" scrollbarMode="showOnDemand" transparent="1" backgroundColor="OE_Background"/>
 	<widget name="picon" position="344,785" size="400,240" zPosition="4" transparent="1" borderColor="OE_Background" alphaTest="blend" horizontalAlignment="center"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="790,930" size="1040,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="790,950" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="1060,950" size="40,40"/>
@@ -4798,7 +4798,7 @@
 	<widget name="media" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="220,135" size="1250,45" transparent="1"/>
 	<eLabel backgroundColor="white" position="220,185" size="1250,2" zPosition="-9"/>
 	<widget name="folderlist" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="220,200" size="1250,750" transparent="1"/>
-	<!-- /*Buttons-->
+	<!-- /*Buttons -->
 	<eLabel backgroundColor="white" position="220,973" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="220,987" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="535,987" size="40,40"/>
@@ -4817,7 +4817,7 @@
 	<!-- Page Title / Widget -->
 	<eLabel text="Picon Manager" position="95,61" size="550,50" font="RegularBold;32" backgroundColor="dark" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="220,135" size="1250,800" transparent="1"/>
-	<!-- /*Buttons-->
+	<!-- /*Buttons -->
 	<eLabel backgroundColor="white" position="220,973" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="220,987" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="535,987" size="40,40"/>
@@ -4891,7 +4891,7 @@
 	<!-- Widget -->
 	<eLabel text="seyirTURKSetup" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" backgroundColor="OE_Background" position="170,center" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -4908,7 +4908,7 @@
 	<!-- Widget -->
 	<eLabel text="Update" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="guncelleLabel" font="RegularBold;25" backgroundColor="OE_Background" position="170,center" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5217,7 +5217,7 @@
 	<eLabel backgroundColor="white" position="170,205" size="1250,2" zPosition="-9"/>
 	<eLabel text="Uyelik Aktif Olmasini Istiyorsaniz Bilgileri Dogru Girmelisiniz" position="170,140" size="1250,55" font="RegularBold;25" backgroundColor="OE_Background" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" backgroundColor="OE_Background" enableWrapAround="1" position="170,220" scrollbarMode="showOnDemand" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5271,7 +5271,7 @@
 	<!-- Widget -->
 	<widget name="baslik" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" backgroundColor="OE_Background" position="170,center" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5292,7 +5292,7 @@
 	<!-- Widget -->
 	<widget name="baslik" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" backgroundColor="OE_Background" position="170,center" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5309,7 +5309,7 @@
 	<!-- Widget -->
 	<widget name="baslik" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" backgroundColor="OE_Background" position="170,center" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="ayarlari_kaydet" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="270,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -5339,7 +5339,7 @@
 	<!-- Widget -->
 	<eLabel text="TURKVOD ARAMA LISTESI" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="selection" itemHeight="42" font="RegularBold;25" scrollbarMode="showNever" backgroundColor="OE_Background" position="170,center" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<eLabel text="Sil" font="Regular;28" backgroundColor="OE_Background" position="220,960" size="270,40" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
@@ -5398,7 +5398,7 @@
 		}
 	    </convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5509,7 +5509,7 @@
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,165" size="1250,600" transparent="1"/>
 	<eLabel backgroundColor="white" position="110,775" size="1250,2" zPosition="-9"/>
 	<widget source="help" render="Label" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="green_light" horizontalAlignment="left" position="170,785" size="1250,145" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5541,7 +5541,7 @@
 	<!-- Widget -->
 	<widget name="titleheader" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="myMenu" itemHeight="50" font="RegularBold;25" scrollbarMode="showOnDemand" backgroundColor="OE_Background" position="170,center" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5590,7 +5590,7 @@
 	<!-- Sunset -->
 	<widget name="lab11" position="80,715" horizontalAlignment="left" size="250,45" zPosition="1" font="RegularBold;25" backgroundColor="OE_NewBg2" transparent="1"/>
 	<widget name="lab11b" position="330,715" horizontalAlignment="left" size="360,45" zPosition="1" font="RegularBold;25" foregroundColor="green_light" backgroundColor="OE_NewBg2" transparent="1"/>
-	<!-- Data Forecast-->
+	<!-- Data Forecast -->
 	<widget name="5day" position="790,85" size="650,50" font="RegularBold;30" backgroundColor="dark" transparent="1"/>
 	<!-- ForeCast 1Day Pic -->
 	<widget name="lab17" position="790,235" size="80,80" zPosition="1" alphaTest="blend" transparent="1"/>
@@ -5710,7 +5710,7 @@
 	<widget name="info" position="1332,960" size="64,43" pixmap="buttons/key_info.png" transparent="1" alphaTest="blend"/>
 	<widget name="menu" position="1406,960" size="64,43" pixmap="buttons/key_menu.png" transparent="1" alphaTest="blend"/>
 	<widget name="thumbnail" position="1520,902" size="150,108"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<widget name="red" alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget name="green" alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5736,7 +5736,7 @@
 	<widget name="likes" backgroundColor="OE_Background" position="510,315" size="350,45" font="RegularBold;28" transparent="1"/>
 	<widget name="dislikes" backgroundColor="OE_Background" position="870,315" size="600,45" font="RegularBold;28" transparent="1"/>
 	<widget name="published" backgroundColor="OE_Background" position="510,365" size="960,40" font="RegularBold;28" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget source="key_red" render="Label" font="Regular;28" backgroundColor="OE_Background" horizontalAlignment="left" verticalAlignment="center" position="220,960" size="270,40" transparent="1" zPosition="1"/>
@@ -5761,7 +5761,7 @@
 		"fonts": [gFont("RegularBold",30)],"itemHeight": 50},
 	    </convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<widget source="key_red" render="Label" font="Regular;28" backgroundColor="OE_Background" horizontalAlignment="left" verticalAlignment="center" position="220,960" size="270,40" transparent="1" zPosition="1"/>
@@ -5786,7 +5786,7 @@
 	</widget>
 	<ePixmap position="1406,960" size="64,43" pixmap="buttons/key_menu.png" transparent="1" alphaTest="blend"/>
 	<widget name="HelpWindow" position="700,750" size="1,1" zPosition="5" pixmap="vkey_icon.png" transparent="1" alphaTest="on"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5807,7 +5807,7 @@
 	<widget source="Title" render="Label" font="RegularBold;25" backgroundColor="OE_Background" position="170,145" size="1250,55" transparent="1"/>
 	<eLabel backgroundColor="white" position="170,210" size="1250,2" zPosition="-9"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,225" size="1250,700" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5830,7 +5830,7 @@
 	<widget name="information" font="RegularBold;25" backgroundColor="OE_Background" position="170,225" size="1250,650" transparent="1"/>
 	<widget name="startdesc" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="green_light" position="170,890" size="620,45" transparent="1"/>
 	<widget name="helpdesc" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="green_light" position="850,890" size="620,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5884,7 +5884,7 @@
 	<panel name="TemplatePip"/>
 	<widget name="file_list" itemHeight="50" backgroundColor="OE_Background" position="26,140" size="1250,740" transparent="1"/>
 	<widget name="menu_list" backgroundColor="OE_Background" position="26,965" size="1250,80" transparent="1"/>
-	<!-- others-->
+	<!-- others -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_exit.png" position="18,1035" size="64,43"/>
   </screen>
 
@@ -5917,7 +5917,7 @@
 		</convert>
 	</widget>
 	<ePixmap alphaTest="blend" pixmap="colors/setting1.png" position="475,182" size="100,100" transparent="1" zPosition="10"/>
-	<!-- others-->
+	<!-- others -->
 	<ePixmap alphaTest="blend" pixmap="buttons/key_ok.png" position="455,870" size="64,43"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_exit.png" position="531,870" size="64,43"/>
 	<!-- Clock -->
@@ -5931,7 +5931,7 @@
 	<!-- Widget -->
 	<widget source="Title" render="Label" font="RegularBold;30" backgroundColor="OE_Background" position="170,73" size="1250,50" transparent="1"/>
 	<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="170,160" size="1250,750" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -5985,7 +5985,7 @@
 					}
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_blue.png" position="500,960" size="40,40"/>
@@ -6030,7 +6030,7 @@
 	<eLabel backgroundColor="white" position="170,820" size="1250,2" zPosition="-9"/>
 	<widget source="fname" render="Label" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,835" size="1250,45" transparent="1"/>
 	<widget source="dpath" render="Label" font="RegularBold;28" backgroundColor="OE_Background" foregroundColor="OE_Foreground" horizontalAlignment="left" position="170,885" size="1250,45" transparent="1"/>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<eLabel backgroundColor="white" position="170,945" size="1250,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
@@ -6102,7 +6102,7 @@
 					}
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo.png" position="72,70" size="75,75" transparent="1" zPosition="1"/>
 	<eLabel backgroundColor="blue_light" position="170,945" size="1610,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
@@ -6150,7 +6150,7 @@
                     }
 		</convert>
 	</widget>
-	<!-- Buttons-->
+	<!-- Buttons -->
 	<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo.png" position="72,70" size="75,75" transparent="1" zPosition="1"/>
 	<eLabel backgroundColor="blue_light" position="170,945" size="1610,2" zPosition="-9"/>
 	<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
@@ -6212,7 +6212,7 @@
 	</widget>
 	<widget source="entries_sum" render="Label" position="26,900" size="380,160" font="RegularBold;26" backgroundColor="OE_Background" transparent="1"/>
   </screen>
-	<!-- TMBD SETTINGS-->
+	<!-- TMBD SETTINGS -->
   <screen name="TMBDSettings" position="fill" flags="wfNoBorder">
 	<panel name="StanDardScreen"/>
 	<panel name="TemplatePip"/>
