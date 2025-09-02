@@ -1757,7 +1757,7 @@
 		<widget source="global.CurrentTime" render="Label" position="1585,5" size="300,40" font="Regular;28" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" horizontalAlignment="right" verticalAlignment="center">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel position="20,50" size="1870,1" backgroundColor="#0000fafa"/>
+		<eLabel position="20,40" size="1870,1" backgroundColor="#0000fafa"/>
 		<widget source="piconCh1" render="Picon" position="170,50" size="50,30" zPosition="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
@@ -1883,30 +1883,44 @@
 			EntryBorderColor="#00999999"
 			TimeFontVertical="Regular;26"
 			EventFontVertical="Regular;24"/>
-		<widget source="Event" render="Label" font="Regular;26" position="20,750" size="1870,240" backgroundColor="OE_NewBg2" verticalAlignment="top" >
+		<widget source="Event" render="Label" font="Regular;26" position="20,740" size="1875,200" backgroundColor="#002c445e" verticalAlignment="top" >
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<ePixmap pixmap="buttons/key_menu.png" position="20,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_text.png" position="90,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_leftright.png" position="160,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_info.png" position="230,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<ePixmap pixmap="buttons/key_help.png" position="300,1010" size="64,43" zPosition="2" alphaTest="blend"/>
-		<widget source="key_red" position="395,1010" size="40,40" render="Pixmap" pixmap="buttons/key_red.png" objectTypes="key_red,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+		<ePixmap pixmap="buttons/key_menu.png" position="20,1020" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_text.png" position="90,1020" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_leftright.png" position="160,1020" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_info.png" position="230,1020" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/key_help.png" position="300,1020" size="64,43" zPosition="2" alphaTest="blend"/>
+		<widget source="key_red" position="395,1020" size="40,40" render="Pixmap" pixmap="buttons/key_red.png" objectTypes="key_red,StaticText" backgroundColor="OE_NewBg2" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_red" position="440,995" size="300,70" render="Label" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_red,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_green" position="745,1010" size="40,40" render="Pixmap" pixmap="buttons/key_green.png" objectTypes="key_green,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+		<widget source="key_red" position="440,1005" size="300,70" render="Label" backgroundColor="OE_NewBg2" font="RegularBold;24" objectTypes="key_red,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_green" position="745,1020" size="40,40" render="Pixmap" pixmap="buttons/key_green.png" objectTypes="key_green,StaticText" backgroundColor="OE_NewBg2" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_green" render="Label" position="790,995" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_green,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_yellow" position="1095,1010" size="40,40" render="Pixmap" pixmap="buttons/key_yellow.png" objectTypes="key_yellow,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+		<widget source="key_green" render="Label" position="790,1005" size="300,70" backgroundColor="OE_NewBg2" font="RegularBold;24" objectTypes="key_green,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_yellow" position="1095,1020" size="40,40" render="Pixmap" pixmap="buttons/key_yellow.png" objectTypes="key_yellow,StaticText" backgroundColor="OE_NewBg2" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_yellow" render="Label" position="1140,995" size="300,70" backgroundColor="OE_Background" font="RegularBold;24" objectTypes="key_yellow,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
-		<widget source="key_blue" position="1445,1010" size="40,40" render="Pixmap" pixmap="buttons/key_blue.png" objectTypes="key_blue,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+		<widget source="key_yellow" render="Label" position="1140,1005" size="300,70" backgroundColor="OE_NewBg2" font="RegularBold;24" objectTypes="key_yellow,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_blue" position="1445,1020" size="40,40" render="Pixmap" pixmap="buttons/key_blue.png" objectTypes="key_blue,StaticText" backgroundColor="OE_NewBg2" alphaTest="blend" zPosition="1">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="key_blue" render="Label" position="1490,995" size="510,70" backgroundColor="OE_Background" font="RegularBold;24" horizontalAlignment="left" objectTypes="key_blue,StaticText" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="key_blue" render="Label" position="1490,1005" size="510,70" backgroundColor="OE_NewBg2" font="RegularBold;24" horizontalAlignment="left" objectTypes="key_blue,StaticText" verticalAlignment="center" transparent="1" zPosition="1"/>
+		<widget source="Event" render="RunningText" foregroundColor="#0000fafa" backgroundColor="OE_NewBg2" position="20,985" size="1870,35" font="RegularBold;26" options="movetype=running,startpoint=0,direction=left,steptime=40,repeat=5,startdelay=2000,always=0" transparent="1">
+			<convert type="EventName">Name</convert>
+		</widget>
+		<widget backgroundColor="blue_light" pixmap="colors/green_light.png" position="20,970" render="Progress" size="950,6" source="Event" transparent="0" zPosition="1">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget source="Event" render="Label" font="RegularBold;26" backgroundColor="OE_NewBg2" position="20,940" size="150,45" transparent="1">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText"/>
+		</widget>
+		<widget source="Event" render="Label" font="RegularBold;26" backgroundColor="OE_NewBg2" position="855,940" size="150,45" horizontalAlignment="center" transparent="1">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText"/>
+		</widget>
 	</screen>
 	<screen name="HarddiskSelection" title="Select HDD" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
