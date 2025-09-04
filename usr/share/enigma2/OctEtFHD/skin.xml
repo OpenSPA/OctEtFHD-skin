@@ -5441,7 +5441,7 @@
 		<widget name="config" position="26,140" size="1250,690" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" transparent="1"/>
 	</screen>
 	<!-- TAILSCALE -->
-	<screen name="Tailscale" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<screen name="Tailscale" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<widget name="picRed" alphaTest="blend" pixmap="buttons/key_red.png" position="20,979" size="40,40" zPosition="1"/>
@@ -5469,7 +5469,7 @@
 		<widget name="picMenu" position="18,1035" size="64,43" pixmap="buttons/key_menu.png" alphatest="blend"/>
 		<widget name="lblStatus" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 	</screen>
-	<screen name="TailscaleUser" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<screen name="TailscaleUser" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<widget name="picRed" alphaTest="blend" pixmap="buttons/key_red.png" position="20,979" size="40,40" zPosition="1"/>
@@ -5491,7 +5491,7 @@
 		<widget name="lblStatus" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 	</screen>
 	<!-- TAILSCALE SETUP -->
-	<screen name="TailscaleSetup" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="Setup">
+	<screen name="TailscaleSetup" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="Setup">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<widget source="key_help" conditional="key_help" render="Label" position="20,1040" size="200,35" backgroundColor="key_back" font="Regular;24" horizontalAlignment="center" verticalAlignment="center">
@@ -5501,5 +5501,17 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget name="config" itemHeight="50" font="RegularBold;26" headerFont="RegularBold;30" entryFont="RegularBold;26" valueFont="Regular;22" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,800" transparent="1"/>
+	</screen>
+	<!-- SIMPLE UMOUNT -->
+	<screen name="SimpleUmount" backgroundColor="transparent" position="0,0" size="1920,1080" title="SimpleUmount">
+		<panel name="StanDardScreen"/>
+		<panel name="TemplatePip"/>
+		<widget name="wdg_label_legend_1" position="26,140" size="150,40" foregroundColor="#0000fafa" backgroundColor="OE_Background" font="RegularBold;28" transparent="1"/>
+		<widget name="wdg_label_legend_2" position="235,140" size="250,40" foregroundColor="#0000fafa" backgroundColor="OE_Background" font="RegularBold;28" transparent="1"/>
+		<widget name="wdg_label_legend_3" position="520,140" size="250,40" foregroundColor="#0000fafa" backgroundColor="OE_Background" font="RegularBold;28" transparent="1"/>
+		<widget name="wdg_label_legend_4" position="760,140" size="250,40" foregroundColor="#0000fafa" backgroundColor="OE_Background" font="RegularBold;28" transparent="1"/>
+		<widget name="wdg_menulist_device" itemHeight="50" position="26,220" size="1250,50" backgroundColor="OE_Background" font="Fixed;26"/>
+		<widget name="wdg_config" position="26,300" itemHeight="50" size="1250,50" backgroundColor="OE_Background" font="RegularBold;26" transparent="1"/>
+		<widget name="wdg_label_instruction" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 	</screen>
 </skin>
