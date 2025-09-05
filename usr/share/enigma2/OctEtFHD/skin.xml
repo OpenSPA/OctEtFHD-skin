@@ -5526,4 +5526,25 @@
 		<widget name="picConn" position="50,781" size="42,42" zPosition="5" alphatest="on" transparent="1"/>
 		<widget name="info" position="92,781" size="258,45" font="RegularBold;32" foregroundColor="#00757575" backgroundColor="#00FFFFFF" horizontalAlignment="left" verticalAlignment="center" zPosition="5" transparent="1"/>
 	</screen>
+	<!-- DEVICE MANAGER -->
+	<screen name="DeviceManager" backgroundColor="transparent" title="Device Manager" position="0,0" size="1920,1080">
+		<panel name="TemplateInformation"/>
+		<panel name="ButtonsVisionCore"/>
+		<widget source="devicelist" render="Listbox" position="410,155" size="1490,670" backgroundColor="OE_Background" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light">
+			<templates>
+				<template name="Default" fonts="RegularBold;26,RegularBold;30" itemHeight="50">
+					<mode name="default">
+						<text index="Device" position="40,10" size="220,50" font="0"/>
+						<text index="DeviceIndent" position="52,10" size="220,50" font="0"/>
+						<text index="Description" position="300,10" size="1000,50" font="0" verticalAlignment="top" horizontalAlignment="left"/>
+						<text index="Size" position="1310,10" size="180,50" font="0" verticalAlignment="top" horizontalAlignment="right"/>
+						<text index="PartitionSeparator" position="6,6" size="30,50" font="1" verticalAlignment="center"/>
+						<pixmap index="Image" position="0,0" size="30,50" alpha="blend" scale="centerScaled"/>
+					</mode>
+				</template>
+			</templates>
+		</widget>
+		<eLabel backgroundColor="blue_light" position="410,830" size="1490,2" zPosition="2"/>
+		<widget name="description" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" position="410,848" size="1490,100" transparent="1" horizontalAlignment="left" verticalAlignment="center" zPosition="3"/>
+	</screen>
 </skin>
