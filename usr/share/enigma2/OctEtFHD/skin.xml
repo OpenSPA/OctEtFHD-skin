@@ -5515,7 +5515,7 @@
 		<widget name="wdg_label_instruction" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 	</screen>
 	<!-- SINRIC CONNET -->
-	<screen name="sinriconnectconfig" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<screen name="sinriconnectconfig" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="SinriConnect by OpenSPA">
 		<panel name="OpenSPA"/>
 		<ePixmap pixmap="imagenestmp/sinric.png" position="50,335" size="300,115" zPosition="5" alphatest="blend"/>
 		<ePixmap pixmap="imagenestmp/alexa.png" position="50,450" size="300,168" zPosition="5" alphatest="blend"/>
