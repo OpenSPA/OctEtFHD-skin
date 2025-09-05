@@ -4071,14 +4071,14 @@
 		<panel name="HelpInformation"/>
 		<widget name="slotlist" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="410,155" zPosition="10" size="1490,670" transparent="1"/>
 		<eLabel backgroundColor="blue_light" position="410,830" size="1490,2" zPosition="2"/>
-		<widget name="description" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" position="410,848" size="1490,100" transparent="1" horizontalAlignment="center" verticalAlignment="center" zPosition="3"/>
+		<widget name="description" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" position="410,848" size="1490,100" transparent="1" horizontalAlignment="left" verticalAlignment="center" zPosition="3"/>
 	</screen>
 	<!-- FLASHIMANAGER -->
 	<screen name="FlashManager" position="fill" zPosition="10" flags="wfNoBorder">
 		<panel name="OpenSPA"/>
 		<widget name="list" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="410,155" zPosition="10" size="1490,670" transparent="1"/>
 		<eLabel backgroundColor="blue_light" position="410,830" size="1490,2" zPosition="2"/>
-		<widget source="description" render="Label" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" position="410,848" size="1490,100" transparent="1" horizontalAlignment="center" verticalAlignment="center" zPosition="3"/>
+		<widget source="description" render="Label" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" position="410,848" size="1490,100" transparent="1" horizontalAlignment="left" verticalAlignment="center" zPosition="3"/>
 	</screen>
 	<!-- FLASHIMAGE -->
 	<screen name="FlashImage" position="fill" zPosition="10" flags="wfNoBorder">
@@ -4086,7 +4086,7 @@
 		<widget name="header" position="410,155" size="1490,85" zPosition="10" font="RegularBold;30" horizontalAlignment="center" verticalAlignment="center" backgroundColor="OE_Background" transparent="1"/>
 		<widget name="progress" position="410,280" size="1490,50" foregroundColor="blue_light" scrollbarBorderWidth="2" scrollbarBorderColor="green_light" zPosition="10" transparent="1"/>
 		<eLabel backgroundColor="blue_light" position="410,830" size="1490,2" zPosition="2"/>
-		<widget name="info" font="RegularBold;24" foregroundColor="blue_light" backgroundColor="OE_Background" position="410,848" size="1490,90" transparent="1" zPosition="10" horizontalAlignment="center" verticalAlignment="center"/>
+		<widget name="info" font="RegularBold;24" foregroundColor="blue_light" backgroundColor="OE_Background" position="410,848" size="1490,90" transparent="1" zPosition="10" horizontalAlignment="left" verticalAlignment="center"/>
 	</screen>
 	<!-- AUTO BACKUP -->
 	<screen name="Config" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
@@ -5513,5 +5513,17 @@
 		<widget name="wdg_menulist_device" itemHeight="50" position="26,220" size="1250,50" backgroundColor="OE_Background" font="Fixed;26"/>
 		<widget name="wdg_config" position="26,300" itemHeight="50" size="1250,50" backgroundColor="OE_Background" font="RegularBold;26" transparent="1"/>
 		<widget name="wdg_label_instruction" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
+	</screen>
+	<!-- SINRIC CONNET -->
+	<screen name="sinriconnectconfig" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+		<panel name="OpenSPA"/>
+		<ePixmap pixmap="imagenestmp/sinric.png" position="50,335" size="300,115" zPosition="5" alphatest="blend"/>
+		<ePixmap pixmap="imagenestmp/alexa.png" position="50,450" size="300,168" zPosition="5" alphatest="blend"/>
+		<ePixmap pixmap="imagenestmp/google.png" position="50,615" size="300,168" zPosition="5" alphatest="blend"/>
+		<widget name="config" position="410,155" size="1490,775" itemHeight="50" font="RegularBold;28" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" transparent="1"/>
+		<widget name="menu" conditional="menu" position="410,155" size="1490,775" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background"/>
+		<eLabel position="50,781" size="300,45" backgroundColor="#00FFFFFF" zPosition="4"/>
+		<widget name="picConn" position="50,781" size="42,42" zPosition="5" alphatest="on" transparent="1"/>
+		<widget name="info" position="92,781" size="258,45" font="RegularBold;32" foregroundColor="#00757575" backgroundColor="#00FFFFFF" horizontalAlignment="left" verticalAlignment="center" zPosition="5" transparent="1"/>
 	</screen>
 </skin>
