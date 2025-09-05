@@ -5547,4 +5547,88 @@
 		<eLabel backgroundColor="blue_light" position="410,830" size="1490,2" zPosition="2"/>
 		<widget name="description" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" position="410,848" size="1490,100" transparent="1" horizontalAlignment="left" verticalAlignment="center" zPosition="3"/>
 	</screen>
+	<!-- FILE COMMANDER -->
+	<screen name="FileCommander"  position="0,0" size="1920,1080" title="File Commander">
+		<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo.png" position="95,0" size="75,75" transparent="1" zPosition="1"/>
+		<widget source="session.VideoPicture" render="Pig" position="1362,90" size="480,265" zPosition="1" backgroundColor="#df0b1300"/>
+		<eLabel backgroundColor="OE_NewBg2" foregroundColor="OE_Background" position="45,center" size="1830,940" zPosition="-15"/>
+		<eLabel backgroundColor="blue" foregroundColor="OE_Background" position="0,0" size="1920,1080" zPosition="-16"/>
+		<eLabel text="File Commander" position="740,10" size="600,65" backgroundColor="blue" foregroundColor="green_light" zPosition="5" font="RegularBold;40" transparent="1"/>
+		<widget source="headleft" render="Listbox" position="80,375" size="875,75" foregroundColor="#00fff000" backgroundColor="#002c445e" selection="0">
+			<templates>
+				<template name="Default" fonts="Regular;20" itemHeight="75">
+					<mode name="default">
+						<text index="PathName" position="0,0" size="815,50" font="0" horizontalAlignment="left" verticalAlignment="center" wrap="true" />
+						<text index="ModeSymbolic" position="0,50" size="120,25" font="0" horizontalAlignment="left" verticalAlignment="center" />
+						<text index="SizeScaled" position="130,50" size="130,25" font="0" horizontalAlignment="right" verticalAlignment="center" />
+						<text index="TimeModified" position="330,50" size="260,25" font="0" horizontalAlignment="right" verticalAlignment="center" />
+					</mode>
+				</template>
+			</templates>
+		</widget>
+		<widget name="listleft" position="80,450" size="875,500" backgroundColor="#002c445e" />
+		<widget name="sortleft" position="80,955" size="875,35" font="RegularBold;26" foregroundColor="#00fff000" backgroundColor="#002c445e" halign="center" />
+		<widget source="headright" render="Listbox" position="970,375" size="875,75" foregroundColor="#00fff000" backgroundColor="#002c445e" selection="0">
+			<templates>
+				<template name="Default" fonts="Regular;20" itemHeight="75">
+					<mode name="default">
+						<text index="PathName" position="80,0" size="875,50" font="0" horizontalAlignment="left" verticalAlignment="center" wrap="true" />
+						<text index="ModeSymbolic" position="80,50" size="120,25" font="0" horizontalAlignment="left" verticalAlignment="center" />
+						<text index="SizeScaled" position="130,50" size="130,25" font="0" horizontalAlignment="right" verticalAlignment="center" />
+						<text index="TimeModified" position="330,50" size="260,25" font="0" horizontalAlignment="right" verticalAlignment="center" />
+					</mode>
+				</template>
+			</templates>
+		</widget>
+		<widget name="listright" position="970,450" size="875,500" backgroundColor="#002c445e" />
+		<widget name="sortright" position="970,955" size="875,35" font="RegularBold;26" foregroundColor="#00fff000" backgroundColor="#002c445e" halign="center" />
+		<widget name="quickselect" position="80,80" size="1200,325" font="RegularBold;32" foregroundColor="#00fff000" backgroundColor="#002c445e" halign="center" transparent="1" valign="center" zPosition="+1" />
+		<widget name="status" position="80,410" size="1200,35" font="Regular;25" backgroundColor="#002c445e" borderColor="#00000000" borderWidth="2" foregroundColor="#00ffffff" halign="center" valign="center" zPosition="+1" />
+		<widget source="key_red" render="Label" position="0,e-40" size="180,40" backgroundColor="key_red" conditional="key_red" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="key_green" render="Label" position="190,e-40" size="180,40" backgroundColor="key_green" conditional="key_green" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="key_yellow" render="Label" position="380,e-40" size="180,40" backgroundColor="key_yellow" conditional="key_yellow" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="key_blue" render="Label" position="570,e-40" size="180,40" backgroundColor="key_blue" conditional="key_blue" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="key_menu" render="Label" position="e-260,e-40" size="80,40" backgroundColor="key_back" conditional="key_menu" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="key_info" render="Label" position="e-170,e-40" size="80,40" backgroundColor="key_back" conditional="key_info" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="key_help" render="Label" position="e-80,e-40" size="80,40" backgroundColor="key_back" conditional="key_help" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+	</screen>
+	<screen name="FileCommanderContextMenu" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">
+		<panel name="StanDardScreen"/>
+		<panel name="TemplatePip"/>
+		<widget name="menu" itemHeight="50" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,800" transparent="1"/>
+		<widget name="description" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
+	</screen>
+	<screen name="TaskList" title="Task List" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">
+		<panel name="StanDardScreen"/>
+		<panel name="TemplatePip"/>
+		<widget source="tasklist" render="Listbox" position="26,140" size="1250,810" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="on">
+			<convert type="TemplatedMultiContent">
+				{
+				"template":
+					[
+					MultiContentEntryText(pos=(0,50), size=(1110, 50), font=0, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=1),  # Name.
+					MultiContentEntryText(pos=(0, 120), size=(1110, 50), font=0, flags=RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=2),  # State.
+					MultiContentEntryProgress(pos=(0, 190), size=(1110, 50), percent=-3),  # Progress.
+					MultiContentEntryText(pos=(0, 260), size=(1110, 50), font=0, flags=RT_HALIGN_RIGHT | RT_VALIGN_CENTER, text=4),  # Percentage.
+					],
+				"fonts": [parseFont("RegularBold;26")],
+				"itemHeight": 50
+				}
+			</convert>
+		</widget>
+	</screen>
 </skin>
