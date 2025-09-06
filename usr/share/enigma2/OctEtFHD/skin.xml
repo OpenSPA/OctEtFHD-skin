@@ -1681,7 +1681,7 @@
 		<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,800" transparent="1"/>
 	</screen>
 	<!-- GRAPHICAL INFOBAR EPG -->
-	<screen name="GraphicalInfoBarEPG" position="0,e-230" size="1920,220" backgroundColor="black" transparent="0" flags="wfNoBorder">
+	<screen name="GraphicalInfoBarEPG" position="0,e-230" size="1920,240" backgroundColor="black" transparent="0" flags="wfNoBorder">
 		<eLabel backgroundColor="blue_light" position="0,0" size="1920,2" zPosition="2"/>
 		<eLabel backgroundColor="OE_NewBg2" position="0,0" size="1920,50" zPosition="1"/>
 		<widget source="Title" render="Label" position="20,10" size="850,43" font="Boldit;32" transparent="1" backgroundColor="#00373a43" zPosition="2"/>
