@@ -329,6 +329,9 @@
 		<ePixmap pixmap="buttons/key_leftright.png" position="62,875" size="64,43" zPosition="2" alphaTest="blend"/>
 		<ePixmap pixmap="buttons/key_info.png" position="62,920" size="64,43" zPosition="2" alphaTest="blend"/>
 		<ePixmap pixmap="buttons/key_help.png" position="62,965" size="64,43" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/left.png" position="170,1030" size="36,36" zPosition="2" alphaTest="blend"/>
+		<ePixmap pixmap="buttons/right.png" position="206,1030" size="36,36" zPosition="2" alphaTest="blend"/>
+		<eLabel text="Previous/Next bouquet" position="245,1033" size="500,70" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
 		<widget backgroundColor="OE_Background" font="RegularBold;24" position="225,935" size="300,70" source="key_red" render="Label" objectTypes="key_red,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 		<widget backgroundColor="OE_Background" font="RegularBold;24" position="565,935" size="300,70" source="key_green" render="Label" objectTypes="key_green,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
 		<widget backgroundColor="OE_Background" font="RegularBold;24" position="1020,935" size="300,70" source="key_yellow" render="Label" objectTypes="key_yellow,StaticText" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="1"/>
