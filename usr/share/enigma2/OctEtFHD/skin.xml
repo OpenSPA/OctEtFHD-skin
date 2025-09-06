@@ -3071,8 +3071,8 @@
 					[
 					MultiContentEntryPixmapAlphaBlend(pos = (7,0), size = (90,75), png=6, flags=BT_SCALE),
 					MultiContentEntryText(pos = (105,0), size = (1140,75), font=0, flags=RT_VALIGN_CENTER, text=2),
-					MultiContentEntryText(pos = (105,3), size = (590,37), font=1, flags=RT_VALIGN_CENTER, text=3),
-					MultiContentEntryText(pos = (700,3), size = (470,37), font=1, flags=RT_VALIGN_CENTER, text=5),
+					MultiContentEntryText(pos = (105,3), size = (400,37), font=1, flags=RT_VALIGN_CENTER, text=3),
+					MultiContentEntryText(pos = (507,3), size = (655,37), font=1, flags=RT_VALIGN_CENTER, text=5),
 					MultiContentEntryText(pos = (105,42), size = (1059,30), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0),
 					MultiContentEntryPixmapAlphaBlend(pos = (1165,0), size = (72,72), png=7, flags=BT_SCALE),
 					],
@@ -3291,28 +3291,22 @@
 	</screen>
 	<!-- LOCATIONBOX -->
 	<screen name="LocationBox" title="Location Box" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+		<panel name="PlaybackLocationBox" conditional="filetext"/>
+	</screen>
+	<screen name="PlaybackLocationBox" title="Location Box" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
-		<widget name="text" font="RegularBold;26" backgroundColor="OE_Background" position="26,145" size="1250,45" transparent="1"/>
-		<widget name="target" font="RegularBold;26" backgroundColor="OE_Background" position="26,195" size="1250,45" transparent="1"/>
-		<panel name="LocationBoxOld" conditional="textbook"/>
-		<panel name="LocationBoxNew" conditional="filetext"/>
-	</screen>
-	<screen name="LocationBoxOld" title="Location Box" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
-		<widget name="filelist" itemHeight="50" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="26,245" size="1250,450" transparent="1"/>
-		<eLabel backgroundColor="blue_light" position="26,710" size="1250,2" zPosition="-9"/>
-		<widget name="textbook" font="RegularBold;26" backgroundColor="OE_Background" position="26,710" size="1250,45" transparent="1"/>
-		<widget name="booklist" itemHeight="50" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="26,760" size="1250,205" transparent="1"/>
-	</screen>
-	<screen name="LocationBoxNew" title="Location Box" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<ePixmap alphaTest="blend" pixmap="buttons/key_help.png" position="18,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_leftright.png" position="85,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="152,1035" size="64,43"/>
-		<widget name="filetext" font="RegularBold;26" backgroundColor="blue_light" position="26,245" size="1250,45" verticalAlignment="center"/>
+		<widget name="text" font="RegularBold;26" backgroundColor="OE_Background" position="26,145" size="1250,45" transparent="1"/>
+		<widget name="target" font="RegularBold;26" backgroundColor="OE_Background" position="26,195" size="1000,45" transparent="1"/>
+		<widget name="targetfreespace" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" position="1046,195" size="204,45" transparent="1"/>
+		<widget name="fileheading" font="RegularBold;26" backgroundColor="blue_light" position="26,245" size="1250,45" verticalAlignment="center"/>
 		<widget name="filelist" itemHeight="45" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="26,300" size="1250,405" transparent="1"/>
 		<widget name="quickselect" font="RegularBold;100" backgroundColor="OE_Background" foregroundColor="OE_Orange" position="26,290" size="1250,405" transparent="1" horizontalAlignment="center" verticalAlignment="center" zPosition="+1"/>
-		<widget name="booktext" font="RegularBold;26" backgroundColor="blue_light" position="26,710" size="1250,45" verticalAlignment="center"/>
-		<widget name="booklist" itemHeight="45" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="26,770" size="1250,185" transparent="1"/>
+		<widget name="bookmarkheading" font="RegularBold;26" backgroundColor="blue_light" position="26,710" size="1250,45" verticalAlignment="center"/>
+		<widget name="bookmarklist" itemHeight="45" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="26,770" size="1250,185" transparent="1"/>
 	</screen>
 	<!-- RDS INFO DISPLAY RADIOTEXT -->
 	<screen name="RdsInfoDisplay" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" zPosition="-2">
