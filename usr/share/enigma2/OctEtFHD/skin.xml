@@ -4678,7 +4678,7 @@
 		<panel name="TemplateInformation"/>
 		<panel name="ButtonsVisionCore"/>
 		<widget name="lab1" conditional="lab1" position="420,140" size="900,70" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" transparent="1" zPosition="3"/>
-		<widget name="list" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="420,200" zPosition="10" size="1497,745" transparent="1"/>
+		<widget name="list" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="420,200" zPosition="10" size="1497,750" transparent="1"/>
 		<applet type="onLayoutFinish">
 		self[&quot;list&quot;].instance.setItemHeight(50)
 		</applet>
