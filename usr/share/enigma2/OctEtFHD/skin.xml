@@ -3293,17 +3293,14 @@
 	</screen>
 	<!-- LOCATIONBOX -->
 	<screen name="LocationBox" title="Location Box" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
-		<panel name="PlaybackLocationBox" conditional="filetext"/>
-	</screen>
-	<screen name="PlaybackLocationBox" title="Location Box" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_help.png" position="18,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_leftright.png" position="85,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="152,1035" size="64,43"/>
 		<widget name="text" font="RegularBold;26" backgroundColor="OE_Background" position="26,145" size="1250,45" transparent="1"/>
-		<widget name="target" font="RegularBold;26" backgroundColor="OE_Background" position="26,195" size="1000,45" transparent="1"/>
-		<widget name="targetfreespace" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" position="1046,195" size="204,45" transparent="1"/>
+		<widget name="target" font="RegularBold;26" backgroundColor="OE_Background" position="26,195" size="900,45" transparent="1"/>
+		<widget name="targetfreespace" position="936,195" size="339,45" font="RegularBold;26" foregroundColor="#0000fafa" backgroundColor="OE_Background" horizontalAlignment="right" transparent="1"/>
 		<widget name="fileheading" font="RegularBold;26" backgroundColor="blue_light" position="26,245" size="1250,45" verticalAlignment="center"/>
 		<widget name="filelist" itemHeight="45" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="26,300" size="1250,405" transparent="1"/>
 		<widget name="quickselect" font="RegularBold;100" backgroundColor="OE_Background" foregroundColor="OE_Orange" position="26,290" size="1250,405" transparent="1" horizontalAlignment="center" verticalAlignment="center" zPosition="+1"/>
