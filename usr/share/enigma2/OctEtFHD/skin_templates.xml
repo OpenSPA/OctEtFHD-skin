@@ -621,17 +621,17 @@ self.instance.move(ePoint((screenSize[0] - width) // 2, (screenSize[1] - height)
 	</screen>
 		<!-- XTRAEVENT POSTER -->
 	<screen name="poster_firstinfobar">
-		<widget source="session.Event_Now" render="xtraPoster" position="80,490" size="185,278" zPosition="2"/>
+		<widget source="session.Event_Now" render="xtraPoster" position="30,490" size="285,278" zPosition="2"/>
 	</screen>
 	<screen name="poster_secondinfobar">
 		<widget source="session.Event_Now" render="xtraPoster" position="470,195" size="185,278" zPosition="2"/>
 		<widget source="session.Event_Next" render="xtraPoster" position="470,645" size="185,278" zPosition="2"/>
 	</screen>
 	<screen name="poster_channelselection">
-		<widget source="ServiceEvent" conditional="ServiceEvent" render="xtraPoster" position="80,50" size="185,278" zPosition="2"/>
+		<widget source="ServiceEvent" conditional="ServiceEvent" render="xtraPoster" position="180,561" size="240,159" zPosition="2"/>
 	</screen>
 	<screen name="poster_movieselection">
-		<widget source="Service" conditional="Service" render="xtraPoster" position="110,10" size="260,400" zPosition="2"/>
+		<widget source="Service" conditional="Service" render="xtraPoster" position="95,10" size="260,400" zPosition="2"/>
 	</screen>
 	<screen name="TemplateXtraEPGSelection">
 		<widget source="Event" conditional="Event" render="xtraPoster" position="165,285" size="185,278" zPosition="2"/>
