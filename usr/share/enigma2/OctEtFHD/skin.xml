@@ -1094,7 +1094,7 @@
 		<widget backgroundColor="blue_light" pixmap="colors/green_light.png" position="50,385" render="Progress" size="500,5" source="ServiceEvent" transparent="0" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget backgroundColor="OE_NewBg2" font="RegularBold;24" position="50,390" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=8000,wrap,always=0" render="RunningText" size="500,170" source="ServiceEvent" transparent="1">
+		<widget backgroundColor="OE_NewBg2" font="RegularBold;24" position="50,390" options="movetype=running,startpoint=0,direction=top,steptime=100,startdelay=4000,wrap,always=0" render="RunningText" size="500,170" source="ServiceEvent" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<widget backgroundColor="blue_light" foregroundColor="blue_light" position="50,723" render="Progress" size="500,4" source="Event" transparent="0" zPosition="1">
@@ -2382,6 +2382,7 @@
 	</screen>
 		<!-- MOVIEPLAYER NO CHECK -->
 	<screen name="MoviePlayer" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="InfoBar">
+		<panel name="poster_firstinfobar"/>
 		<panel name="PVRState"/>
 		<eLabel backgroundColor="OE_Background" name="InfoBar" position="center,910" size="1780,145" zPosition="-11"/>
 		<eLabel backgroundColor="OE_NewBg" foregroundColor="OE_NewBg" position="1565,870" size="250,210" zPosition="-10"/>

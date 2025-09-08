@@ -212,7 +212,7 @@
 	<screen name="TemplateEPGSelection">
 		<panel name="FrameClock"/>
 		<panel name="TemplateFrame"/>
-		<!-- panel name="TemplateXtraEPGSelection"/ -->
+		<panel name="TemplateXtraEPGSelection"/>
 		<eLabel backgroundColor="OE_NewBg2" position="30,center" size="450,1080" zPosition="1" verticalAlignment="center"/>
 		<widget source="Title" render="Label" font="RegularBold;28" backgroundColor="OE_NewBg2" position="30,30" size="450,110" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="2"/>
 		<eLabel backgroundColor="blue_light" position="500,142" size="1390,2" zPosition="-9" foregroundColor="un5678a4"/>
@@ -261,7 +261,7 @@
 	<screen name="MultiEPGEventView">
 		<panel name="FrameClock"/>
 		<panel name="TemplateFrame"/>
-		<!-- panel name="TemplateXtraMultiEPGEventView"/ -->
+		<panel name="TemplateXtraMultiEPGEventView"/>
 		<eLabel backgroundColor="OE_NewBg2" position="35,center" size="300,1080" zPosition="1" verticalAlignment="center"/>
 		<eLabel backgroundColor="blue_light" position="350,142" size="1540,2" zPosition="-9"/>
 		<eLabel backgroundColor="blue_light" position="350,930" size="1540,2" zPosition="-9"/>
@@ -622,13 +622,16 @@ self.instance.move(ePoint((screenSize[0] - width) // 2, (screenSize[1] - height)
 		<!-- XTRAEVENT POSTER -->
 	<screen name="poster_firstinfobar">
 		<widget source="session.Event_Now" render="xtraPoster" position="30,490" size="285,278" zPosition="2"/>
+		<widget source="session.Event_Now" render="xtraBackdrop" position="30,212" size="283,178" zPosition="2"/>
 	</screen>
 	<screen name="poster_secondinfobar">
-		<widget source="session.Event_Now" render="xtraPoster" position="470,195" size="185,278" zPosition="2"/>
-		<widget source="session.Event_Next" render="xtraPoster" position="470,645" size="185,278" zPosition="2"/>
+		<widget source="session.Event_Now" render="xtraPoster" position="470,195" size="185,200" zPosition="2"/>
+		<widget source="session.Event_Now" render="xtraBackdrop" position="470,395" size="185,178" zPosition="2"/>
+		<widget source="session.Event_Next" render="xtraPoster" position="470,645" size="185,152" zPosition="2"/>
+		<widget source="session.Event_Next" render="xtraBackdrop" position="470,797" size="185,152" zPosition="2"/>
 	</screen>
 	<screen name="poster_channelselection">
-		<widget source="ServiceEvent" conditional="ServiceEvent" render="xtraPoster" position="180,561" size="240,159" zPosition="2"/>
+		<widget source="ServiceEvent" conditional="ServiceEvent" render="xtraPoster" position="210,561" size="175,159" zPosition="2"/>
 	</screen>
 	<screen name="poster_movieselection">
 		<widget source="Service" conditional="Service" render="xtraPoster" position="95,10" size="260,400" zPosition="2"/>
