@@ -1740,7 +1740,7 @@
 		<widget name="datetime" position="20,5" size="250,26" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
 		<widget name="duration" position="280,5" size="150,26" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
 		<widget name="channel" position="450,5" size="410,35" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
-		<widget name="epg_description" position="870,5" size="0,0" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
+		<widget name="epg_description" position="20,45" size="0,0" font="Regular;26" backgroundColor="OE_Background" transparent="1" zPosition="2"/>
 		<widget source="Event" position="870,5" size="1050,45" font="RegularBold;26" render="Label" backgroundColor="OE_Background" transparent="1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
@@ -2002,6 +2002,21 @@
 		<widget alphaTest="blend" pixmap="my_icons/rec_on.png" position="150,550" render="Pixmap" size="63,32" source="session.RecordState" zPosition="2">
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
+	</screen>
+		<!-- EVENT VIEW SIMPLE MOVIE SELECTION-->
+	<screen name="EventViewSimple" title="" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">
+		<eLabel backgroundColor="#002c445e" name="InfoBar" position="center,805" size="1750,245" zPosition="-21"/>
+		<eLabel backgroundColor="OE_NewBg2" position="0,785" size="450,285" zPosition="-20"/>
+		<!-- Widgets -->
+		<widget source="Title" render="Label" font="RegularBold;25" backgroundColor="#002c445e" foregroundColor="OE_Foreground" horizontalAlignment="left" position="480,805" size="1340,45" transparent="1" verticalAlignment="center"/>
+		<widget name="datetime" font="RegularBold;25" backgroundColor="OE_NewBg2" foregroundColor="OE_Foreground" horizontalAlignment="right" position="0,805" size="430,45" transparent="1" verticalAlignment="center"/>
+		<widget name="channel" font="RegularBold;25" backgroundColor="OE_NewBg2" foregroundColor="OE_Foreground" horizontalAlignment="right" position="0,860" size="430,95" transparent="1" verticalAlignment="top"/>
+		<widget name="duration" font="RegularBold;25" backgroundColor="OE_NewBg2" foregroundColor="OE_Foreground" horizontalAlignment="right" position="0,955" size="430,45" transparent="1" verticalAlignment="center"/>
+		<eLabel backgroundColor="#002c445e" foregroundColor="blue_light" name="new eLabel" position="480,854" size="1340,2" zPosition="-1"/>
+		<widget name="epg_description" position="480,860" size="0,0" font="Regular;26" backgroundColor="#002c445e" transparent="1" zPosition="2"/>
+		<widget name="FullDescription" position="480,860" size="1340,185" font="RegularBold;30" backgroundColor="#002c445e" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" horizontalAlignment="left" transparent="1" verticalAlignment="top"/>
+		<!-- Clock -->
+		<panel name="Clock"/>
 	</screen>
 	<!-- MULTI SELECTION EPG -->
 	<screen name="EPGSelectionMulti" title="EPG Selection" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
@@ -2470,7 +2485,7 @@
 		<eLabel backgroundColor="blue_light" position="450,160" size="2,752" zPosition="2"/>
 		<eLabel backgroundColor="#002c445e" position="452,160" size="13,752" zPosition="2"/>
 		<widget name="chosenletter" position="425,165" size="40,40" font="RegularBold;30" backgroundColor="OE_NewBg2" foregroundColor="#0000fafa" transparent="1" zPosition="1"/>
-		<widget name="list" position="465,160" size="1440,750" backgroundColor="#002c445e" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" transparent="0"/>
+		<widget name="list" position="465,160" size="1440,755" backgroundColor="#002c445e" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" transparent="0"/>
 		<widget backgroundColor="OE_Background" font="RegularBold;26" foregroundColor="green_light" horizontalAlignment="left" position="15,880" size="180,45" render="Label" source="Service" transparent="1" zPosition="1">
 			<convert type="ServiceTime">Duration</convert>
 			<convert type="ClockToText">AsLength</convert>
