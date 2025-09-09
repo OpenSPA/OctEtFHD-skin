@@ -2653,16 +2653,45 @@
 	</screen>
 	<!-- RESTART NETWORK -->
 	<screen name="RestartNetwork" backgroundColor="transparent" flags="wfNoBorder" position="0,center" size="1920,1080" transparent="0">
-		<eLabel backgroundColor="OE_Background" position="30,center" size="1070,270" zPosition="-15"/>
+		<eLabel backgroundColor="#002c445e" position="30,center" size="1070,270" zPosition="-15"/>
 		<eLabel backgroundColor="OE_NewBg2" position="70,center" size="100,340" zPosition="-11" verticalAlignment="center"/>
 		<eLabel backgroundColor="blue_light" position="180,470" size="900,2" zPosition="-9"/>
 		<!-- Widget -->
-		<eLabel text="Network Restart" font="RegularBold;34" backgroundColor="OE_Background" position="180,413" size="900,50" transparent="1" verticalAlignment="center" zPosition="3"/>
-		<widget name="label" position="150,480" size="900,150" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="#0000fafa" transparent="1" horizontalAlignment="center" verticalAlignment="center"/>
+		<eLabel text="Network Restart" font="RegularBold;34" backgroundColor="#002c445e" position="180,413" size="900,50" transparent="1" verticalAlignment="center" zPosition="3"/>
+		<widget name="label" position="150,480" size="900,150" font="RegularBold;26" backgroundColor="#002c445e" foregroundColor="#0000fafa" transparent="1" horizontalAlignment="center" verticalAlignment="center"/>
 		<ePixmap alphaTest="blend" pixmap="icons/input_info.png" position="80,center" size="80,80" zPosition="4"/>
 		<ePixmap position="80,600" size="90,90" alphaTest="blend" pixmap="my_icons/norhap_logo.png" backgroundColor="OE_NewBg2" zPosition="1"/>
 		<!-- Clock -->
 		<panel name="Clock"/>
+	</screen>
+	<!-- INSTALL PLUGINS -->
+	<screen name="installedPlugins" backgroundColor="transparent" flags="wfNoBorder" position="0,center" size="1920,1080" transparent="0">
+		<eLabel backgroundColor="#002c445e" position="30,center" size="1070,270" zPosition="-15"/>
+		<eLabel backgroundColor="OE_NewBg2" position="70,center" size="100,340" zPosition="-11" verticalAlignment="center"/>
+		<eLabel backgroundColor="blue_light" position="180,470" size="900,2" zPosition="-9"/>
+		<!-- Widget -->
+		<eLabel text="Installed Plugins" font="RegularBold;34" backgroundColor="#002c445e" position="180,413" size="900,50" transparent="1" verticalAlignment="center" zPosition="3"/>
+		<widget name="label" position="150,480" size="900,150" font="RegularBold;26" backgroundColor="#002c445e" foregroundColor="#0000fafa" transparent="1" horizontalAlignment="center" verticalAlignment="center"/>
+		<ePixmap alphaTest="blend" pixmap="icons/input_info.png" position="80,center" size="80,80" zPosition="4"/>
+		<ePixmap position="80,600" size="90,90" alphaTest="blend" pixmap="my_icons/norhap_logo.png" backgroundColor="OE_NewBg2" zPosition="1"/>
+		<!-- Clock -->
+		<panel name="Clock"/>
+	</screen>
+	<!-- RESTORE PLUGINS -->
+	<screen name="RestorePlugins" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080">
+		<panel name="TemplateInformation"/>
+		<ePixmap pixmap="buttons/key_exit.png" position="240,905" size="64,43" alphaTest="blend"/>
+		<widget source="menu" position="410,150" size="1490,800" render="Listbox" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" transparent="1">
+			<convert type="TemplatedMultiContent">
+				{"template":[
+				MultiContentEntryText(pos = (50, 5), size = (1200, 45), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 0),
+				MultiContentEntryPixmapAlphaBlend(pos = (5, 8), size = (35, 35), png = 1),
+				],
+				"fonts": [gFont("RegularBold", 30), gFont("Regular", 26)],
+				"itemHeight": 50
+				}
+			</convert>
+		</widget>
 	</screen>
 	<!-- SCAN IP -->
 	<screen name="ScanIP" title="Scan IP" backgroundColor="transparent" flags="wfNoBorder" position="0,center" size="1920,1080" transparent="0">
@@ -3107,47 +3136,6 @@
 		<widget source="session.CurrentService" render="Label" position="1290,700" size="620,100" font="RegularBold;25" horizontalAlignment="center" verticalAlignment="center" backgroundColor="OE_NewBg2" transparent="1" zPosition="2">
 			<convert type="ProgressDiskSpaceInfo">FleshInfo,Full</convert>
 		</widget>
-	</screen>
-	<!-- INSTALL PLUGINS -->
-	<screen name="installedPlugins" backgroundColor="transparent" flags="wfNoBorder" position="0,center" size="1920,1080" transparent="0">
-		<eLabel backgroundColor="OE_Background" position="30,center" size="1070,270" zPosition="-15"/>
-		<eLabel backgroundColor="OE_NewBg2" position="70,center" size="100,340" zPosition="-11" verticalAlignment="center"/>
-		<eLabel backgroundColor="blue_light" position="180,470" size="900,2" zPosition="-9"/>
-		<!-- Widget -->
-		<eLabel text="Installed Plugins" font="RegularBold;34" backgroundColor="OE_Background" position="180,413" size="900,50" transparent="1" verticalAlignment="center" zPosition="3"/>
-		<widget name="label" position="150,480" size="900,150" font="RegularBold;26" backgroundColor="OE_Background" foregroundColor="#0000fafa" transparent="1" horizontalAlignment="center" verticalAlignment="center"/>
-		<ePixmap alphaTest="blend" pixmap="icons/input_info.png" position="80,center" size="80,80" zPosition="4"/>
-		<ePixmap position="80,600" size="90,90" alphaTest="blend" pixmap="my_icons/norhap_logo.png" backgroundColor="OE_NewBg2" zPosition="1"/>
-		<!-- Clock -->
-		<panel name="Clock"/>
-	</screen>
-	<!-- RESTORE PLUGINS -->
-	<screen name="RestorePlugins" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
-		<eLabel backgroundColor="OE_Background" position="30,center" size="1460,940" zPosition="-15"/>
-		<eLabel backgroundColor="OE_NewBg2" position="70,center" size="80,1080" zPosition="-11" verticalAlignment="center"/>
-		<eLabel backgroundColor="blue_light" position="170,130" size="1250,2" zPosition="-9"/>
-		<!-- Widget -->
-		<ePixmap position="72,60" size="90,90" alphaTest="blend" pixmap="my_icons/norhap_logo.png" backgroundColor="OE_NewBg2" zPosition="1"/>
-		<eLabel text="Restore Plugins" font="RegularBold;34" backgroundColor="OE_Background" position="170,80" size="1250,50" transparent="1"/>
-		<widget source="menu" render="Listbox"  scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="170,160" size="1250,780" transparent="1">
-			<convert type="TemplatedMultiContent">
-				{"template":[
-				MultiContentEntryText(pos = (50, 5), size = (1200, 45), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 0),
-				MultiContentEntryPixmapAlphaBlend(pos = (5, 8), size = (35, 35), png = 1),
-				],
-				"fonts": [gFont("RegularBold", 30), gFont("Regular", 26)],
-				"itemHeight": 50
-				}
-			</convert>
-		</widget>
-		<!-- Buttons -->
-		<eLabel backgroundColor="blue_light" position="170,945" size="1250,2" zPosition="-9"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="170,960" size="40,40"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="500,960" size="40,40"/>
-		<widget source="key_red" render="Label" font="Regular;28" backgroundColor="OE_Background" position="220,965" size="270,40" transparent="1" zPosition="1"/>
-		<widget source="key_green" render="Label" font="Regular;28" backgroundColor="OE_Background" position="550,965" size="270,40" transparent="1" zPosition="1"/>
-		<!-- Clock -->
-		<panel name="Clock"/>
 	</screen>
 	<!-- IMAGE BACKUP -->
 	<screen name="ImageBackup" title="Restore is running" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
