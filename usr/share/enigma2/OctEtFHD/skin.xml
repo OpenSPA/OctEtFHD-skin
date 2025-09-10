@@ -4864,7 +4864,7 @@
 	<screen name="HistoryZapSelector" position="fill" flags="wfNoBorder">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
-		<widget source="menu" render="Listbox" position="26,140" size="1250,800" backgroundColor="#002c445e" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light">
+		<widget source="menu" render="Listbox" position="26,140" size="1250,795" backgroundColor="#002c445e" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light">
 			<convert type="TemplatedMultiContent">
 				{"template":[
 					MultiContentEntryText(pos = (200, 25), size=(30, 20), font=2, color=0x00ffc000, color_sel=0x00ffc000, flags=RT_HALIGN_CENTER | RT_VALIGN_CENTER, text=1),
@@ -4878,7 +4878,7 @@
 			</convert>
 		</widget>
 		<eLabel text="Picon width" position="1290,535" size="320,70" font="RegularBold;26" backgroundColor="OE_NewBg2" foregroundColor="#0000fafa" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="3"/>
-		<eLabel text="max = 220x132" position="1630,535" size="320,70" font="RegularBold;26" backgroundColor="OE_NewBg2" foregroundColor="#0000fafa" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="3"/>
+		<eLabel text="max = 220x132" position="1630,535" size="290,70" font="RegularBold;26" backgroundColor="OE_NewBg2" foregroundColor="#0000fafa" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="3"/>
 		<ePixmap pixmap="buttons/key_help.png" position="18,1035" size="64,43" alphaTest="blend"/>
 	</screen>
 	<!-- HISTORY ZAP SELECTOR -->
