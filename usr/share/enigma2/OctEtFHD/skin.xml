@@ -766,10 +766,10 @@
 			<convert type="MSNWeather">city</convert>
 		</widget>
 		<eLabel text="Humidity:" position="85,905" size="205,35" zPosition="5" font="RegularBold;28" transparent="1"/>
-		<widget noWrap="1" backgroundColor="OE_NewBg" font="RegularBold;28" render="Label" position="315,905" size="80,50" source="session.MSNWeather" zPosition="3" transparent="1" foregroundColor="blue_light">
+		<widget noWrap="1" backgroundColor="OE_NewBg" font="RegularBold;28" render="Label" position="295,905" size="80,50" horizontalAlignment="left" source="session.MSNWeather" zPosition="3" transparent="1" foregroundColor="blue_light">
 			<convert type="MSNWeather">humidity</convert>
 		</widget>
-		<eLabel text="%" position="375,905" size="30,50" zPosition="5" font="RegularBold;28" transparent="1"/ -->
+		<eLabel text="%" position="360,905" size="30,50" zPosition="5" font="RegularBold;28" transparent="1"/ -->
 	</screen>
 	<!-- MAIN MENU INFORMATION (NEW) -->
 	<!-- INFO COMMON -->
@@ -1030,8 +1030,10 @@
 		<eLabel backgroundColor="blue_light" position="445,950" size="1430,2" zPosition="-9"/>
 		<widget name="languagetext" conditional="languagetext" backgroundColor="OE_NewBg2" font="RegularBold;26" horizontalAlignment="left" verticalAlignment="center" position="475,980" size="275,70" transparent="1" zPosition="1"/>
 	</screen>
-	<screen name="BackupScreen" title="Backup is running" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<!-- BACKUP SCREEN -->
+	<screen name="BackupScreen" title="Backup is running..." backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
+		<panel name="TemplatePip"/>
 		<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,825" transparent="1"/>
 	</screen>
 	<screen name="BackupSelection" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
@@ -5251,7 +5253,7 @@
 		<widget source="session.VideoPicture" render="Pig" position="1360,100" size="480,265" zPosition="1" backgroundColor="#df0b1300"/>
 		<eLabel backgroundColor="OE_NewBg2" foregroundColor="OE_Background" position="45,center" size="1830,940" zPosition="-15"/>
 		<eLabel backgroundColor="blue" foregroundColor="OE_Background" position="0,0" size="1920,1080" zPosition="-16"/>
-		<eLabel text="Weather Forecast" position="780,10" size="400,65" backgroundColor="blue" foregroundColor="green_light" zPosition="5" font="RegularBold;40" transparent="1"/>
+		<eLabel text="news/weather report" position="0,10" size="1920,50" backgroundColor="blue" foregroundColor="green_light" horizontalAlignment="center" verticalAlignment="center" zPosition="5" font="RegularBold;40" transparent="1"/>
 		<eLabel backgroundColor="green_light" foregroundColor="OE_Background" position="45,65" size="1830,5" zPosition="-16"/>
 		<eLabel backgroundColor="green_light" foregroundColor="OE_Background" position="40,65" size="5,945" zPosition="-16"/>
 		<eLabel backgroundColor="green_light" foregroundColor="OE_Background" position="40,1005" size="1835,5" zPosition="-15"/>
