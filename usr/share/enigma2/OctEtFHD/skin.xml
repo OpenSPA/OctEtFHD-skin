@@ -3130,7 +3130,17 @@
 	<!-- PLUGIN BROWSER -->
 	<screen name="PluginBrowser" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" transparent="0">
 		<panel name="StanDardScreen"/>
-		<panel name="TemplatePip"/>
+		<eLabel backgroundColor="OE_NewBg2" position="1269,0" size="651,1080" zPosition="-16"/>
+		<widget source="session.VideoPicture" render="Pig" position="1285,100" size="635,400" zPosition="1" backgroundColor="#df0b1300"/>
+		<widget name="HelpWindow" conditional="HelpWindow" pixmap="skin_default/vkey_icon.png" position="225,725" size="1,1" transparent="1" zPosition="10" alphaTest="on"/>
+		<widget source="VKeyIcon" render="Pixmap" conditional="VKeyIcon" pixmap="buttons/key_text.png" position="225,1035" zPosition="1" size="64,43" transparent="1" alphaTest="blend">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="VKeyIcon" conditional="VKeyIcon" alphaTest="blend" pixmap="my_icons/key_board.png" position="295,1035" render="Pixmap" size="64,43" transparent="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="footnote" conditional="footnote" position="1290,950" size="620,130" font="RegularBold;24" foregroundColor="#00e5e619" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1"/>
+		<widget name="description" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_help.png" position="18,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_exit.png" position="85,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_menu.png" position="1565,780" size="64,43"/>
@@ -3149,13 +3159,22 @@
 			</convert>
 		</widget>
 		<widget name="quickselect" position="1400,880" size="410,100" font="RegularBold;26" foregroundColor="#0000fafa" horizontalAlignment="center" backgroundColor="OE_NewBg2" transparent="1" verticalAlignment="center" zPosition="+1"/>
-		<widget source="description" render="Label" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
 	</screen>
 	<!-- PLUGIN BROWSER GRID -->
 	<screen name="PluginBrowserGrid" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" transparent="0">
 		<panel name="StanDardScreen"/>
-		<panel name="TemplatePip"/>
+		<eLabel backgroundColor="OE_NewBg2" position="1269,0" size="651,1080" zPosition="-16"/>
+		<widget source="session.VideoPicture" render="Pig" position="1285,100" size="635,400" zPosition="1" backgroundColor="#df0b1300"/>
+		<widget name="HelpWindow" conditional="HelpWindow" pixmap="skin_default/vkey_icon.png" position="225,725" size="1,1" transparent="1" zPosition="10" alphaTest="on"/>
+		<widget source="VKeyIcon" render="Pixmap" conditional="VKeyIcon" pixmap="buttons/key_text.png" position="225,1035" zPosition="1" size="64,43" transparent="1" alphaTest="blend">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="VKeyIcon" conditional="VKeyIcon" alphaTest="blend" pixmap="my_icons/key_board.png" position="295,1035" render="Pixmap" size="64,43" transparent="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="footnote" conditional="footnote" position="1290,950" size="620,130" font="RegularBold;24" foregroundColor="#00e5e619" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1"/>
+		<widget name="description" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_help.png" position="18,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_exit.png" position="85,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_menu.png" position="1565,780" size="64,43"/>
@@ -3176,13 +3195,22 @@
 			</convert>
 		</widget>
 		<widget name="quickselect" position="1400,880" size="410,100" font="RegularBold;26" foregroundColor="#0000fafa" horizontalAlignment="center" backgroundColor="OE_NewBg2" transparent="1" verticalAlignment="center" zPosition="+1"/>
-		<widget source="description" render="Label" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
 	</screen>
 	<!-- PACKAGE ACTION -->
 	<screen name="PackageAction" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" transparent="0">
 		<panel name="StanDardScreen"/>
-		<panel name="TemplatePip"/>
+		<eLabel backgroundColor="OE_NewBg2" position="1269,0" size="651,1080" zPosition="-16"/>
+		<widget source="session.VideoPicture" render="Pig" position="1285,100" size="635,400" zPosition="1" backgroundColor="#df0b1300"/>
+		<widget name="HelpWindow" conditional="HelpWindow" pixmap="skin_default/vkey_icon.png" position="225,725" size="1,1" transparent="1" zPosition="10" alphaTest="on"/>
+		<widget source="VKeyIcon" render="Pixmap" conditional="VKeyIcon" pixmap="buttons/key_text.png" position="225,1035" zPosition="1" size="64,43" transparent="1" alphaTest="blend">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="VKeyIcon" conditional="VKeyIcon" alphaTest="blend" pixmap="my_icons/key_board.png" position="295,1035" render="Pixmap" size="64,43" transparent="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget name="footnote" conditional="footnote" position="1290,950" size="620,130" font="RegularBold;24" foregroundColor="#00e5e619" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1"/>
+		<widget name="description" conditional="description" position="1290,520" size="620,635" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_help.png" position="18,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_exit.png" position="85,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_menu.png" position="1565,780" size="64,43"/>
@@ -3204,7 +3232,6 @@
 			</convert>
 		</widget>
 		<widget name="quickselect" position="1400,850" size="410,100" font="Regular;24" foregroundColor="#00fff000" horizontalAlignment="center" transparent="1" verticalAlignment="center" zPosition="+1"/>
-		<widget source="description" render="Label" conditional="description" position="1290,520" size="0,0" font="RegularBold;25" horizontalAlignment="left" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 		<eLabel text="Open the Plugin Browser settings screen" position="1290,835" size="620,70" font="RegularBold;26" backgroundColor="OE_NewBg2" horizontalAlignment="center" verticalAlignment="center" transparent="1" zPosition="3"/>
 	</screen>
 	<!-- PACKAGE ACTION LOG -->
