@@ -4947,6 +4947,7 @@
 				}
 			</convert>
 		</widget>
+		<eLabel backgroundColor="#002c445e" position="26,935" size="1250,30" transparent="0" zPosition="-1"/>
 		<eLabel text="Picon width" position="1290,535" size="320,70" font="RegularBold;26" backgroundColor="OE_NewBg2" foregroundColor="#0000fafa" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="3"/>
 		<eLabel text="max = 220x132" position="1630,535" size="290,70" font="RegularBold;26" backgroundColor="OE_NewBg2" foregroundColor="#0000fafa" horizontalAlignment="left" verticalAlignment="center" transparent="1" zPosition="3"/>
 		<ePixmap pixmap="buttons/key_help.png" position="18,1035" size="64,43" alphaTest="blend"/>
