@@ -1362,8 +1362,8 @@
 		<panel name="TemplatePip"/>
 		<widget name="menu" itemHeight="50" font="RegularBold;26" position="26,140" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" size="1250,800" transparent="1" zPosition="3"/>
 	</screen>
-	<!-- CHANNELSELECTION SINGLE -->
-	<screen name="SlimChannelSelection" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
+	<!-- CHANNELSELECTION SINPLE -->
+	<screen name="SimpleChannelSelection" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
 		<eLabel backgroundColor="OE_Background" position="0,0" size="1920,1080" zPosition="-15"/>
 		<eLabel backgroundColor="OE_NewBg2" position="65,center" size="600,1080" zPosition="-11" verticalAlignment="center"/>
 		<widget source="ServiceEvent" render="Label" font="RegularBold;28" backgroundColor="OE_NewBg2" foregroundColor="blue_light" position="80,10" size="570,70" transparent="1" zPosition="1">
@@ -1406,7 +1406,9 @@
 		<eLabel backgroundColor="blue_light" position="680,980" size="1230,2" zPosition="-9"/>
 		<!-- Button -->
 		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="670,1032" size="64,43"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="735,1032" size="64,43"/>
+		<widget source="key_info" render="Pixmap" position="735,1032" size="64,43" pixmap="buttons/key_info.png" objectTypes="key_info,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_red.png" position="660,985" size="40,40"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_green.png" position="1000,985" size="40,40"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_yellow.png" position="1360,985" size="40,40"/>
@@ -1424,7 +1426,9 @@
 		<widget name="list" position="26,center" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" colorEventProgressbarBorder="OE_Selection" colorEventProgressbarBorderSelected="OE_Foreground" colorServiceDescription="#a4c400" colorServiceDescriptionSelected="OE_Foreground" foregroundColorServiceNotAvail="OE_Accent2" itemHeight="50" serviceItemHeight="50" serviceNumberFont="RegularBold;32" serviceNameFont="RegularBold;32" serviceInfoFont="RegularBold;27" size="1250,800" transparent="1" fieldMargins="15" nonplayableMargins="15" itemsDistances="8" progressBarWidth="70" progressPercentWidth="80" progressbarHeight="12"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="18,1035" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_text.png" position="87,1035" size="64,43"/>
-		<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="156,1035" size="64,43"/>
+		<widget source="key_info" render="Pixmap" position="156,1035" size="64,43" pixmap="buttons/key_info.png" objectTypes="key_info,StaticText" backgroundColor="OE_Background" alphaTest="blend" zPosition="1">
+			<convert type="ConditionalShowHide"/>
+		</widget>
 	</screen>
 	<!-- CHANNELSELECTION RADIO -->
 	<screen name="ChannelSelectionRadio" title="ChannelSelectionRadio" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
