@@ -427,7 +427,7 @@
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="15,1065" size="1865,2" zPosition="-11"/>
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="1880,850" size="2,217" zPosition="-11"/>
 		<eLabel backgroundColor="OE_NewBg" position="336,922" size="1535,4" zPosition="20" transparent="0" foregroundColor="OE_ListBackground"/>
-		<eLabel backgroundColor="OE_NewBg" foregroundColor="OE_NewBg" position="30,775" size="285,305" zPosition="-10"/>
+		<eLabel backgroundColor="OE_NewBg" position="30,775" size="285,305" zPosition="-10"/>
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="28,775" size="2,305" zPosition="-11"/>
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="28,773" size="289,2" zPosition="-11"/>
 		<eLabel backgroundColor="blue_light" name="InfoBar" position="315,775" size="2,305" zPosition="-11"/>
@@ -2444,7 +2444,8 @@
 		<eLabel position="30,750" size="922,60" backgroundColor="grey"/>
 		<eLabel position="967,750" size="922,60" backgroundColor="grey"/>
 		<ePixmap name="new ePixmap" pixmap="buttons/key_channel.png" position="30,760" size="64,43" alphaTest="blend"/>
-		<eLabel text="Switch between filelist/playlist" position="102,767" size="700,60" font="Regular;24" foregroundColor="black" backgroundColor="grey" horizontalAlignment="left" transparent="1" zPosition="3"/>
+		<eLabel text="Switch to file list" position="102,767" size="330,60" font="Regular;24" foregroundColor="black" backgroundColor="grey" horizontalAlignment="left" transparent="1" zPosition="3"/>
+		<eLabel text="Filelist/Playlist" position="435,767" size="250,60" font="Regular;24" foregroundColor="black" backgroundColor="grey" horizontalAlignment="left" transparent="1" zPosition="3"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="857,760" size="64,43"/>
 		<eLabel text="Show previous event" position="1030,767" size="300,55" font="Regular;24" foregroundColor="black" backgroundColor="grey" horizontalAlignment="left" transparent="1" zPosition="3"/>
 		<ePixmap name="new ePixmap" pixmap="buttons/key_leftright.png" position="1363,760" size="64,43" alphaTest="blend"/>
