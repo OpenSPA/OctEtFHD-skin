@@ -172,7 +172,7 @@
 	<parameter name="ChoicelistDash" value="0, 0, 1000, 50"/>
 	<parameter name="ChoicelistName" value="85, 9, 1300, 50"/>
 	<parameter name="ChoicelistNameSingle" value="5, 0, 1400, 50"/>
-	<parameter name="ChoicelistIcon" value="10, 5, 64, 50"/>
+	<parameter name="ChoicelistIcon" value="10, 3, 64, 50"/>
 	<parameter name="SelectionListDescr" value="55, 2, 1000, 45"/>
 	<parameter name="SelectionListLock" value="10, 5, 45, 45"/>
 	<parameter name="SelectionListLockOff" value="10, 5, 45, 45"/>
