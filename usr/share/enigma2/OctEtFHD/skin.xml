@@ -2445,8 +2445,7 @@
 		<eLabel position="30,750" size="922,60" backgroundColor="grey"/>
 		<eLabel position="967,750" size="922,60" backgroundColor="grey"/>
 		<ePixmap name="new ePixmap" pixmap="buttons/key_channel.png" position="30,760" size="64,43" alphaTest="blend"/>
-		<eLabel text="Switch to file list" position="102,767" size="330,60" font="Regular;24" foregroundColor="black" backgroundColor="grey" horizontalAlignment="left" transparent="1" zPosition="3"/>
-		<eLabel text="Filelist/Playlist" position="435,767" size="250,60" font="Regular;24" foregroundColor="black" backgroundColor="grey" horizontalAlignment="left" transparent="1" zPosition="3"/>
+		<eLabel text="Switch between file list/play list" position="102,767" size="754,60" font="Regular;24" foregroundColor="black" backgroundColor="grey" horizontalAlignment="left" transparent="1" zPosition="3"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="857,760" size="64,43"/>
 		<eLabel text="Show previous event" position="1030,767" size="300,55" font="Regular;24" foregroundColor="black" backgroundColor="grey" horizontalAlignment="left" transparent="1" zPosition="3"/>
 		<ePixmap name="new ePixmap" pixmap="buttons/key_leftright.png" position="1363,760" size="64,43" alphaTest="blend"/>
@@ -5680,8 +5679,8 @@
 		<ePixmap alphaTest="blend" pixmap="my_icons/norhap_logo.png" position="95,0" size="75,75" transparent="1" zPosition="1"/>
 		<widget source="session.VideoPicture" render="Pig" position="1362,90" size="480,265" zPosition="1" backgroundColor="#df0b1300"/>
 		<eLabel backgroundColor="OE_NewBg2" foregroundColor="OE_Background" position="45,center" size="1830,940" zPosition="-15"/>
-		<eLabel backgroundColor="blue" foregroundColor="OE_Background" position="0,0" size="1920,1080" zPosition="-16"/>
-		<eLabel text="File Commander" position="740,10" size="600,65" backgroundColor="blue" foregroundColor="green_light" zPosition="5" font="RegularBold;40" transparent="1"/>
+		<eLabel backgroundColor="#002c445e" foregroundColor="OE_Background" position="0,0" size="1920,1080" zPosition="-16"/>
+		<eLabel text="File Commander" position="740,10" size="600,65" backgroundColor="#002c445e" foregroundColor="green_light" zPosition="5" font="RegularBold;40" transparent="1"/>
 		<widget source="headleft" render="Listbox" position="80,375" size="875,75" foregroundColor="#00fff000" backgroundColor="#002c445e" selection="0">
 			<templates>
 				<template name="Default" fonts="Regular;20" itemHeight="75">
