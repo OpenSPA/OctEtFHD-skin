@@ -89,7 +89,7 @@ class ProgressDiskSpaceInfo(Poll, Converter):
 				self.getSizeStr(list[0]) + " " + _("Free:") + " ", self.getSizeStr(list[2]) + " " + _("Used:") + " ", self.getSizeStr(list[1]), list[3])
 			else:
 				text = "%s: %s %s %s" % (entry[1],
-				self.getSizeStr(list[0]) + " " + _("Used:") + " ", self.getSizeStr(list[1]) + " " + _("Free:") + " ", self.getSizeStr(list[2]))
+				self.getSizeStr(list[0]) + "   " + _("Used:") + " ", self.getSizeStr(list[1]) + " " + _("Free:") + " ", self.getSizeStr(list[2]))
 		return text
 
 	@cached
