@@ -2668,7 +2668,7 @@
 		<widget source="IF" render="Label" font="RegularBold;32" backgroundColor="OE_Background" horizontalAlignment="left" position="26,155" size="500,50" transparent="1"/>
 		<widget source="Statustext" render="Label" font="RegularBold;32" backgroundColor="OE_Background" position="770,155" size="370,50" transparent="1" horizontalAlignment="right"/>
 		<widget name="statuspic" alphaTest="blend" pixmaps="extensions/lock_on.png,extensions/lock_off.png" position="1160,158" size="35,35" transparent="1"/>
-		<widget name="devicepic" alphaTest="blend" pixmaps="icons/network_wired.png,icons/network_wireless.png,icons/network_wired-active.png,icons/network_wired-inactive.png,icons/network_wireless-active.png,icons/network_wireless-inactive.png" zPosition="10" position="1215,150" size="54,54"/>		
+		<widget name="devicepic" alphaTest="blend" pixmaps="icons/network_wired.png,icons/network_wireless.png,icons/network_wired-active.png,icons/network_wired-inactive.png,icons/network_wireless-active.png,icons/network_wireless-inactive.png" zPosition="10" position="1215,155" size="40,40"/>		
 		<eLabel backgroundColor="blue_light" position="26,210" size="1250,5" zPosition="-9"/>
 		<widget name="menulist" itemHeight="50" font="RegularBold;32" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="26,230" size="1250,550" transparent="1"/>
 	</screen>
