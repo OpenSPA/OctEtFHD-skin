@@ -417,7 +417,9 @@
 		<panel name="choicebox"/>
 	</screen>
 	<screen name="ExtensionsList" backgroundColor="transparent" flags="wfNoBorder" position="0,center" size="1920,1080" transparent="0">
-		<panel name="choicebox"/>
+		<panel name="StanDardScreen"/>
+		<panel name="TemplatePip"/>
+		<panel name="infosystem"/>
 	</screen>
 	<!-- INFOBAR -->
 	<screen name="InfoBar" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080" title="InfoBar">
