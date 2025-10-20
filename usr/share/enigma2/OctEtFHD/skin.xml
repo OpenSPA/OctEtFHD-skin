@@ -2601,6 +2601,10 @@
 		<widget source="key_green" render="Label" backgroundColor="OE_NewBg2" font="RegularBold;22" horizontalAlignment="left" verticalAlignment="center" position="1095,920" size="250,100" transparent="1" zPosition="1"/>
 		<widget source="key_yellow" render="Label" backgroundColor="OE_NewBg2" font="RegularBold;22" horizontalAlignment="left" verticalAlignment="center" position="1385,920" size="250,100" transparent="1" zPosition="1"/>
 		<widget source="key_blue" render="Label" backgroundColor="OE_NewBg2" font="RegularBold;22" horizontalAlignment="left" verticalAlignment="center" position="1675,920" size="240,100" transparent="1" zPosition="1"/>
+		<!-- clock -->
+		<widget source="global.CurrentTime" render="Label" position="1760,45" size="140,30" font="RegularBold;28" backgroundColor="#002c445e" foregroundColor="#0000fafa" zPosition="3" transparent="1">
+			<convert type="ClockToText">Mixed</convert>
+		</widget>
 	</screen>
 	<!-- MOVIESELECTIONSLIM -->
 	<screen name="MovieSelectionSlim" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" transparent="0">
