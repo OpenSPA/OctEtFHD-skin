@@ -2284,17 +2284,14 @@
 		<widget name="longshift_key1" position="720,1040" size="440,35" backgroundColor="OE_Background" conditional="longshift_key1" font="RegularBold;26" foregroundColor="blue_light" horizontalAlignment="left" transparent="1"/>
 		<widget name="description" conditional="description" position="1360,575" size="550,635" font="RegularBold;24" backgroundColor="OE_NewBg2" transparent="1" zPosition="2"/>
 	</screen>
-	<!-- HOTKEY SETUP -->
-	<screen name="HotkeySetup" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<!-- BUTTON SETUP -->
+	<screen name="ButtonSetup" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
 		<widget name="list" itemHeight="50" font="RegularBold;26" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" backgroundColor="OE_Background" position="26,305" size="1250,655" transparent="1"/>
 		<widget name="choosen" itemHeight="50" font="RegularBold;32" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" backgroundColor="OE_Background" position="26,140" size="1250,150" transparent="1" foregroundColor="blue_light"/>
-		<!-- others -->
-		<ePixmap alphaTest="blend" pixmap="skin_default/buttons/key_0.png" position="835,980" size="64,43"/>
-		<eLabel text="Default" backgroundColor="OE_Background" font="RegularBold;26" horizontalAlignment="left" position="900,985" size="200,40" transparent="1" zPosition="1"/>
 	</screen>
-	<screen name="HotkeySetupSelect" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<screen name="ButtonSetupSelect" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<eLabel backgroundColor="OE_NewBg2" position="1269,0" size="651,1080" zPosition="-16"/>
 		<widget source="session.VideoPicture" render="Pig" position="1285,100" size="635,400" zPosition="1" backgroundColor="#df0b1300"/>
