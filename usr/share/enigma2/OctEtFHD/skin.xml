@@ -852,9 +852,9 @@
 		<panel name="HelpInformation"/>
 		<!-- widget name="information" conditional="information" position="410,140" size="1490,805" backgroundColor="OE_Background" colPosition="420" divideChar="|" font="RegularBold;26" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" noWrap="1" leftColAlign="left" rightColAlign="left" split="1" transparent="1"/> -->
 		<widget name="information" conditional="information" position="410,145" size="1490,805" backgroundColor="OE_Background" colPosition="420" divideChar="|" font="RegularBold;26" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" noWrap="1" split="1" transparent="1"/>
-		</screen>
+	</screen>
 		<!-- INFO IMAGES -->
-		<screen name="InformationImage" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+	<screen name="InformationImage" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="TemplateInformation"/>
 		<panel name="HelpInformation"/>
 		<widget name="name" position="405,60" size="1490,70" font="RegularBold;28" backgroundColor="OE_Background" horizontalAlignment="center" verticalAlignment="top" transparent="1"/>
@@ -2479,77 +2479,77 @@
 		</widget>
 		<widget name="repeat" position="1815,1032" size="105,45" zPosition="10" pixmaps="mmp/repeat_off.png,mmp/repeat_on.png" alphaTest="blend"/>
 	</screen>
-		<!-- MOVIEPLAYER NO CHECK -->
+		<!-- MOVIEPLAYER -->
 	<screen name="MoviePlayer" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="InfoBar">
-		<panel name="poster_firstinfobar"/>
 		<panel name="PVRState"/>
-		<eLabel backgroundColor="OE_Background" name="InfoBar" position="center,910" size="1780,145" zPosition="-11"/>
-		<eLabel backgroundColor="OE_NewBg" foregroundColor="OE_NewBg" position="1565,870" size="250,210" zPosition="-10"/>
-		<eLabel backgroundColor="green_light" position="1580,981" size="220,2" zPosition="-9"/>
-		<widget backgroundColor="OE_Background" font="RegularBold;34" horizontalAlignment="center" noWrap="1" position="225,918" render="Label" size="1060,56" source="session.CurrentService" transparent="1">
+		<panel name="poster_firstinfobar"/>
+		<eLabel backgroundColor="OE_Background" name="InfoBar" position="20,910" size="1880,125" zPosition="-11"/>
+		<eLabel backgroundColor="OE_NewBg" foregroundColor="OE_NewBg" position="1615,860" size="250,210" zPosition="-10"/>
+		<eLabel backgroundColor="green_light" position="1630,981" size="220,2" zPosition="-9"/>
+		<widget backgroundColor="OE_Background" font="RegularBold;34" horizontalAlignment="center" noWrap="1" position="250,918" render="Label" size="1110,56" source="session.CurrentService" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
-		<widget position="75,978" render="PositionGauge" size="1345,8" source="session.CurrentService" transparent="1" zPosition="1">
+		<widget position="75,978" render="PositionGauge" size="1485,8" source="session.CurrentService" transparent="1" zPosition="1">
 			<convert type="ServicePosition">Gauge</convert>
 		</widget>
-		<widget pixmap="colors/green_light.png" position="75,978" render="Progress" size="1345,8" source="session.CurrentService" transparent="1" zPosition="2">
+		<widget pixmap="colors/green_light.png" position="75,978" render="Progress" size="1485,8" source="session.CurrentService" transparent="1" zPosition="2">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
-		<widget backgroundColor="OE_Background" font="RegularBold;30" foregroundColor="OE_Foreground" horizontalAlignment="left" position="90,896" render="Label" shadowColor="OE_Background" shadowOffset="-1,-1" size="135,90" source="session.CurrentService" transparent="1" verticalAlignment="center">
+		<widget backgroundColor="OE_Background" font="RegularBold;30" foregroundColor="OE_Foreground" horizontalAlignment="left" position="60,896" render="Label" shadowColor="OE_Background" shadowOffset="-1,-1" size="190,90" source="session.CurrentService" transparent="1" verticalAlignment="center">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
-		<widget backgroundColor="OE_Background" font="RegularBold;30" foregroundColor="OE_Foreground" horizontalAlignment="right" position="1285,920" render="Label" size="135,45" source="session.CurrentService" transparent="1" verticalAlignment="center">
+		<widget backgroundColor="OE_Background" font="RegularBold;30" foregroundColor="OE_Foreground" horizontalAlignment="right" position="1370,920" render="Label" size="190,45" source="session.CurrentService" transparent="1" verticalAlignment="center">
 			<convert type="ServicePosition">Remaining</convert>
 		</widget>
-		<widget backgroundColor="OE_Background" font="RegularBold;45" horizontalAlignment="center" position="1580,910" render="Label" size="220,65" source="session.CurrentService" transparent="1" verticalAlignment="center">
+		<widget backgroundColor="OE_Background" font="RegularBold;45" horizontalAlignment="center" position="1630,910" render="Label" size="220,65" source="session.CurrentService" transparent="1" verticalAlignment="center">
 			<convert type="ServicePosition">Length</convert>
 		</widget>
-		<eLabel backgroundColor="OE_Accent1" foregroundColor="OE_Accent1" name="new eLabel" position="75,981" size="1345,2" zPosition="-1"/>
+		<eLabel backgroundColor="OE_Accent1" foregroundColor="OE_Accent1" name="new eLabel" position="75,981" size="1485,2" zPosition="-1"/>
 		<!-- Info -->
-		<ePixmap alphaTest="blend" pixmap="my_icons/dolby_off.png" position="1191,993" size="63,32" zPosition="1"/>
-		<widget alphaTest="blend" pixmap="my_icons/dolby_on.png" position="1191,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
+		<ePixmap alphaTest="blend" pixmap="my_icons/dolby_off.png" position="1331,993" size="63,32" zPosition="1"/>
+		<widget alphaTest="blend" pixmap="my_icons/dolby_on.png" position="1331,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
 			<convert type="ServiceInfo">IsMultichannel</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<ePixmap alphaTest="blend" pixmap="my_icons/format_off.png" position="1274,993" size="63,32" zPosition="1"/>
-		<widget alphaTest="blend" pixmap="my_icons/format_on.png" position="1274,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
+		<ePixmap alphaTest="blend" pixmap="my_icons/format_off.png" position="1414,993" size="63,32" zPosition="1"/>
+		<widget alphaTest="blend" pixmap="my_icons/format_on.png" position="1414,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
 			<convert type="ServiceInfo">IsWidescreen</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget alphaTest="blend" pixmap="my_icons/sd_on.png" position="1357,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="1">
+		<widget alphaTest="blend" pixmap="my_icons/sd_on.png" position="1497,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="1">
 			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">0,720</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget alphaTest="blend" pixmap="my_icons/hd_on.png" position="1357,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
+		<widget alphaTest="blend" pixmap="my_icons/hd_on.png" position="1497,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="2">
 			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">721,1280</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget alphaTest="blend" pixmap="my_icons/fhd_on.png" position="1357,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="3">
+		<widget alphaTest="blend" pixmap="my_icons/fhd_on.png" position="1497,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="3">
 			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">1281,1920</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget alphaTest="blend" pixmap="my_icons/uhd_on.png" position="1357,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="4">
+		<widget alphaTest="blend" pixmap="my_icons/uhd_on.png" position="1497,993" render="Pixmap" size="63,32" source="session.CurrentService" zPosition="4">
 			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">1921,3841</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget alphaTest="blend" pixmap="my_icons/rec_on.png" position="1108,993" render="Pixmap" size="63,32" source="session.RecordState" zPosition="2">
+		<widget alphaTest="blend" pixmap="my_icons/rec_on.png" position="1248,993" render="Pixmap" size="63,32" source="session.RecordState" zPosition="2">
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<ePixmap alphaTest="blend" pixmap="my_icons/rec_off.png" position="1108,993" size="63,32" zPosition="1"/>
-		<widget backgroundColor="OE_NewBg2" font="RegularBold;30" horizontalAlignment="right" position="1585,990" render="Label" size="90,40" source="session.CurrentService" transparent="1" verticalAlignment="center">
+		<ePixmap alphaTest="blend" pixmap="my_icons/rec_off.png" position="1248,993" size="63,32" zPosition="1"/>
+		<widget backgroundColor="OE_NewBg2" font="RegularBold;30" horizontalAlignment="right" position="1635,990" render="Label" size="90,40" source="session.CurrentService" transparent="1" verticalAlignment="center">
 			<convert type="ServiceInfo">VideoWidth</convert>
 		</widget>
-		<eLabel backgroundColor="OE_NewBg2" font="RegularBold;30" horizontalAlignment="center" position="1675,990" size="30,40" text="x" transparent="1" verticalAlignment="center"/>
-		<widget backgroundColor="OE_NewBg3" font="RegularBold;30" horizontalAlignment="left" position="1705,990" render="Label" size="90,40" source="session.CurrentService" transparent="1" verticalAlignment="center">
+		<eLabel backgroundColor="OE_NewBg2" font="RegularBold;30" horizontalAlignment="center" position="1725,990" size="30,40" text="x" transparent="1" verticalAlignment="center"/>
+		<widget backgroundColor="OE_NewBg3" font="RegularBold;30" horizontalAlignment="left" position="1755,990" render="Label" size="90,40" source="session.CurrentService" transparent="1" verticalAlignment="center">
 			<convert type="ServiceInfo">VideoHeight</convert>
 		</widget>
 		<widget name="PTSSeekBack" position="790,898" size="220,15" pixmap="slider_back.png" alphatest="on" zPosition="2"/>
 		<widget name="PTSSeekPointer" position="790,900" size="1475,20" pixmap="position_pointer2.png" alphatest="on" zPosition="4"/>
-		<widget name="eventname" position="275,990" size="1060,56" font="RegularBold;30" horizontalAlignment="center" verticalAlignment="center" backgroundColor="black" transparent="1" zPosition="2"/>
+		<widget name="eventname" position="275,990" size="1060,56" font="RegularBold;30" horizontalAlignment="center" verticalAlignment="center" backgroundColor="black" transparent="1" zPosition="2"/>		
 		<!-- Clock -->
 		<panel name="Clock"/>
 	</screen>
@@ -2585,7 +2585,7 @@
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<widget name="DescriptionBorder" position="0,0" size="0,0"/>
-		<widget name="waitingtext" position="465,175" size="1440,35" font="RegularBold;26" foregroundColor="#0000fafa" horizontalAlignment="center" backgroundColor="#002c445e" zPosition="1"/>
+		<widget name="waitingtext" position="465,160" size="1440,35" font="RegularBold;26" foregroundColor="#0000fafa" horizontalAlignment="center" backgroundColor="#002c445e" zPosition="1"/>
 		<!-- Button -->
 		<ePixmap alphaTest="blend" pixmap="buttons/key_menu.png" position="565,950" size="64,43"/>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="625,950" size="64,43"/>
@@ -3407,7 +3407,7 @@
 		<widget name="videofps" position="20,260" size="220,40" backgroundColor="OE_NewBg2" transparent="1" zPosition="1" font="Regular;24" verticalAlignment="center" horizontalAlignment="left" foregroundColor="#0000fafa"/>
 		<widget name="HelpWindow" position="445,260" size="0,0" conditional="HelpWindow" pixmap="skin_default/vkey_icon.png" transparent="1" zPosition="10" alphaTest="on"/>
 	</screen>
-		<screen name="QuickSubtitlesClearRests" title="Subtitle settings" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	<screen name="QuickSubtitlesClearRests" title="Subtitle settings" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<widget name="config" itemHeight="50" entryFont="RegularBold;26" valueFont="Regular;23" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="OE_Background" position="26,140" size="1250,800" transparent="1"/>
 	</screen>
@@ -3444,20 +3444,20 @@
 	<screen name="NimSelection" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<panel name="StanDardScreen"/>
 		<panel name="TemplatePip"/>
-		<widget source="nimlist" render="Listbox" enableWrapAround="1" position="26,140" size="1250,800" transparent="1" zPosition="3">
+		<widget source="nimlist" render="Listbox" position="26,140" size="1250,810" scrollbarMode="showOnDemand" scrollbarForegroundColor="blue_light" scrollbarBorderColor="blue_light" enableWrapAround="1" transparent="1" zPosition="3">
 			<convert type="TemplatedMultiContent">
 				{"template":[
-				MultiContentEntryText(pos = (10,5),size = (1250,50),flags = RT_HALIGN_LEFT,text = 1),# index 1 is the nim name,
-				MultiContentEntryText(pos = (50,45),size = (1250,100),font = 1,flags = RT_HALIGN_LEFT,text = 2),# index 2 is a description of the nim settings,
+				MultiContentEntryText(pos = (10,0), size = (1250,50), flags = RT_HALIGN_LEFT, text = 1),  # index 1 is the nim name,
+				MultiContentEntryText(pos = (50,45), size = (1250,100), font = 1,flags = RT_HALIGN_LEFT, text = 2),  # index 2 is a description of the nim settings,
 				],
 				"fonts": [gFont("RegularBold",32),gFont("RegularBold",26)],
-				"itemHeight": 150
+				"itemHeight": 135
 				}
 			</convert>
 		</widget>
 		<ePixmap alphaTest="blend" pixmap="buttons/key_info.png" position="18,1035" size="64,43"/>
-		</screen>
-		<screen name="SatNimSelection" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
+	</screen>
+	<screen name="SatNimSelection" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1920,1080">
 		<eLabel backgroundColor="OE_Background" position="30,center" size="1460,940" zPosition="-15"/>
 		<eLabel backgroundColor="OE_NewBg2" position="70,center" size="80,1080" zPosition="-11" verticalAlignment="center"/>
 		<eLabel backgroundColor="blue_light" position="170,130" size="1250,2" zPosition="-9"/>
